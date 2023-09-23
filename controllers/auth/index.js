@@ -22,7 +22,6 @@ class AuthController {
                 email,
                 password,
                 confirmPassword,
-                rank,
                 name,
                 phoneNumber,
                 address,
@@ -35,7 +34,6 @@ class AuthController {
                 'email',
                 'password',
                 'confirmPassword',
-                'rank',
                 'name',
                 'phoneNumber',
                 'address',
@@ -46,7 +44,7 @@ class AuthController {
                     return sendResponse(
                         res,
                         HTTP_STATUS.UNPROCESSABLE_ENTITY,
-                        'Invalid property provided for book create'
+                        'Invalid property provided'
                     );
                 }
             }
@@ -75,7 +73,6 @@ class AuthController {
                     const newRegistration = await authModel.create({
                         email,
                         password: hashedPassword,
-                        rank,
                         user: newUser._id,
                         verificationCode,
                     });

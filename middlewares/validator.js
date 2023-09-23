@@ -288,20 +288,6 @@ const validator = {
                     throw new Error('This is not a valid phone number');
                 }
             }),
-        body('rank')
-            .optional()
-            .custom((data) => {
-                if (typeof data != 'number') {
-                    throw new Error('Rank must be a number');
-                }
-                if (data > 0 && data < 10) {
-                    return true;
-                }
-                throw new Error('Rank must be between 1 and 10');
-            })
-            .bail()
-            .isNumeric()
-            .withMessage('Rank must be a number'),
         body('address.country')
             .exists()
             .not()

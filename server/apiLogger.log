@@ -1,0 +1,1130 @@
+/api/user/delete/6504322b544ae11b0296e117  ( Time -> September 15, 2023 4:39 PM)
+
+/api/books/update/6502fa36b45b576cb8547ad2  ( Time -> September 15, 2023 5:18 PM)
+
+/api/books/update/6502fa36b45b576cb8547ad2  ( Time -> September 15, 2023 5:18 PM)
+
+/api/books/all?offset=1&limit=5  ( Time -> September 18, 2023 7:38 AM)
+
+/api/auth/login  ( Time -> September 18, 2023 7:47 AM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 7:47 AM)
+
+Cannot read properties of undefined (reading 'discount_price')  ( Time -> September 18, 2023 7:47 AM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 7:50 AM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 7:51 AM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 7:51 AM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 7:52 AM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 7:52 AM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 7:55 AM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 7:57 AM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 7:57 AM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 8:01 AM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 8:02 AM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 8:03 AM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 8:04 AM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 8:05 AM)
+
+undefined is not iterable (cannot read property Symbol(Symbol.iterator))  ( Time -> September 18, 2023 8:05 AM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 8:07 AM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 8:08 AM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 8:08 AM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 8:09 AM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 8:10 AM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 8:13 AM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 8:15 AM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 8:18 AM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 8:19 AM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 8:21 AM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 8:21 AM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 8:22 AM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 8:23 AM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 8:24 AM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 8:24 AM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 8:25 AM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 8:26 AM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 8:27 AM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 8:27 AM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 8:29 AM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 8:29 AM)
+
+/api/cart/create  ( Time -> September 18, 2023 8:31 AM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 8:31 AM)
+
+/api/cart/create  ( Time -> September 18, 2023 8:33 AM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 8:34 AM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 8:34 AM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 8:36 AM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 8:36 AM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 8:37 AM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 8:38 AM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 8:39 AM)
+
+/api/auth/login  ( Time -> September 18, 2023 8:54 AM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 8:54 AM)
+
+/api/transaction/create  ( Time -> September 18, 2023 8:58 AM)
+
+Cannot destructure property 'email' of 'req.user' as it is undefined.  ( Time -> September 18, 2023 8:58 AM)
+
+/api/transaction/create  ( Time -> September 18, 2023 8:59 AM)
+
+userModel is not defined  ( Time -> September 18, 2023 8:59 AM)
+
+/api/transaction/create  ( Time -> September 18, 2023 8:59 AM)
+
+/api/transaction/create  ( Time -> September 18, 2023 9:02 AM)
+
+/api/transaction/create  ( Time -> September 18, 2023 9:03 AM)
+
+/api/transaction/create  ( Time -> September 18, 2023 9:03 AM)
+
+/api/transaction/create  ( Time -> September 18, 2023 9:06 AM)
+
+mongoose is not defined  ( Time -> September 18, 2023 9:06 AM)
+
+/api/transaction/create  ( Time -> September 18, 2023 9:07 AM)
+
+/api/transaction/create  ( Time -> September 18, 2023 9:11 AM)
+
+/api/user/add-balance  ( Time -> September 18, 2023 9:17 AM)
+
+/api/user/add-balance  ( Time -> September 18, 2023 9:27 AM)
+
+/api/user/add-balance  ( Time -> September 18, 2023 9:28 AM)
+
+/api/transaction/create  ( Time -> September 18, 2023 9:29 AM)
+
+/api/transaction/create  ( Time -> September 18, 2023 9:29 AM)
+
+/api/user/add-balance  ( Time -> September 18, 2023 9:29 AM)
+
+/api/transaction/create  ( Time -> September 18, 2023 9:37 AM)
+
+Cannot read properties of undefined (reading 'map')  ( Time -> September 18, 2023 9:37 AM)
+
+/api/transaction/create  ( Time -> September 18, 2023 9:38 AM)
+
+/api/transaction/create  ( Time -> September 18, 2023 9:40 AM)
+
+productsList is not defined  ( Time -> September 18, 2023 9:40 AM)
+
+/api/transaction/create  ( Time -> September 18, 2023 9:40 AM)
+
+/api/transaction/create  ( Time -> September 18, 2023 9:43 AM)
+
+Cannot read properties of undefined (reading '_id')  ( Time -> September 18, 2023 9:43 AM)
+
+/api/transaction/create  ( Time -> September 18, 2023 9:43 AM)
+
+Cannot read properties of undefined (reading '_id')  ( Time -> September 18, 2023 9:43 AM)
+
+/api/transaction/create  ( Time -> September 18, 2023 9:44 AM)
+
+/api/transaction/create  ( Time -> September 18, 2023 9:45 AM)
+
+/api/transaction/create  ( Time -> September 18, 2023 9:46 AM)
+
+Cannot read properties of undefined (reading 'book')  ( Time -> September 18, 2023 9:46 AM)
+
+/api/transaction/create  ( Time -> September 18, 2023 9:46 AM)
+
+/api/transaction/create  ( Time -> September 18, 2023 9:47 AM)
+
+/api/transaction/create  ( Time -> September 18, 2023 9:48 AM)
+
+/api/transaction/create  ( Time -> September 18, 2023 9:50 AM)
+
+Cannot set headers after they are sent to the client  ( Time -> September 18, 2023 9:50 AM)
+
+/api/transaction/create  ( Time -> September 18, 2023 9:50 AM)
+
+/api/transaction/create  ( Time -> September 18, 2023 9:53 AM)
+
+productFound is not defined  ( Time -> September 18, 2023 9:53 AM)
+
+/api/auth/login  ( Time -> September 18, 2023 9:54 AM)
+
+/api/transaction/create  ( Time -> September 18, 2023 9:54 AM)
+
+/api/transaction/create  ( Time -> September 18, 2023 9:55 AM)
+
+/api/transaction/create  ( Time -> September 18, 2023 9:58 AM)
+
+/api/transaction/create  ( Time -> September 18, 2023 10:38 AM)
+
+Transaction validation failed: total: Path `total` is required.  ( Time -> September 18, 2023 10:38 AM)
+
+/api/transaction/create  ( Time -> September 18, 2023 10:38 AM)
+
+/api/transaction/create  ( Time -> September 18, 2023 10:42 AM)
+
+/api/transaction/create  ( Time -> September 18, 2023 10:43 AM)
+
+/api/cart/create  ( Time -> September 18, 2023 10:43 AM)
+
+/api/transaction/create  ( Time -> September 18, 2023 10:44 AM)
+
+Cannot read properties of undefined (reading 'originalUrl')  ( Time -> September 18, 2023 10:50 AM)
+
+/api/transaction/all  ( Time -> September 18, 2023 10:51 AM)
+
+/api/transaction/all  ( Time -> September 18, 2023 10:52 AM)
+
+/api/transaction/all  ( Time -> September 18, 2023 10:52 AM)
+
+/api/transaction/all  ( Time -> September 18, 2023 11:03 AM)
+
+/api/transaction/all  ( Time -> September 18, 2023 11:04 AM)
+
+/api/auth/login  ( Time -> September 18, 2023 11:05 AM)
+
+/api/transaction/create  ( Time -> September 18, 2023 11:05 AM)
+
+/api/cart/create  ( Time -> September 18, 2023 11:05 AM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 11:05 AM)
+
+/api/transaction/create  ( Time -> September 18, 2023 11:06 AM)
+
+/api/transaction/create  ( Time -> September 18, 2023 11:07 AM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 11:07 AM)
+
+/api/auth/login  ( Time -> September 18, 2023 11:07 AM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 11:07 AM)
+
+/api/transaction/create  ( Time -> September 18, 2023 11:39 AM)
+
+Cast to ObjectId failed for value "" (type string) at path "_id" for model "Cart"  ( Time -> September 18, 2023 11:39 AM)
+
+/api/transaction/create  ( Time -> September 18, 2023 11:40 AM)
+
+sendValidationError is not defined  ( Time -> September 18, 2023 11:40 AM)
+
+/api/transaction/create  ( Time -> September 18, 2023 11:40 AM)
+
+/api/transaction/create  ( Time -> September 18, 2023 11:41 AM)
+
+/api/transaction/create  ( Time -> September 18, 2023 11:41 AM)
+
+/api/transaction/create  ( Time -> September 18, 2023 11:43 AM)
+
+/api/books/details/65018c91b5b9996c54eb0fdd  ( Time -> September 18, 2023 11:49 AM)
+
+/api/books/details/65018c91b5b9996c54eb0fdd  ( Time -> September 18, 2023 11:50 AM)
+
+bookIds is not defined  ( Time -> September 18, 2023 11:50 AM)
+
+/api/books/details/65018c91b5b9996c54eb0fdd  ( Time -> September 18, 2023 11:51 AM)
+
+/api/books/details/65018c91b5b9996c54eb0fdd  ( Time -> September 18, 2023 11:52 AM)
+
+/api/books/details/65018c91b5b9996c54eb0fdd  ( Time -> September 18, 2023 11:53 AM)
+
+/api/books/details/65018c91b5b9996c54eb0fdd  ( Time -> September 18, 2023 11:53 AM)
+
+/api/books/details/65018c91b5b9996c54eb0fdd  ( Time -> September 18, 2023 11:53 AM)
+
+/api/books/details/65018c91b5b9996c54eb0fdd  ( Time -> September 18, 2023 11:55 AM)
+
+/api/books/details/65018c91b5b9996c54eb0fdd  ( Time -> September 18, 2023 11:56 AM)
+
+/api/books/details/65018c91b5b9996c54eb0fdd  ( Time -> September 18, 2023 11:58 AM)
+
+book is not defined  ( Time -> September 18, 2023 11:58 AM)
+
+/api/books/details/65018c91b5b9996c54eb0fdd  ( Time -> September 18, 2023 11:58 AM)
+
+book is not defined  ( Time -> September 18, 2023 11:58 AM)
+
+/api/books/details/65018c91b5b9996c54eb0fdd  ( Time -> September 18, 2023 11:59 AM)
+
+discount is not defined  ( Time -> September 18, 2023 11:59 AM)
+
+/api/books/details/65018c91b5b9996c54eb0fdd  ( Time -> September 18, 2023 11:59 AM)
+
+/api/books/details/65018c91b5b9996c54eb0fdd  ( Time -> September 18, 2023 12:00 PM)
+
+/api/books/details/65018c91b5b9996c54eb0fdd  ( Time -> September 18, 2023 12:00 PM)
+
+/api/books/details/65018c91b5b9996c54eb0fdd  ( Time -> September 18, 2023 12:03 PM)
+
+/api/books/details/65018c91b5b9996c54eb0fe1  ( Time -> September 18, 2023 12:04 PM)
+
+/api/auth/login  ( Time -> September 18, 2023 3:16 PM)
+
+/api/cart/create  ( Time -> September 18, 2023 3:17 PM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 3:17 PM)
+
+/api/auth/login  ( Time -> September 18, 2023 3:17 PM)
+
+/api/discount-price/create  ( Time -> September 18, 2023 3:18 PM)
+
+/api/discount-price/create  ( Time -> September 18, 2023 3:18 PM)
+
+/api/discount-price/create  ( Time -> September 18, 2023 3:19 PM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 3:19 PM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 3:20 PM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 3:21 PM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 3:23 PM)
+
+discountPrices is not defined  ( Time -> September 18, 2023 3:24 PM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 3:24 PM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 3:24 PM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 3:25 PM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 3:26 PM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 3:26 PM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 3:27 PM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 3:28 PM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 3:28 PM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 3:29 PM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 3:30 PM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 3:30 PM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 3:31 PM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 3:31 PM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 3:32 PM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 3:33 PM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 3:34 PM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 3:35 PM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 3:36 PM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 3:37 PM)
+
+price is not defined  ( Time -> September 18, 2023 3:37 PM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 3:37 PM)
+
+/api/discount-price/create  ( Time -> September 18, 2023 3:38 PM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 3:38 PM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 3:41 PM)
+
+authorIds is not defined  ( Time -> September 18, 2023 3:41 PM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 3:42 PM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 3:42 PM)
+
+/api/transaction/create  ( Time -> September 18, 2023 3:45 PM)
+
+/api/transaction/create  ( Time -> September 18, 2023 3:45 PM)
+
+/api/transaction/create  ( Time -> September 18, 2023 3:46 PM)
+
+/api/transaction/create  ( Time -> September 18, 2023 3:46 PM)
+
+/api/transaction/create  ( Time -> September 18, 2023 3:49 PM)
+
+CartModel is not defined  ( Time -> September 18, 2023 3:49 PM)
+
+/api/transaction/create  ( Time -> September 18, 2023 3:49 PM)
+
+/api/transaction/create  ( Time -> September 18, 2023 3:50 PM)
+
+/api/transaction/create  ( Time -> September 18, 2023 3:50 PM)
+
+/api/transaction/create  ( Time -> September 18, 2023 3:51 PM)
+
+/api/auth/login  ( Time -> September 18, 2023 4:22 PM)
+
+/api/transaction/all  ( Time -> September 18, 2023 4:23 PM)
+
+/api/auth/login  ( Time -> September 18, 2023 4:29 PM)
+
+/api/cart/create  ( Time -> September 18, 2023 4:29 PM)
+
+/api/cart/create  ( Time -> September 18, 2023 4:30 PM)
+
+/api/cart/create  ( Time -> September 18, 2023 4:31 PM)
+
+/api/cart/create  ( Time -> September 18, 2023 4:31 PM)
+
+/api/cart/create  ( Time -> September 18, 2023 4:34 PM)
+
+/api/cart/create  ( Time -> September 18, 2023 4:35 PM)
+
+/api/cart/create  ( Time -> September 18, 2023 4:37 PM)
+
+/api/cart/cartByUser  ( Time -> September 18, 2023 4:39 PM)
+
+/api/cart/update  ( Time -> September 18, 2023 4:46 PM)
+
+/api/cart/update  ( Time -> September 18, 2023 4:46 PM)
+
+/api/cart/update  ( Time -> September 18, 2023 4:46 PM)
+
+/api/cart/update  ( Time -> September 18, 2023 4:47 PM)
+
+/api/cart/update  ( Time -> September 18, 2023 4:47 PM)
+
+/api/cart/update  ( Time -> September 18, 2023 4:47 PM)
+
+/api/cart/update  ( Time -> September 18, 2023 4:48 PM)
+
+/api/books/details/65018c91b5b9996c54eb0fe1  ( Time -> September 19, 2023 7:38 AM)
+
+/api/auth/login  ( Time -> September 19, 2023 7:56 AM)
+
+/api/books/create  ( Time -> September 19, 2023 8:03 AM)
+
+/api/books/create  ( Time -> September 19, 2023 8:09 AM)
+
+/api/books/create  ( Time -> September 19, 2023 8:09 AM)
+
+/api/books/create  ( Time -> September 19, 2023 8:09 AM)
+
+/api/books/create  ( Time -> September 19, 2023 8:09 AM)
+
+/api/books/create  ( Time -> September 19, 2023 8:10 AM)
+
+/api/books/create  ( Time -> September 19, 2023 8:10 AM)
+
+/api/books/create  ( Time -> September 19, 2023 8:10 AM)
+
+/api/books/create  ( Time -> September 19, 2023 8:10 AM)
+
+/api/books/create  ( Time -> September 19, 2023 8:11 AM)
+
+/api/books/create  ( Time -> September 19, 2023 8:11 AM)
+
+/api/books/create  ( Time -> September 19, 2023 8:12 AM)
+
+/api/books/update/65090384bf3ce2bc92630721  ( Time -> September 19, 2023 8:16 AM)
+
+/api/books/update/65090384bf3ce2bc92630721  ( Time -> September 19, 2023 8:16 AM)
+
+/api/books/update/65090384bf3ce2bc92630721  ( Time -> September 19, 2023 8:16 AM)
+
+/api/books/update/65090384bf3ce2bc9263072  ( Time -> September 19, 2023 8:16 AM)
+
+/api/books/update/65090384bf3ce2bc92630721  ( Time -> September 19, 2023 8:18 AM)
+
+/api/books/update/65090384bf3ce2bc92630721  ( Time -> September 19, 2023 8:18 AM)
+
+/api/books/update/65090384bf3ce2bc92630721  ( Time -> September 19, 2023 8:19 AM)
+
+/api/books/update/65090384bf3ce2bc92630721  ( Time -> September 19, 2023 8:19 AM)
+
+/api/books/update/65090384bf3ce2bc92630721  ( Time -> September 19, 2023 8:19 AM)
+
+/api/books/update/65090384bf3ce2bc92630729  ( Time -> September 19, 2023 8:24 AM)
+
+/api/auth/sign-up  ( Time -> September 19, 2023 8:46 AM)
+
+/api/auth/sign-up  ( Time -> September 19, 2023 8:47 AM)
+
+/api/auth/sign-up  ( Time -> September 19, 2023 8:47 AM)
+
+/api/auth/sign-up  ( Time -> September 19, 2023 8:48 AM)
+
+/api/auth/sign-up  ( Time -> September 19, 2023 8:48 AM)
+
+/api/auth/sign-up  ( Time -> September 19, 2023 8:49 AM)
+
+/api/auth/sign-up  ( Time -> September 19, 2023 8:50 AM)
+
+/api/auth/sign-up  ( Time -> September 19, 2023 8:50 AM)
+
+/api/auth/login  ( Time -> September 19, 2023 8:50 AM)
+
+/api/auth/login  ( Time -> September 19, 2023 8:50 AM)
+
+/api/auth/login  ( Time -> September 19, 2023 8:50 AM)
+
+/api/auth/login  ( Time -> September 19, 2023 8:51 AM)
+
+/api/auth/login  ( Time -> September 19, 2023 8:51 AM)
+
+/api/auth/login  ( Time -> September 19, 2023 8:51 AM)
+
+/api/auth/login  ( Time -> September 19, 2023 8:51 AM)
+
+/api/user/add-balance  ( Time -> September 19, 2023 8:51 AM)
+
+/api/user/add-balance  ( Time -> September 19, 2023 8:52 AM)
+
+/api/user/add-balance  ( Time -> September 19, 2023 8:52 AM)
+
+/api/user/add-balance  ( Time -> September 19, 2023 8:53 AM)
+
+/api/user/add-balance  ( Time -> September 19, 2023 8:53 AM)
+
+/api/review/create/6502fa36b45b576cb8547ad2  ( Time -> September 19, 2023 8:53 AM)
+
+/api/review/create/6502fa36b45b576cb8547ad2  ( Time -> September 19, 2023 8:54 AM)
+
+/api/review/create/65090384bf3ce2bc92630721  ( Time -> September 19, 2023 8:56 AM)
+
+/api/review/create/65090384bf3ce2bc92630721  ( Time -> September 19, 2023 8:56 AM)
+
+/api/review/create/65090384bf3ce2bc92630721  ( Time -> September 19, 2023 8:57 AM)
+
+/api/review/create/65090384bf3ce2bc92630721  ( Time -> September 19, 2023 8:57 AM)
+
+/api/review/create/65090384bf3ce2bc92630721  ( Time -> September 19, 2023 8:58 AM)
+
+/api/review/create/65090384bf3ce2bc92630721  ( Time -> September 19, 2023 8:58 AM)
+
+/api/review/update/6502fa36b45b576cb8547ad2  ( Time -> September 19, 2023 8:59 AM)
+
+/api/review/update/6502fa36b45b576cb8547ad2  ( Time -> September 19, 2023 9:03 AM)
+
+/api/review/update/6502fa36b45b576cb8547ad2  ( Time -> September 19, 2023 9:03 AM)
+
+/api/review/update/65018c91b5b9996c54eb0fdd  ( Time -> September 19, 2023 9:03 AM)
+
+/api/review/update/65018c91b5b9996c54eb0fd  ( Time -> September 19, 2023 9:04 AM)
+
+/api/review/update/65018c91b5b9996c54eb0fdq  ( Time -> September 19, 2023 9:04 AM)
+
+/api/review/update/65090384bf3ce2bc92630721  ( Time -> September 19, 2023 9:05 AM)
+
+/api/review/update/65090384bf3ce2bc92630721  ( Time -> September 19, 2023 9:05 AM)
+
+/api/review/update/65090384bf3ce2bc92630721  ( Time -> September 19, 2023 9:06 AM)
+
+/api/review/update/65090384bf3ce2bc92630721  ( Time -> September 19, 2023 9:06 AM)
+
+/api/review/update/65090384bf3ce2bc92630721  ( Time -> September 19, 2023 9:06 AM)
+
+/api/review/update/65090384bf3ce2bc92630721  ( Time -> September 19, 2023 9:08 AM)
+
+/api/review/update/65090384bf3ce2bc92630721  ( Time -> September 19, 2023 9:08 AM)
+
+/api/review/update/65090384bf3ce2bc92630721  ( Time -> September 19, 2023 9:09 AM)
+
+/api/review/update/65090384bf3ce2bc92630721  ( Time -> September 19, 2023 9:09 AM)
+
+/api/review/delete/6502fa36b45b576cb8547ad2  ( Time -> September 19, 2023 9:10 AM)
+
+/api/review/delete/65090384bf3ce2bc92630721  ( Time -> September 19, 2023 9:10 AM)
+
+/api/review/delete/65090384bf3ce2bc92630721  ( Time -> September 19, 2023 9:10 AM)
+
+/api/review/create/65090384bf3ce2bc92630721  ( Time -> September 19, 2023 9:12 AM)
+
+/api/review/update/65090384bf3ce2bc92630721  ( Time -> September 19, 2023 9:12 AM)
+
+/api/review/delete/65090384bf3ce2bc92630721  ( Time -> September 19, 2023 9:13 AM)
+
+/api/cart/create  ( Time -> September 19, 2023 9:21 AM)
+
+/api/cart/create  ( Time -> September 19, 2023 9:21 AM)
+
+/api/cart/create  ( Time -> September 19, 2023 9:23 AM)
+
+actualPrice is not defined  ( Time -> September 19, 2023 9:23 AM)
+
+/api/cart/create  ( Time -> September 19, 2023 9:23 AM)
+
+/api/cart/create  ( Time -> September 19, 2023 9:24 AM)
+
+/api/cart/create  ( Time -> September 19, 2023 9:24 AM)
+
+/api/cart/create  ( Time -> September 19, 2023 9:25 AM)
+
+/api/cart/create  ( Time -> September 19, 2023 9:26 AM)
+
+/api/cart/create  ( Time -> September 19, 2023 9:26 AM)
+
+/api/cart/create  ( Time -> September 19, 2023 9:26 AM)
+
+/api/cart/update  ( Time -> September 19, 2023 9:28 AM)
+
+/api/cart/update  ( Time -> September 19, 2023 9:29 AM)
+
+/api/cart/cartByUser  ( Time -> September 19, 2023 9:31 AM)
+
+actualPrice is not defined  ( Time -> September 19, 2023 9:31 AM)
+
+/api/cart/cartByUser  ( Time -> September 19, 2023 9:31 AM)
+
+/api/transaction/create  ( Time -> September 19, 2023 9:32 AM)
+
+/api/transaction/create  ( Time -> September 19, 2023 9:32 AM)
+
+/api/transaction/create  ( Time -> September 19, 2023 9:32 AM)
+
+/api/transaction/create  ( Time -> September 19, 2023 9:33 AM)
+
+/api/transaction/create  ( Time -> September 19, 2023 9:33 AM)
+
+/api/auth/refreshToken  ( Time -> September 19, 2023 9:58 AM)
+
+/api/cart/cartByUser  ( Time -> September 19, 2023 9:58 AM)
+
+/api/cart/cartByUser  ( Time -> September 19, 2023 10:01 AM)
+
+/api/books/details/65018c91b5b9996c54eb0fe1  ( Time -> September 19, 2023 10:13 AM)
+
+/api/books/details/65018c91b5b9996c54eb0fe1  ( Time -> September 19, 2023 10:13 AM)
+
+/api/books/all?offset=1&limit=20&search=Great%20Gatsby&sortBy=stock&sortOrder=asc&filter=stock&filterOrder=high&filterValue=20&category=Fantasy,Classics  ( Time -> September 19, 2023 10:17 AM)
+
+/api/books/all?offset=1&limit=20&filter=stock&filterOrder=low&filterValue=20  ( Time -> September 19, 2023 10:17 AM)
+
+/api/books/details/65018c91b5b9996c54eb0fe  ( Time -> September 19, 2023 10:19 AM)
+
+/api/auth/login  ( Time -> September 19, 2023 10:21 AM)
+
+/api/books/create  ( Time -> September 19, 2023 10:22 AM)
+
+/api/review/details/6502fa36b45b576cb8547ad2  ( Time -> September 19, 2023 10:42 AM)
+
+/api/review/details/65018c91b5b9996c54eb0fe1  ( Time -> September 19, 2023 10:42 AM)
+
+/api/auth/login  ( Time -> September 19, 2023 10:49 AM)
+
+/api/discount-price/all  ( Time -> September 19, 2023 10:49 AM)
+
+/api/discount-price/all  ( Time -> September 19, 2023 10:53 AM)
+
+/api/discount-price/all  ( Time -> September 19, 2023 10:54 AM)
+
+/api/discount-price/all  ( Time -> September 19, 2023 10:55 AM)
+
+/api/discount-price/create  ( Time -> September 19, 2023 11:00 AM)
+
+/api/discount-price/create  ( Time -> September 19, 2023 11:01 AM)
+
+/api/discount-price/create  ( Time -> September 19, 2023 11:01 AM)
+
+/api/discount-price/create  ( Time -> September 19, 2023 11:01 AM)
+
+/api/discount-price/create  ( Time -> September 19, 2023 11:02 AM)
+
+/api/discount-price/create  ( Time -> September 19, 2023 11:05 AM)
+
+/api/discount-price/create  ( Time -> September 19, 2023 11:10 AM)
+
+/api/discount-price/create  ( Time -> September 19, 2023 11:10 AM)
+
+/api/discount-price/create  ( Time -> September 19, 2023 11:11 AM)
+
+/api/discount-price/create  ( Time -> September 19, 2023 11:11 AM)
+
+/api/discount-price/create  ( Time -> September 19, 2023 11:11 AM)
+
+/api/discount-price/create  ( Time -> September 19, 2023 11:11 AM)
+
+/api/discount-price/create  ( Time -> September 19, 2023 11:11 AM)
+
+/api/discount-price/create  ( Time -> September 19, 2023 11:11 AM)
+
+/api/discount-price/create  ( Time -> September 19, 2023 11:14 AM)
+
+/api/discount-price/update/65059948c448aaf6bc0cc583  ( Time -> September 19, 2023 11:16 AM)
+
+/api/discount-price/update/65059948c448aaf6bc0cc583  ( Time -> September 19, 2023 11:18 AM)
+
+/api/discount-price/update/65059948c448aaf6bc0cc583  ( Time -> September 19, 2023 11:19 AM)
+
+/api/discount-price/update/65059948c448aaf6bc0cc583  ( Time -> September 19, 2023 11:21 AM)
+
+/api/discount-price/update/65092e2917cdc9114fc266a  ( Time -> September 19, 2023 11:22 AM)
+
+/api/discount-price/update/65092e2917cdc9114fc266a1  ( Time -> September 19, 2023 11:22 AM)
+
+/api/auth/login  ( Time -> September 19, 2023 11:38 AM)
+
+/api/cart/cartByUser  ( Time -> September 19, 2023 11:38 AM)
+
+/api/cart/create  ( Time -> September 19, 2023 11:39 AM)
+
+/api/cart/cartByUser  ( Time -> September 19, 2023 11:40 AM)
+
+/api/cart/cartByUser  ( Time -> September 19, 2023 11:52 AM)
+
+/api/cart/cartByUser  ( Time -> September 19, 2023 11:59 AM)
+
+/api/cart/cartByUser  ( Time -> September 19, 2023 12:00 PM)
+
+/api/cart/cartByUser  ( Time -> September 19, 2023 12:01 PM)
+
+/api/cart/cartByUser  ( Time -> September 19, 2023 12:03 PM)
+
+/api/cart/create  ( Time -> September 19, 2023 12:08 PM)
+
+/api/cart/cartByUser  ( Time -> September 19, 2023 12:10 PM)
+
+Cannot read properties of null (reading 'books')  ( Time -> September 19, 2023 12:10 PM)
+
+/api/cart/cartByUser  ( Time -> September 19, 2023 12:12 PM)
+
+/api/cart/create  ( Time -> September 19, 2023 12:12 PM)
+
+/api/cart/create  ( Time -> September 19, 2023 12:14 PM)
+
+/api/cart/create  ( Time -> September 19, 2023 12:24 PM)
+
+/api/cart/update  ( Time -> September 19, 2023 12:24 PM)
+
+/api/cart/update  ( Time -> September 19, 2023 12:25 PM)
+
+/api/cart/update  ( Time -> September 19, 2023 12:25 PM)
+
+/api/cart/update  ( Time -> September 19, 2023 12:25 PM)
+
+/api/cart/update  ( Time -> September 19, 2023 12:25 PM)
+
+/api/cart/update  ( Time -> September 19, 2023 12:26 PM)
+
+/api/cart/update  ( Time -> September 19, 2023 12:26 PM)
+
+/api/auth/login  ( Time -> September 19, 2023 1:10 PM)
+
+/api/cart/cartByUser  ( Time -> September 19, 2023 1:10 PM)
+
+/api/transaction/create  ( Time -> September 19, 2023 1:11 PM)
+
+/api/transaction/create  ( Time -> September 19, 2023 1:11 PM)
+
+/api/transaction/details  ( Time -> September 19, 2023 1:12 PM)
+
+/api/transaction/details  ( Time -> September 19, 2023 1:15 PM)
+
+/api/auth/login  ( Time -> September 19, 2023 1:23 PM)
+
+/api/transaction/all  ( Time -> September 19, 2023 1:23 PM)
+
+/api/transaction/create  ( Time -> September 19, 2023 1:29 PM)
+
+/api/review/create/65090384bf3ce2bc92630721  ( Time -> September 19, 2023 1:35 PM)
+
+/api/review/create/65090384bf3ce2bc92630721  ( Time -> September 19, 2023 1:35 PM)
+
+/api/books/details/65018c91b5b9996c54eb0fe  ( Time -> September 19, 2023 1:37 PM)
+
+/api/books/all?offset=1&limit=20  ( Time -> September 19, 2023 1:37 PM)
+
+/api/books/details/65018c91b5b9996c54eb0fdd  ( Time -> September 19, 2023 1:37 PM)
+
+/api/books/details/6502fa36b45b576cb8547ad2  ( Time -> September 19, 2023 1:38 PM)
+
+/api/books/details/65018c91b5b9996c54eb0fdd  ( Time -> September 19, 2023 1:38 PM)
+
+/api/books/details/65018c91b5b9996c54eb0fdd  ( Time -> September 19, 2023 1:39 PM)
+
+/api/books/all?offset=1&limit=20  ( Time -> September 19, 2023 1:39 PM)
+
+/api/books/all?offset=1&limit=20  ( Time -> September 19, 2023 1:41 PM)
+
+/api/books/all?offset=1&limit=20  ( Time -> September 19, 2023 1:42 PM)
+
+/api/auth/login  ( Time -> September 19, 2023 1:50 PM)
+
+/api/cart/create  ( Time -> September 19, 2023 1:51 PM)
+
+/api/cart/cartByUser  ( Time -> September 19, 2023 1:51 PM)
+
+/api/cart/cartByUser  ( Time -> September 19, 2023 1:55 PM)
+
+/api/cart/cartByUser  ( Time -> September 19, 2023 1:56 PM)
+
+/api/cart/cartByUser  ( Time -> September 19, 2023 1:57 PM)
+
+/api/cart/cartByUser  ( Time -> September 19, 2023 1:57 PM)
+
+/api/cart/cartByUser  ( Time -> September 19, 2023 1:58 PM)
+
+/api/cart/cartByUser  ( Time -> September 19, 2023 1:59 PM)
+
+/api/cart/create  ( Time -> September 19, 2023 2:00 PM)
+
+/api/cart/cartByUser  ( Time -> September 19, 2023 2:01 PM)
+
+/api/cart/cartByUser  ( Time -> September 19, 2023 2:01 PM)
+
+/api/cart/create  ( Time -> September 19, 2023 2:06 PM)
+
+userCountry is not defined  ( Time -> September 19, 2023 2:06 PM)
+
+/api/cart/create  ( Time -> September 19, 2023 2:06 PM)
+
+userCountry is not defined  ( Time -> September 19, 2023 2:06 PM)
+
+/api/cart/create  ( Time -> September 19, 2023 2:07 PM)
+
+userCountry is not defined  ( Time -> September 19, 2023 2:07 PM)
+
+/api/cart/create  ( Time -> September 19, 2023 2:08 PM)
+
+/api/cart/update  ( Time -> September 19, 2023 2:09 PM)
+
+/api/cart/create  ( Time -> September 19, 2023 2:09 PM)
+
+/api/cart/cartByUser  ( Time -> September 19, 2023 2:09 PM)
+
+/api/cart/create  ( Time -> September 19, 2023 2:11 PM)
+
+/api/cart/update  ( Time -> September 19, 2023 2:12 PM)
+
+/api/cart/cartByUser  ( Time -> September 19, 2023 2:12 PM)
+
+/api/cart/cartByUser  ( Time -> September 19, 2023 2:13 PM)
+
+/api/auth/login  ( Time -> September 19, 2023 2:14 PM)
+
+/api/cart/cartByUser  ( Time -> September 19, 2023 2:14 PM)
+
+/api/cart/create  ( Time -> September 19, 2023 2:14 PM)
+
+/api/cart/create  ( Time -> September 19, 2023 2:15 PM)
+
+/api/cart/create  ( Time -> September 19, 2023 2:19 PM)
+
+/api/cart/create  ( Time -> September 19, 2023 2:19 PM)
+
+/api/cart/create  ( Time -> September 19, 2023 2:20 PM)
+
+/api/cart/cartByUser  ( Time -> September 19, 2023 2:22 PM)
+
+/api/transaction/create  ( Time -> September 19, 2023 2:23 PM)
+
+/api/transaction/create  ( Time -> September 19, 2023 2:24 PM)
+
+/api/auth/sign-up  ( Time -> September 19, 2023 2:29 PM)
+
+Cannot read properties of undefined (reading 'toUpperCase')  ( Time -> September 19, 2023 2:29 PM)
+
+/api/auth/sign-up  ( Time -> September 19, 2023 2:30 PM)
+
+Cannot read properties of undefined (reading 'toUpperCase')  ( Time -> September 19, 2023 2:30 PM)
+
+/api/auth/sign-up  ( Time -> September 19, 2023 2:31 PM)
+
+/api/auth/sign-up  ( Time -> September 19, 2023 2:34 PM)
+
+/api/auth/login  ( Time -> September 19, 2023 2:36 PM)
+
+/api/discount-price/all  ( Time -> September 19, 2023 2:36 PM)
+
+/api/discount-price/create  ( Time -> September 19, 2023 2:38 PM)
+
+/api/discount-price/create  ( Time -> September 19, 2023 2:42 PM)
+
+ele is not defined  ( Time -> September 19, 2023 2:42 PM)
+
+/api/discount-price/create  ( Time -> September 19, 2023 2:42 PM)
+
+/api/discount-price/create  ( Time -> September 19, 2023 2:42 PM)
+
+/api/discount-price/create  ( Time -> September 19, 2023 2:44 PM)
+
+/api/discount-price/update/65095f76d9c13addc750267d  ( Time -> September 19, 2023 2:50 PM)
+
+/api/cart/create  ( Time -> September 19, 2023 2:50 PM)
+
+/api/cart/cartByUser  ( Time -> September 19, 2023 2:50 PM)
+
+/api/cart/cartByUser  ( Time -> September 19, 2023 2:52 PM)
+
+/api/cart/cartByUser  ( Time -> September 19, 2023 2:53 PM)
+
+/api/cart/create  ( Time -> September 19, 2023 2:54 PM)
+
+/api/transaction/create  ( Time -> September 19, 2023 2:55 PM)
+
+/api/cart/create  ( Time -> September 19, 2023 2:56 PM)
+
+/api/transaction/create  ( Time -> September 19, 2023 2:57 PM)
+
+/api/transaction/create  ( Time -> September 19, 2023 2:57 PM)
+
+/api/auth/login  ( Time -> September 19, 2023 3:21 PM)
+
+/api/cart/cartByUser  ( Time -> September 19, 2023 3:21 PM)
+
+/api/auth/sign-up  ( Time -> September 19, 2023 3:35 PM)
+
+/api/auth/sign-up  ( Time -> September 19, 2023 3:37 PM)
+
+/api/auth/login  ( Time -> September 19, 2023 3:39 PM)
+
+/api/auth//verify-account  ( Time -> September 19, 2023 3:48 PM)
+
+/api/auth/login  ( Time -> September 19, 2023 3:48 PM)
+
+/api/auth/verify-account  ( Time -> September 19, 2023 3:48 PM)
+
+/api/auth/verify-account  ( Time -> September 19, 2023 3:49 PM)
+
+/api/auth/verify-account  ( Time -> September 19, 2023 3:49 PM)
+
+/api/auth/verify-account  ( Time -> September 19, 2023 3:49 PM)
+
+/api/auth/login  ( Time -> September 19, 2023 3:49 PM)
+
+/api/auth/verify-account  ( Time -> September 19, 2023 3:53 PM)
+
+/api/auth/verify-account  ( Time -> September 19, 2023 3:54 PM)
+
+/api/auth/verify-account  ( Time -> September 19, 2023 3:54 PM)
+
+/api/auth/verify-account  ( Time -> September 19, 2023 3:54 PM)
+
+/api/auth/verify-account  ( Time -> September 19, 2023 3:54 PM)
+
+/api/auth/verify-account  ( Time -> September 19, 2023 3:55 PM)
+
+/api/auth/verify-account  ( Time -> September 19, 2023 3:55 PM)
+
+/api/auth/verify-account  ( Time -> September 19, 2023 3:55 PM)
+
+/api/auth/login  ( Time -> September 19, 2023 3:55 PM)
+
+/api/auth/login  ( Time -> September 19, 2023 3:57 PM)
+
+Auth validation failed: verificationCode: Path `verificationCode` is required.  ( Time -> September 19, 2023 3:57 PM)
+
+/api/auth/login  ( Time -> September 19, 2023 3:58 PM)
+
+Auth validation failed: verificationCode: Path `verificationCode` is required.  ( Time -> September 19, 2023 3:58 PM)
+
+/api/auth/login  ( Time -> September 19, 2023 4:05 PM)
+
+/api/cart/cartByUser  ( Time -> September 19, 2023 4:05 PM)
+
+/api/cart/cartByUser  ( Time -> September 19, 2023 4:10 PM)
+
+/api/auth/login  ( Time -> September 19, 2023 4:12 PM)
+
+/api/user/update/65096bce4687666061bf947e  ( Time -> September 19, 2023 4:13 PM)
+
+/api/user/update/65096bce4687666061bf947e  ( Time -> September 19, 2023 4:13 PM)
+
+/api/user/delete/65096bce4687666061bf947e  ( Time -> September 19, 2023 4:13 PM)
+
+/api/auth/refreshToken  ( Time -> September 19, 2023 4:15 PM)
+
+/api/auth/refreshToken  ( Time -> September 19, 2023 4:15 PM)
+
+/api/auth/refreshToken  ( Time -> September 19, 2023 4:15 PM)
+
+/api/cart/cartByUser  ( Time -> September 19, 2023 4:16 PM)
+
+/api/auth/refreshToken  ( Time -> September 19, 2023 4:19 PM)
+
+/api/auth/refreshToken  ( Time -> September 19, 2023 4:19 PM)
+
+validation is not defined  ( Time -> September 19, 2023 4:19 PM)
+
+/api/auth/refreshToken  ( Time -> September 19, 2023 4:20 PM)
+
+/api/auth/refreshToken  ( Time -> September 19, 2023 4:20 PM)
+
+/api/auth/refreshToken  ( Time -> September 19, 2023 4:20 PM)
+
+/api/cart/cartByUser  ( Time -> September 19, 2023 4:21 PM)
+
+/api/auth/verify-account  ( Time -> September 19, 2023 4:29 PM)
+
+/api/auth/sign-up  ( Time -> September 19, 2023 4:29 PM)
+
+/api/auth/login  ( Time -> September 19, 2023 4:30 PM)
+
+/api/auth/verify-account  ( Time -> September 19, 2023 4:30 PM)
+
+/api/auth/verify-account  ( Time -> September 19, 2023 4:30 PM)
+
+/api/auth/verify-account  ( Time -> September 19, 2023 4:30 PM)
+
+/api/auth/login  ( Time -> September 19, 2023 4:31 PM)
+
+/api/books/details/65018c91b5b9996c54eb0fdd  ( Time -> September 19, 2023 4:33 PM)
+
+/api/books/details/65018c91b5b9996c54eb0fd  ( Time -> September 19, 2023 4:33 PM)
+
+/api/books/details/65018c91b5b9996c54eb0fdr  ( Time -> September 19, 2023 4:33 PM)
+
+/api/auth/login  ( Time -> September 19, 2023 4:36 PM)
+
+/api/auth/login  ( Time -> September 19, 2023 4:36 PM)
+
+/api/user/add-balance  ( Time -> September 19, 2023 4:36 PM)
+
+/api/auth/login  ( Time -> September 19, 2023 4:39 PM)
+
+/api/books/create  ( Time -> September 19, 2023 4:39 PM)
+
+/api/auth/login  ( Time -> September 19, 2023 4:43 PM)
+
+/api/auth/sign-up  ( Time -> September 20, 2023 7:32 AM)
+
+/api/auth/verify-account  ( Time -> September 20, 2023 7:34 AM)
+
+/api/auth/login  ( Time -> September 20, 2023 7:34 AM)
+
+/api/cart/create  ( Time -> September 20, 2023 7:34 AM)
+
+/api/cart/cartByUser  ( Time -> September 20, 2023 7:35 AM)
+
+/api/cart/update  ( Time -> September 20, 2023 7:36 AM)
+
+/api/cart/update  ( Time -> September 20, 2023 7:36 AM)
+
+/api/cart/create  ( Time -> September 20, 2023 7:36 AM)
+
+/api/cart/cartByUser  ( Time -> September 20, 2023 7:36 AM)
+
+/api/cart/create  ( Time -> September 20, 2023 7:37 AM)
+
+/api/cart/update  ( Time -> September 20, 2023 7:37 AM)
+
+/api/cart/cartByUser  ( Time -> September 20, 2023 7:37 AM)
+
+/api/transaction/create  ( Time -> September 20, 2023 7:45 AM)
+
+/api/transaction/create  ( Time -> September 20, 2023 7:45 AM)
+
+/api/transaction/create  ( Time -> September 20, 2023 7:46 AM)
+
+/api/transaction/create  ( Time -> September 20, 2023 7:46 AM)
+
+/api/cart/cartByUser  ( Time -> September 20, 2023 7:55 AM)
+
+/api/cart/update  ( Time -> September 20, 2023 7:56 AM)
+
+/api/cart/update  ( Time -> September 20, 2023 7:56 AM)
+
+/api/cart/cartByUser  ( Time -> September 20, 2023 7:56 AM)
+
+/api/cart/create  ( Time -> September 20, 2023 7:57 AM)
+
+/api/cart/create  ( Time -> September 20, 2023 7:58 AM)
+
+/api/cart/create  ( Time -> September 20, 2023 7:58 AM)
+
+/api/cart/cartByUser  ( Time -> September 20, 2023 7:59 AM)
+
+/api/cart/cartByUser  ( Time -> September 20, 2023 7:59 AM)
+
+/api/cart/create  ( Time -> September 20, 2023 8:00 AM)
+
+/api/cart/update  ( Time -> September 20, 2023 8:00 AM)
+
+/api/cart/update  ( Time -> September 20, 2023 8:00 AM)
+
+/api/cart/cartByUser  ( Time -> September 20, 2023 8:00 AM)
+
+/api/transaction/details  ( Time -> September 20, 2023 8:04 AM)
+
+/api/transaction/details  ( Time -> September 20, 2023 8:05 AM)
+
+/api/transaction/details  ( Time -> September 20, 2023 8:06 AM)
+
+/api/transaction/details  ( Time -> September 20, 2023 8:06 AM)
+
+/api/user/add-balance  ( Time -> September 20, 2023 8:07 AM)
+
+/api/transaction/create  ( Time -> September 20, 2023 8:08 AM)
+
+/api/transaction/details  ( Time -> September 20, 2023 8:08 AM)
+
+/api/discount-price/create  ( Time -> September 20, 2023 8:26 AM)
+
+/api/discount-price/create  ( Time -> September 20, 2023 8:26 AM)
+
+/api/cart/cartByUser  ( Time -> September 20, 2023 8:26 AM)
+
+/api/discount-price/create  ( Time -> September 20, 2023 8:27 AM)
+
+/api/cart/cartByUser  ( Time -> September 20, 2023 8:27 AM)
+
+/api/cart/cartByUser  ( Time -> September 20, 2023 8:27 AM)
+
+/api/discount-price/create  ( Time -> September 20, 2023 8:30 AM)
+
+Operation `books.find()` buffering timed out after 10000ms  ( Time -> September 20, 2023 8:30 AM)
+
+/api/discount-price/create  ( Time -> September 20, 2023 8:31 AM)
+
+/api/cart/cartByUser  ( Time -> September 20, 2023 8:31 AM)
+
+/api/cart/cartByUser  ( Time -> September 20, 2023 8:32 AM)
+
+/api/cart/create  ( Time -> September 20, 2023 8:33 AM)
+
+/api/auth/login  ( Time -> September 23, 2023 10:22 AM)
+
+/api/user/all  ( Time -> September 23, 2023 10:34 AM)
+
+/api/auth/login  ( Time -> September 23, 2023 10:35 AM)
+
+/api/cart/cartByUser  ( Time -> September 23, 2023 10:36 AM)
+
+/api/cart/cartByUser  ( Time -> September 23, 2023 10:36 AM)
+
+/api/cart/create  ( Time -> September 23, 2023 10:40 AM)
+
+/api/cart/cartByUser  ( Time -> September 23, 2023 10:41 AM)
+

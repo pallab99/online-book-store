@@ -113,6 +113,10 @@ class BookReviewController {
                     0
                 );
                 const avg = sum / result.reviews.length;
+                // const avgRatingPipeline = await bookModel.aggregate([
+                //     { $match: { _id: book } },
+                // ]);
+                // console.log({ avgRatingPipeline });
 
                 bookFound.rating = avg;
                 await bookFound.save();

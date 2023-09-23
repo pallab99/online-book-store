@@ -224,10 +224,15 @@ class AuthController {
             if (validation.length) {
                 return sendValidationError(res, validation);
             }
-            const token = req.headers.authorization?.split(' ')[1];
-            if (!token || token === undefined || token.length === 0) {
-                return res.status(401).json(failure('Token Cannot be Null'));
+            const { refreshToken } = req.cookies;
+            if (!refreshToken) {
+                return sendResponse(
+                    res,
+                    HTTP_STATUS.UNAUTHORIZED,
+                    'Token can not be null'
+                );
             }
+            const token = refreshToken;
             const secretKey = process.env.REFRESH_TOKEN_SECRET;
             const decoded = await jwt.verify(token, secretKey);
 
@@ -236,6 +241,7 @@ class AuthController {
 
             if (decoded) {
                 const accessToken = generateAccessToken(decoded);
+                res.cookie('accessToken', accessToken, { httpOnly: true });
                 if (accessToken) {
                     return sendResponse(
                         res,

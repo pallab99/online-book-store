@@ -1,6 +1,10 @@
 const { body, param } = require('express-validator');
-const { PHONE_REGEX } = require('../constants/regex');
+const { PHONE_REGEX, SPECIAL_CHARACTERS } = require('../constants/regex');
 const mongoose = require('mongoose');
+const containsSpecialCharacters = (value) => {
+    const specialCharactersRegex = SPECIAL_CHARACTERS;
+    return !specialCharactersRegex.test(value);
+};
 const validator = {
     createBook: [
         body('title')
@@ -12,7 +16,10 @@ const validator = {
             .withMessage('Title must be a string.')
             .bail()
             .isLength({ min: 3, max: 50 })
-            .withMessage('Title length must be between 3 to 50'),
+            .withMessage('Title length must be between 3 to 50')
+            .bail()
+            .custom(containsSpecialCharacters)
+            .withMessage('Invalid value provided'),
         body('description')
             .exists()
             .notEmpty()
@@ -22,7 +29,10 @@ const validator = {
             .withMessage('Description must be a string.')
             .bail()
             .isLength({ min: 15, max: 200 })
-            .withMessage('Title length must be between 15 to 200'),
+            .withMessage('Title length must be between 15 to 200')
+            .bail()
+            .custom(containsSpecialCharacters)
+            .withMessage('Invalid value provided'),
         body('price')
             .exists()
             .isFloat({ min: 0, max: 10000 })
@@ -68,7 +78,10 @@ const validator = {
             .withMessage('Author must be a string')
             .bail()
             .isLength({ max: 40 })
-            .withMessage('Author name is too long'),
+            .withMessage('Author name is too long')
+            .bail()
+            .custom(containsSpecialCharacters)
+            .withMessage('Invalid value provided'),
         body('category')
             .exists()
             .notEmpty()
@@ -78,7 +91,10 @@ const validator = {
             .withMessage('Category must be a string')
             .bail()
             .isLength({ min: 3, max: 50 })
-            .withMessage('Category length must be between 3 to 50'),
+            .withMessage('Category length must be between 3 to 50')
+            .bail()
+            .custom(containsSpecialCharacters)
+            .withMessage('Invalid value provided'),
         body('publishedAt')
             .not()
             .equals('')
@@ -118,7 +134,10 @@ const validator = {
             .withMessage('Title length must be between 3 to 50')
             .bail()
             .custom((value) => typeof value === 'string' && value.trim() !== '')
-            .withMessage('Title is required.'),
+            .withMessage('Title is required.')
+            .bail()
+            .custom(containsSpecialCharacters)
+            .withMessage('Invalid value provided'),
         body('description')
             .optional()
             .isString()
@@ -128,7 +147,10 @@ const validator = {
             .withMessage('Title length must be between 15 to 200')
             .bail()
             .custom((value) => typeof value === 'string' && value.trim() !== '')
-            .withMessage('Description is required.'),
+            .withMessage('Description is required.')
+            .bail()
+            .custom(containsSpecialCharacters)
+            .withMessage('Invalid value provided'),
         body('price')
             .optional()
             .isFloat({ min: 10, max: 10000 })
@@ -174,7 +196,10 @@ const validator = {
             .withMessage('Author is required.')
             .bail()
             .isLength({ max: 40 })
-            .withMessage('Date is too long'),
+            .withMessage('Author name is too long')
+            .bail()
+            .custom(containsSpecialCharacters)
+            .withMessage('Invalid value provided'),
         body('category')
             .optional()
             .optional()
@@ -185,7 +210,10 @@ const validator = {
             .withMessage('Category is required.')
             .bail()
             .isLength({ min: 3, max: 50 })
-            .withMessage('Category length must be between 3 to 50'),
+            .withMessage('Category length must be between 3 to 50')
+            .bail()
+            .custom(containsSpecialCharacters)
+            .withMessage('Invalid value provided'),
         body('publishedAt')
             .optional()
             .isDate()
@@ -218,7 +246,10 @@ const validator = {
             .withMessage('Name Must be a string')
             .bail()
             .isLength({ max: 50 })
-            .withMessage('Name cannot be greater than 50'),
+            .withMessage('Name cannot be greater than 50')
+            .bail()
+            .custom(containsSpecialCharacters)
+            .withMessage('Invalid value provided'),
         body('email')
             .exists()
             .not()
@@ -298,7 +329,10 @@ const validator = {
             .withMessage('Country must be a string')
             .bail()
             .isLength({ max: 20 })
-            .withMessage('Country cannot be greater than 20'),
+            .withMessage('Country cannot be greater than 20')
+            .bail()
+            .custom(containsSpecialCharacters)
+            .withMessage('Invalid value provided'),
         body('address.city')
             .exists()
             .not()
@@ -309,7 +343,10 @@ const validator = {
             .withMessage('City must be a string')
             .bail()
             .isLength({ max: 20 })
-            .withMessage('City cannot be greater than 20'),
+            .withMessage('City cannot be greater than 20')
+            .bail()
+            .custom(containsSpecialCharacters)
+            .withMessage('Invalid value provided'),
         body('address.area')
             .exists()
             .not()
@@ -320,7 +357,10 @@ const validator = {
             .withMessage('Area must be a string')
             .bail()
             .isLength({ max: 20 })
-            .withMessage('Area cannot be greater than 20'),
+            .withMessage('Area cannot be greater than 20')
+            .bail()
+            .custom(containsSpecialCharacters)
+            .withMessage('Invalid value provided'),
         body('address.street')
             .exists()
             .not()
@@ -331,7 +371,10 @@ const validator = {
             .withMessage('Street must be a string')
             .bail()
             .isLength({ max: 20 })
-            .withMessage('Street cannot be greater than 20'),
+            .withMessage('Street cannot be greater than 20')
+            .bail()
+            .custom(containsSpecialCharacters)
+            .withMessage('Invalid value provided'),
     ],
 
     loginUser: [
@@ -460,7 +503,10 @@ const validator = {
             })
             .bail()
             .isLength({ max: 50 })
-            .withMessage('Name cannot be greater than 50'),
+            .withMessage('Name cannot be greater than 50')
+            .bail()
+            .custom(containsSpecialCharacters)
+            .withMessage('Invalid value provided'),
         body('rank')
             .optional()
             .custom((value) => {
@@ -509,7 +555,10 @@ const validator = {
                 } else {
                     return true;
                 }
-            }),
+            })
+            .bail()
+            .custom(containsSpecialCharacters)
+            .withMessage('Invalid value provided'),
         body('rating')
             .exists()
             .withMessage('Rating can not be null')
@@ -566,7 +615,10 @@ const validator = {
                 } else {
                     return true;
                 }
-            }),
+            })
+            .bail()
+            .custom(containsSpecialCharacters)
+            .withMessage('Invalid value provided'),
     ],
 
     deleteBookReview: [
@@ -903,7 +955,10 @@ const validator = {
                 } else {
                     return true;
                 }
-            }),
+            })
+            .bail()
+            .custom(containsSpecialCharacters)
+            .withMessage('Invalid value provided'),
     ],
 };
 

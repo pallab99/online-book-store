@@ -1150,3 +1150,80 @@ jwtToken is not defined  ( Time -> September 23, 2023 10:57 AM)
 
 /api/cart/cartByUser  ( Time -> September 23, 2023 10:57 AM)
 
+/api/auth/login  ( Time -> September 23, 2023 11:21 AM)
+
+/api/review/create/65053f4e943fa6b490898794  ( Time -> September 23, 2023 11:21 AM)
+
+/api/review/create/65053f4e943fa6b490898794  ( Time -> September 23, 2023 11:23 AM)
+
+/api/review/create/65053f4e943fa6b490898794  ( Time -> September 23, 2023 11:24 AM)
+
+/api/review/create/65053f4e943fa6b490898794  ( Time -> September 23, 2023 11:25 AM)
+
+/api/review/create/65053f4e943fa6b490898794  ( Time -> September 23, 2023 11:26 AM)
+
+/api/review/create/65053f4e943fa6b490898794  ( Time -> September 23, 2023 11:54 AM)
+
+/api/auth/login  ( Time -> September 23, 2023 11:55 AM)
+
+/api/review/create/65053f4e943fa6b490898794  ( Time -> September 23, 2023 11:55 AM)
+
+/api/review/create/65053f4e943fa6b490898794  ( Time -> September 23, 2023 11:59 AM)
+
+/api/review/create/65053f4e943fa6b490898794  ( Time -> September 23, 2023 11:59 AM)
+
+/api/review/create/65053f4e943fa6b490898794  ( Time -> September 23, 2023 12:00 PM)
+
+Book validation failed: rating: Cast to Number failed for value "Promise {
+  <rejected> ReferenceError: book is not defined
+      at calculateAverageRating (/Users/pallab99/Documents/mid-term-project/controllers/bookReview/index.js:13:55)
+      at createReview (/Users/pallab99/Documents/mid-term-project/controllers/bookReview/index.js:134:36)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+}" (type Promise) at path "rating"  ( Time -> September 23, 2023 12:00 PM)
+
+/api/review/create/65053f4e943fa6b490898794  ( Time -> September 23, 2023 12:02 PM)
+
+Book validation failed: rating: Cast to Number failed for value "Promise { <pending> }" (type Promise) at path "rating"  ( Time -> September 23, 2023 12:02 PM)
+
+/api/review/create/65053f4e943fa6b490898794  ( Time -> September 23, 2023 12:02 PM)
+
+/api/auth/login  ( Time -> September 23, 2023 12:03 PM)
+
+/api/review/create/65053f4e943fa6b490898794  ( Time -> September 23, 2023 12:03 PM)
+
+/api/review/create/65053f4e943fa6b490898794  ( Time -> September 23, 2023 12:07 PM)
+
+/api/review/create/65053f4e943fa6b490898794  ( Time -> September 23, 2023 12:07 PM)
+
+Cannot read properties of undefined (reading 'averageRating')  ( Time -> September 23, 2023 12:08 PM)
+
+/api/review/create/65053f4e943fa6b490898794  ( Time -> September 23, 2023 12:08 PM)
+
+/api/review/update/65053f4e943fa6b490898794  ( Time -> September 23, 2023 12:09 PM)
+
+/api/review/update/65053f4e943fa6b490898794  ( Time -> September 23, 2023 12:11 PM)
+
+/api/review/update/65053f4e943fa6b490898794  ( Time -> September 23, 2023 12:11 PM)
+
+/api/review/update/65053f4e943fa6b490898794  ( Time -> September 23, 2023 12:12 PM)
+
+/api/review/update/65053f4e943fa6b490898794  ( Time -> September 23, 2023 12:13 PM)
+
+/api/review/delete/65053f4e943fa6b490898794  ( Time -> September 23, 2023 12:15 PM)
+
+/api/auth/login  ( Time -> September 23, 2023 12:16 PM)
+
+/api/review/delete/65053f4e943fa6b490898794  ( Time -> September 23, 2023 12:16 PM)
+
+/api/review/create/65053f4e943fa6b490898794  ( Time -> September 23, 2023 12:16 PM)
+
+Review validation failed: book: Path `book` is required.  ( Time -> September 23, 2023 12:16 PM)
+
+/api/review/create/65053f4e943fa6b490898794  ( Time -> September 23, 2023 12:19 PM)
+
+/api/review/update/65053f4e943fa6b490898794  ( Time -> September 23, 2023 12:19 PM)
+
+/api/review/update/65053f4e943fa6b490898794  ( Time -> September 23, 2023 12:19 PM)
+
+/api/review/update/65053f4e943fa6b490898794  ( Time -> September 23, 2023 12:19 PM)
+

@@ -500,7 +500,7 @@ const validator = {
     ],
 
     addBookReview: [
-        param('book')
+        param('bookId')
             .exists()
             .not()
             .equals('')

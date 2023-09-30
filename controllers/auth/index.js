@@ -185,10 +185,8 @@ class AuthController {
                     };
                     const jwtToken = generateAccessToken(data);
                     const refreshToken = generateRefreshToken(data);
-                    res.cookie('accessToken', jwtToken, { httpOnly: true });
-                    res.cookie('refreshToken', refreshToken, {
-                        httpOnly: true,
-                    });
+                    res.cookie('accessToken', jwtToken, { path: '/' });
+                    res.cookie('refreshToken', refreshToken, { path: '/' });
 
                     data.accessToken = jwtToken;
                     data.refreshToken = refreshToken;

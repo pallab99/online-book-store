@@ -13,7 +13,7 @@ const connectDB = require('./configs/databaseConnection');
 
 const routes = require('./routes');
 const port = process.env.PORT;
-app.use(cors({ origin: '*' }));
+app.use(cors({ origin: true, credentials: true }));
 app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cookieParser());

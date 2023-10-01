@@ -22,7 +22,6 @@ class AuthController {
                 email,
                 password,
                 confirmPassword,
-                rank,
                 name,
                 phoneNumber,
                 address,
@@ -35,7 +34,6 @@ class AuthController {
                 'email',
                 'password',
                 'confirmPassword',
-                'rank',
                 'name',
                 'phoneNumber',
                 'address',
@@ -46,7 +44,7 @@ class AuthController {
                     return sendResponse(
                         res,
                         HTTP_STATUS.UNPROCESSABLE_ENTITY,
-                        'Invalid property provided for book create'
+                        'Invalid property provided'
                     );
                 }
             }
@@ -75,7 +73,6 @@ class AuthController {
                     const newRegistration = await authModel.create({
                         email,
                         password: hashedPassword,
-                        rank,
                         user: newUser._id,
                         verificationCode,
                     });
@@ -188,10 +185,8 @@ class AuthController {
                     };
                     const jwtToken = generateAccessToken(data);
                     const refreshToken = generateRefreshToken(data);
-                    res.cookie('accessToken', jwtToken, { httpOnly: true });
-                    res.cookie('refreshToken', refreshToken, {
-                        httpOnly: true,
-                    });
+                    res.cookie('accessToken', jwtToken, { path: '/' });
+                    res.cookie('refreshToken', refreshToken, { path: '/' });
 
                     data.accessToken = jwtToken;
                     data.refreshToken = refreshToken;
@@ -224,10 +219,15 @@ class AuthController {
             if (validation.length) {
                 return sendValidationError(res, validation);
             }
-            const token = req.headers.authorization?.split(' ')[1];
-            if (!token || token === undefined || token.length === 0) {
-                return res.status(401).json(failure('Token Cannot be Null'));
+            const { refreshToken } = req.cookies;
+            if (!refreshToken) {
+                return sendResponse(
+                    res,
+                    HTTP_STATUS.UNAUTHORIZED,
+                    'Token can not be null'
+                );
             }
+            const token = refreshToken;
             const secretKey = process.env.REFRESH_TOKEN_SECRET;
             const decoded = await jwt.verify(token, secretKey);
 
@@ -236,6 +236,7 @@ class AuthController {
 
             if (decoded) {
                 const accessToken = generateAccessToken(decoded);
+                res.cookie('accessToken', accessToken, { path: '/' });
                 if (accessToken) {
                     return sendResponse(
                         res,

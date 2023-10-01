@@ -8,6 +8,28 @@ const authModel = require('../../models/auth');
 const userModel = require('../../models/user');
 const { sendValidationError } = require('../../util/validationErrorHelper');
 const mongoose = require('mongoose');
+const calculateAverageRating = async (req) => {
+    const { bookId } = req.params;
+    const avgRatingPipeline = await bookReviewModel.aggregate([
+        { $match: { book: new mongoose.Types.ObjectId(bookId) } },
+        { $unwind: '$reviews' },
+        {
+            $group: {
+                _id: '$book',
+                averageRating: {
+                    $avg: '$reviews.rating',
+                },
+            },
+        },
+        {
+            $project: {
+                _id: 0,
+                averageRating: 1,
+            },
+        },
+    ]);
+    return avgRatingPipeline[0].averageRating;
+};
 class BookReviewController {
     async getReviewByBook(req, res) {
         try {
@@ -55,7 +77,7 @@ class BookReviewController {
             databaseLogger(req.originalUrl);
 
             const { message, rating } = req.body;
-            const { book } = req.params;
+            const { bookId } = req.params;
             const validation = validationResult(req).array();
             if (validation.length) {
                 return sendValidationError(res, validation);
@@ -72,7 +94,7 @@ class BookReviewController {
                     );
                 }
             }
-            const bookFound = await bookModel.findById(book);
+            const bookFound = await bookModel.findById(bookId);
             const userFoundInAuth = await authModel.findById(req.user._id);
             const userFoundInUser = await userModel.findById(
                 userFoundInAuth.user
@@ -92,11 +114,11 @@ class BookReviewController {
                 );
             }
             const bookExistInReview = await bookReviewModel.findOne({
-                book: String(book),
+                book: String(bookId),
             });
             if (!bookExistInReview) {
                 const result = await bookReviewModel.create({
-                    book,
+                    book: bookId,
                 });
 
                 result.reviews.push({
@@ -108,13 +130,8 @@ class BookReviewController {
                 await result.save();
 
                 bookFound.reviews.push(result._id);
-                const sum = result.reviews.reduce(
-                    (accumulator, review) => accumulator + review.rating,
-                    0
-                );
-                const avg = sum / result.reviews.length;
 
-                bookFound.rating = avg;
+                bookFound.rating = await calculateAverageRating(req);
                 await bookFound.save();
 
                 let reviews = {
@@ -159,13 +176,7 @@ class BookReviewController {
 
                 await bookExistInReview.save();
 
-                const sum = bookExistInReview.reviews.reduce(
-                    (accumulator, review) => accumulator + review.rating,
-                    0
-                );
-                const avg = sum / bookExistInReview.reviews.length;
-
-                bookFound.rating = avg;
+                bookFound.rating = await calculateAverageRating(req);
                 await bookFound.save();
                 const reviews = {
                     user: userFoundInAuth._id,
@@ -260,19 +271,14 @@ class BookReviewController {
 
             if (message) {
                 bookExistInReview.reviews[userIdInReviews].message = message;
+                await bookExistInReview.save();
             }
             if (rating) {
                 bookExistInReview.reviews[userIdInReviews].rating = rating;
-                const sum = bookExistInReview.reviews.reduce(
-                    (accumulator, review) => accumulator + review.rating,
-                    0
-                );
-                const avg = sum / bookExistInReview.reviews.length;
-
-                bookFound.rating = avg;
+                await bookExistInReview.save();
+                bookFound.rating = await calculateAverageRating(req);
                 await bookFound.save();
             }
-            await bookExistInReview.save();
             const reviews = {
                 user: userFoundInAuth._id,
                 message,
@@ -365,13 +371,8 @@ class BookReviewController {
                     'Deleted review successfully'
                 );
             }
-            const sum = bookExistInReview.reviews.reduce(
-                (accumulator, review) => accumulator + review.rating,
-                0
-            );
-            const avg = sum / bookExistInReview.reviews.length;
 
-            bookFound.rating = avg;
+            bookFound.rating = await calculateAverageRating(req);
             console.log('hhhh', bookFound);
             await bookFound.save();
             await bookExistInReview.save();

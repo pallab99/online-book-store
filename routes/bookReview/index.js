@@ -11,7 +11,7 @@ const router = express.Router();
 router
     .get('/details/:bookId', BookReviewController.getReviewByBook)
     .post(
-        '/create/:book',
+        '/create/:bookId',
         [tokenAuthorization, isUser, validator.addBookReview],
         BookReviewController.createReview
     )

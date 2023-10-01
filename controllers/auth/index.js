@@ -236,7 +236,7 @@ class AuthController {
 
             if (decoded) {
                 const accessToken = generateAccessToken(decoded);
-                res.cookie('accessToken', accessToken, { httpOnly: true });
+                res.cookie('accessToken', accessToken, { path: '/' });
                 if (accessToken) {
                     return sendResponse(
                         res,

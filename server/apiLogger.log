@@ -15277,3 +15277,15 @@ rank is not defined  ( Time -> September 23, 2023 2:45 PM)
 
 /api/books/all?offset=2&limit=5&sortBy=stock&sortOrder=asc  ( Time -> October 6, 2023 10:25 AM)
 
+/api/books/all?offset=2&limit=5  ( Time -> October 6, 2023 10:28 AM)
+
+/api/books/all  ( Time -> October 6, 2023 10:28 AM)
+
+/api/books/all?filter=stock&filterOrder=high&filterValue=20  ( Time -> October 6, 2023 10:37 AM)
+
+/api/books/all?sortBy=stock&sortOrder=asc  ( Time -> October 6, 2023 10:38 AM)
+
+/api/books/all?sortBy=stock&sortOrder=asc  ( Time -> October 6, 2023 10:38 AM)
+
+/api/books/all?offset=1&limit=5&sortBy=stock&sortOrder=asc  ( Time -> October 6, 2023 10:39 AM)
+

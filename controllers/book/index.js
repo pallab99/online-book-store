@@ -12,8 +12,8 @@ class BookController {
         try {
             databaseLogger(req.originalUrl);
 
-            let page = parseInt(req.query.offset);
-            let limit = parseInt(req.query.limit);
+            let page = parseInt(req.query.offset) || 1;
+            let limit = parseInt(req.query.limit) || 30;
 
             let {
                 search,

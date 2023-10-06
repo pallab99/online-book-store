@@ -15147,3 +15147,133 @@ rank is not defined  ( Time -> September 23, 2023 2:45 PM)
 
 /api/cart/cartByUser  ( Time -> October 6, 2023 9:02 AM)
 
+/api/cart/cartByUser  ( Time -> October 6, 2023 9:21 AM)
+
+/api/cart/cartByUser  ( Time -> October 6, 2023 9:22 AM)
+
+/api/books/all  ( Time -> October 6, 2023 9:22 AM)
+
+/api/books/all  ( Time -> October 6, 2023 9:22 AM)
+
+/api/cart/cartByUser  ( Time -> October 6, 2023 9:22 AM)
+
+/api/cart/update  ( Time -> October 6, 2023 9:22 AM)
+
+/api/cart/cartByUser  ( Time -> October 6, 2023 9:23 AM)
+
+/api/cart/create  ( Time -> October 6, 2023 9:23 AM)
+
+/api/cart/cartByUser  ( Time -> October 6, 2023 9:23 AM)
+
+/api/cart/update  ( Time -> October 6, 2023 9:23 AM)
+
+/api/cart/cartByUser  ( Time -> October 6, 2023 9:23 AM)
+
+/api/cart/create  ( Time -> October 6, 2023 9:24 AM)
+
+/api/cart/cartByUser  ( Time -> October 6, 2023 9:25 AM)
+
+/api/cart/cartByUser  ( Time -> October 6, 2023 9:25 AM)
+
+/api/cart/cartByUser  ( Time -> October 6, 2023 9:25 AM)
+
+/api/cart/update  ( Time -> October 6, 2023 9:25 AM)
+
+/api/books/all  ( Time -> October 6, 2023 9:26 AM)
+
+/api/books/all  ( Time -> October 6, 2023 9:26 AM)
+
+/api/auth/login  ( Time -> October 6, 2023 9:26 AM)
+
+/api/books/all  ( Time -> October 6, 2023 9:26 AM)
+
+/api/books/all  ( Time -> October 6, 2023 9:26 AM)
+
+/api/cart/cartByUser  ( Time -> October 6, 2023 9:26 AM)
+
+/api/cart/update  ( Time -> October 6, 2023 9:26 AM)
+
+/api/cart/cartByUser  ( Time -> October 6, 2023 9:26 AM)
+
+/api/cart/create  ( Time -> October 6, 2023 9:26 AM)
+
+/api/cart/cartByUser  ( Time -> October 6, 2023 9:26 AM)
+
+/api/books/all  ( Time -> October 6, 2023 9:32 AM)
+
+/api/books/details/65018c91b5b9996c54eb0fe1  ( Time -> October 6, 2023 9:32 AM)
+
+/api/books/details/65018c91b5b9996c54eb0fe1  ( Time -> October 6, 2023 9:38 AM)
+
+/api/books/details/65018c91b5b9996c54eb0fe1  ( Time -> October 6, 2023 9:38 AM)
+
+/api/cart/create  ( Time -> October 6, 2023 9:38 AM)
+
+/api/cart/cartByUser  ( Time -> October 6, 2023 9:38 AM)
+
+/api/books/all  ( Time -> October 6, 2023 9:39 AM)
+
+/api/books/details/651a9d3c23e128df9b7a9a34  ( Time -> October 6, 2023 9:41 AM)
+
+/api/cart/create  ( Time -> October 6, 2023 9:41 AM)
+
+/api/cart/cartByUser  ( Time -> October 6, 2023 9:41 AM)
+
+/api/cart/update  ( Time -> October 6, 2023 9:41 AM)
+
+/api/cart/cartByUser  ( Time -> October 6, 2023 9:41 AM)
+
+/api/books/all  ( Time -> October 6, 2023 9:41 AM)
+
+/api/auth/login  ( Time -> October 6, 2023 9:41 AM)
+
+/api/books/all  ( Time -> October 6, 2023 9:41 AM)
+
+/api/books/all  ( Time -> October 6, 2023 9:41 AM)
+
+/api/books/details/65018c91b5b9996c54eb0fe1  ( Time -> October 6, 2023 9:41 AM)
+
+/api/books/all  ( Time -> October 6, 2023 9:42 AM)
+
+/api/auth/login  ( Time -> October 6, 2023 9:42 AM)
+
+/api/books/all  ( Time -> October 6, 2023 9:42 AM)
+
+/api/books/all  ( Time -> October 6, 2023 9:42 AM)
+
+/api/cart/cartByUser  ( Time -> October 6, 2023 9:42 AM)
+
+/api/cart/cartByUser  ( Time -> October 6, 2023 9:43 AM)
+
+/api/cart/create  ( Time -> October 6, 2023 9:43 AM)
+
+/api/cart/cartByUser  ( Time -> October 6, 2023 9:43 AM)
+
+/api/books/all  ( Time -> October 6, 2023 10:00 AM)
+
+/api/books/all  ( Time -> October 6, 2023 10:00 AM)
+
+/api/auth/login  ( Time -> October 6, 2023 10:01 AM)
+
+/api/books/all  ( Time -> October 6, 2023 10:01 AM)
+
+/api/books/all  ( Time -> October 6, 2023 10:01 AM)
+
+/api/books/all?offset=1&limit=5  ( Time -> October 6, 2023 10:18 AM)
+
+/api/books/all?offset=1&limit=5&search=Great%20Gatsby  ( Time -> October 6, 2023 10:19 AM)
+
+/api/books/all?offset=1&limit=5&sortBy=stock&sortOrder=asc  ( Time -> October 6, 2023 10:19 AM)
+
+/api/books/all?offset=1&limit=2&sortBy=stock&sortOrder=asc  ( Time -> October 6, 2023 10:19 AM)
+
+/api/books/all?offset=1&limit=5&sortBy=stock&sortOrder=asc  ( Time -> October 6, 2023 10:20 AM)
+
+/api/books/all?offset=1&limit=15&sortBy=stock&sortOrder=asc  ( Time -> October 6, 2023 10:20 AM)
+
+/api/books/all?offset=1&limit=15&sortBy=stock&sortOrder=asc  ( Time -> October 6, 2023 10:25 AM)
+
+/api/books/all?offset=1&limit=5&sortBy=stock&sortOrder=asc  ( Time -> October 6, 2023 10:25 AM)
+
+/api/books/all?offset=2&limit=5&sortBy=stock&sortOrder=asc  ( Time -> October 6, 2023 10:25 AM)
+

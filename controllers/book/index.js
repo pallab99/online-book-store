@@ -113,7 +113,7 @@ class BookController {
             const data = await baseQuery.skip(skip).limit(limit);
 
             if (data.length > 0) {
-                const totalCount = data.length;
+                const totalCount = await bookModel.countDocuments();
                 const totalPages = Math.ceil(totalCount / limit);
 
                 const result = {

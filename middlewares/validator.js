@@ -36,7 +36,7 @@ const validator = {
         body('price')
             .exists()
             .isFloat({ min: 0, max: 10000 })
-            .withMessage('Price must be a valid number between 0 and 100.')
+            .withMessage('Price must be a valid number between 0 and 10000.')
             .bail()
             .custom((value) => {
                 if (typeof value != 'number') {
@@ -372,9 +372,9 @@ const validator = {
             .bail()
             .isLength({ max: 20 })
             .withMessage('Street cannot be greater than 20')
-            .bail()
-            .custom(containsSpecialCharacters)
-            .withMessage('Invalid value provided'),
+            .bail(),
+        // .custom(containsSpecialCharacters)
+        // .withMessage('Invalid value provided'),
     ],
 
     loginUser: [

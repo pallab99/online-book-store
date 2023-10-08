@@ -72,6 +72,58 @@ class BookReviewController {
             );
         }
     }
+
+    async getReviewByUser(req, res) {
+        try {
+            databaseLogger(req.originalUrl);
+            const { bookId } = req.params;
+            // let email = req.user.email;
+            // userId = new mongoose.Types.ObjectId(userId);
+            console.log('req.user', req.user);
+            const authUser = await authModel.findOne({
+                email: req.user.email,
+            });
+            console.log('Auth', authUser.user);
+            const result = await bookReviewModel
+                .findOne({
+                    book: bookId,
+                })
+                .populate('book', 'title author publishedAt price description')
+                .populate('reviews.user', 'name email -_id');
+            let userReview = {};
+            result?.reviews.forEach((ele) => {
+                if (ele.user.email === authUser.email) {
+                    userReview.message = ele.message;
+                    userReview.rating = ele.rating;
+                    userReview.name = ele.user.name;
+                    userReview.email = ele.user.email;
+                }
+            });
+            console.log({ userReview });
+            if (!result) {
+                return sendResponse(
+                    res,
+                    HTTP_STATUS.NOT_FOUND,
+                    'No reviews found',
+                    []
+                );
+            }
+            return sendResponse(
+                res,
+                HTTP_STATUS.OK,
+                'Successfully get all the reviews',
+                userReview
+            );
+        } catch (error) {
+            console.log(error);
+            databaseLogger(error.message);
+            return sendResponse(
+                res,
+                HTTP_STATUS.INTERNAL_SERVER_ERROR,
+                'Internal server error'
+            );
+        }
+    }
     async createReview(req, res) {
         try {
             databaseLogger(req.originalUrl);

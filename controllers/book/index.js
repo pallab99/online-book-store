@@ -82,7 +82,7 @@ class BookController {
             if (search && search?.length) {
                 baseQuery = baseQuery.or([
                     { title: { $regex: search, $options: 'i' } },
-                    { description: { $regex: search, $options: 'i' } },
+                    // { description: { $regex: search, $options: 'i' } },
                 ]);
             }
             if (sortBy && sortBy?.length) {

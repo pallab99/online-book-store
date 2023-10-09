@@ -229,6 +229,32 @@ class UserController {
             return sendResponse(res, 500, 'Internal server error');
         }
     }
+    async getUserBalance(req, res) {
+        try {
+            databaseLogger(req.originalUrl);
+            const { email, rank } = req.user;
+            const { amount } = req.body;
+            const user = await userModel.findOne({ email });
+            console.log(user);
+            if (!user) {
+                return sendResponse(
+                    res,
+                    HTTP_STATUS.NOT_FOUND,
+                    'No user found'
+                );
+            }
+            return sendResponse(
+                res,
+                HTTP_STATUS.OK,
+                'Successfully get the data',
+                { balance: user.balance }
+            );
+        } catch (error) {
+            console.log(error);
+            databaseLogger(error.message);
+            return sendResponse(res, 500, 'Internal server error');
+        }
+    }
 }
 
 module.exports = new UserController();

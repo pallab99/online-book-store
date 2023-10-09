@@ -36,6 +36,36 @@ class DiscountPriceController {
             );
         }
     }
+
+    async getDisCountById(req, res) {
+        try {
+            const { discountId } = req.params;
+
+            const result = DiscountPrice.findById(discountId);
+            if (result) {
+                return sendResponse(
+                    res,
+                    HTTP_STATUS.OK,
+                    'Successfully get all the data',
+                    result
+                );
+            }
+            return sendResponse(
+                res,
+                HTTP_STATUS.BAD_REQUEST,
+                'No data found',
+                []
+            );
+        } catch (error) {
+            console.log(error);
+            databaseLogger(error.message);
+            return sendResponse(
+                res,
+                HTTP_STATUS.INTERNAL_SERVER_ERROR,
+                'Internal server error'
+            );
+        }
+    }
     async addDiscount(req, res) {
         try {
             databaseLogger(req.originalUrl);

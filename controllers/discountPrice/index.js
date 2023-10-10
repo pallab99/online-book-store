@@ -258,8 +258,15 @@ class DiscountPriceController {
             const discountExistForBook = await DiscountPrice.find({
                 bookIds: { $in: bookId },
             });
-
-            if (discountExistForBook.length) {
+            console.log("discount exist",discountExistForBook)
+            let sameDiscountId= true;
+            discountExistForBook.forEach((ele)=>{
+                if(ele._id.toString()===discountId){
+                    sameDiscountId=false;
+                }
+            })
+            console.log(sameDiscountId)
+            if (discountExistForBook.length && sameDiscountId) {
                 return sendResponse(
                     res,
                     HTTP_STATUS.UNPROCESSABLE_ENTITY,
@@ -309,6 +316,7 @@ class DiscountPriceController {
                 );
             }
             if (bookId?.length) {
+                discountById.bookIds.splice(0,discountById.bookIds.length)
                 for (let ele of bookId) {
                     discountById.bookIds.push(ele);
                 }

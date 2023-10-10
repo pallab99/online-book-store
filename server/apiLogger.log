@@ -24105,3 +24105,61 @@ result is not defined  ( Time -> October 8, 2023 7:22 AM)
 
 /api/discount-price/details/6524018ca0f1979cdfa2d959  ( Time -> October 9, 2023 8:33 PM)
 
+/api/books/all?offset=1&limit=6  ( Time -> October 10, 2023 7:35 AM)
+
+/api/auth/login  ( Time -> October 10, 2023 7:35 AM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 10, 2023 7:36 AM)
+
+/api/books/details/6524018ca0f1979cdfa2d959  ( Time -> October 10, 2023 7:39 AM)
+
+/api/discount-price/details/6524018ca0f1979cdfa2d959  ( Time -> October 10, 2023 7:40 AM)
+
+/api/books/all  ( Time -> October 10, 2023 7:40 AM)
+
+/api/discount-price/update/6524018ca0f1979cdfa2d959  ( Time -> October 10, 2023 7:40 AM)
+
+/api/discount-price/update/6524018ca0f1979cdfa2d959  ( Time -> October 10, 2023 7:45 AM)
+
+Assignment to constant variable.  ( Time -> October 10, 2023 7:45 AM)
+
+/api/discount-price/update/6524018ca0f1979cdfa2d959  ( Time -> October 10, 2023 7:45 AM)
+
+/api/discount-price/update/6524018ca0f1979cdfa2d959  ( Time -> October 10, 2023 7:46 AM)
+
+/api/discount-price/update/6524018ca0f1979cdfa2d959  ( Time -> October 10, 2023 7:46 AM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 10, 2023 7:46 AM)
+
+/api/books/all  ( Time -> October 10, 2023 7:48 AM)
+
+/api/discount-price/details/6524018ca0f1979cdfa2d959  ( Time -> October 10, 2023 7:48 AM)
+
+/api/books/all  ( Time -> October 10, 2023 7:48 AM)
+
+/api/discount-price/details/6524018ca0f1979cdfa2d959  ( Time -> October 10, 2023 7:48 AM)
+
+/api/books/all  ( Time -> October 10, 2023 7:49 AM)
+
+/api/discount-price/details/6524018ca0f1979cdfa2d959  ( Time -> October 10, 2023 7:49 AM)
+
+/api/discount-price/update/6524018ca0f1979cdfa2d959  ( Time -> October 10, 2023 7:49 AM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 10, 2023 7:49 AM)
+
+/api/discount-price/details/6524018ca0f1979cdfa2d959  ( Time -> October 10, 2023 7:49 AM)
+
+/api/books/all  ( Time -> October 10, 2023 7:49 AM)
+
+/api/discount-price/update/6524018ca0f1979cdfa2d959  ( Time -> October 10, 2023 7:49 AM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 10, 2023 7:49 AM)
+
+/api/books/all  ( Time -> October 10, 2023 7:49 AM)
+
+/api/discount-price/details/6524018ca0f1979cdfa2d959  ( Time -> October 10, 2023 7:49 AM)
+
+/api/discount-price/update/6524018ca0f1979cdfa2d959  ( Time -> October 10, 2023 7:49 AM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 10, 2023 7:49 AM)
+

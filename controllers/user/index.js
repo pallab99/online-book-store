@@ -79,7 +79,19 @@ class UserController {
     async viewAllUserData(req, res) {
         try {
             databaseLogger(req.originalUrl);
-            const users = await userModel.find({});
+            const authUser = await authModel.find({
+                isUserRestricted: { $exists: true, $eq: false },
+            });
+            const users = await userModel.find();
+            let resultArray = [];
+
+            for (let i = 0; i < authUser.length; i++) {
+                for (let j = 0; j < users.length; j++) {
+                    if (authUser[i].email === users[j].email) {
+                        resultArray.push(users[j]);
+                    }
+                }
+            }
             if (!users.length) {
                 return sendResponse(
                     res,
@@ -93,7 +105,7 @@ class UserController {
                 res,
                 HTTP_STATUS.OK,
                 'Successfully get all the data',
-                users
+                resultArray
             );
         } catch (error) {
             databaseLogger(error.message);
@@ -114,7 +126,17 @@ class UserController {
             }
 
             const { userId } = req.params;
-            const findUserFromAuth = await authModel.findById(userId);
+            const userFromUserModel = await userModel.findById(userId);
+            if (!userFromUserModel) {
+                return sendResponse(
+                    res,
+                    HTTP_STATUS.UNPROCESSABLE_ENTITY,
+                    'No user associated with this id'
+                );
+            }
+            const findUserFromAuth = await authModel.findOne({
+                email: userFromUserModel.email,
+            });
             if (!findUserFromAuth) {
                 return sendResponse(
                     res,
@@ -129,7 +151,9 @@ class UserController {
                     'You can not perform this action'
                 );
             }
-            const result = await authModel.findById(userId);
+            const result = await authModel.findOne({
+                email: userFromUserModel.email,
+            });
             if (!result) {
                 return sendResponse(
                     res,

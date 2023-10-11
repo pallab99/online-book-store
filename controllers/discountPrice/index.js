@@ -258,14 +258,14 @@ class DiscountPriceController {
             const discountExistForBook = await DiscountPrice.find({
                 bookIds: { $in: bookId },
             });
-            console.log("discount exist",discountExistForBook)
-            let sameDiscountId= true;
-            discountExistForBook.forEach((ele)=>{
-                if(ele._id.toString()===discountId){
-                    sameDiscountId=false;
+            console.log('discount exist', discountExistForBook);
+            let sameDiscountId = true;
+            discountExistForBook.forEach((ele) => {
+                if (ele._id.toString() === discountId) {
+                    sameDiscountId = false;
                 }
-            })
-            console.log(sameDiscountId)
+            });
+            console.log(sameDiscountId);
             if (discountExistForBook.length && sameDiscountId) {
                 return sendResponse(
                     res,
@@ -316,7 +316,7 @@ class DiscountPriceController {
                 );
             }
             if (bookId?.length) {
-                discountById.bookIds.splice(0,discountById.bookIds.length)
+                discountById.bookIds.splice(0, discountById.bookIds.length);
                 for (let ele of bookId) {
                     discountById.bookIds.push(ele);
                 }
@@ -368,91 +368,118 @@ class DiscountPriceController {
         }
     }
 
+    // async deleteDiscount(req, res) {
+    //     try {
+    //         const validation = validationResult(req).array();
+
+    //         if (validation.length) {
+    //             return sendValidationError(res, validation);
+    //         }
+    //         const { discountId } = req.params;
+    //         const { bookId } = req.body;
+    //         if (bookId?.length) {
+    //             const hasDuplicateBookIds =
+    //                 bookId?.length !== new Set(bookId).size;
+    //             if (hasDuplicateBookIds) {
+    //                 return sendResponse(
+    //                     res,
+    //                     HTTP_STATUS.UNPROCESSABLE_ENTITY,
+    //                     'Can not accept duplicate book id'
+    //                 );
+    //             }
+    //         }
+    //         const bookIdsToCheck = bookId?.map(
+    //             (bookId) => new mongoose.Types.ObjectId(bookId)
+    //         );
+    //         const bookAvailable = await bookModel.find({
+    //             _id: { $in: bookIdsToCheck },
+    //         });
+
+    //         if (bookId?.length && bookAvailable?.length != bookId?.length) {
+    //             return sendResponse(
+    //                 res,
+    //                 HTTP_STATUS.UNPROCESSABLE_ENTITY,
+    //                 'Some of the book maybe not available'
+    //             );
+    //         }
+
+    //         const discountById = await DiscountPrice.findById(discountId);
+
+    //         if (!discountById) {
+    //             return sendResponse(
+    //                 res,
+    //                 HTTP_STATUS.UNPROCESSABLE_ENTITY,
+    //                 'No discount associated by this id'
+    //             );
+    //         }
+    //         if (bookId?.length) {
+    //             let bookIdArray = [];
+    //             discountById.bookIds.forEach((bookId) => {
+    //                 bookIdArray.push(String(bookId));
+    //             });
+    //             for (const ele of bookId) {
+    //                 if (!bookIdArray.includes(ele)) {
+    //                     return sendResponse(
+    //                         res,
+    //                         HTTP_STATUS.UNPROCESSABLE_ENTITY,
+    //                         'Some book id maybe not available in the discount'
+    //                     );
+    //                 }
+    //             }
+    //             const result = await DiscountPrice.updateOne(
+    //                 { _id: discountId },
+    //                 { $pull: { bookIds: { $in: bookIdsToCheck } } },
+    //                 { new: true }
+    //             );
+    //             if (!result.modifiedCount) {
+    //                 return sendResponse(
+    //                     res,
+    //                     HTTP_STATUS.OK,
+    //                     'Something went wrong'
+    //                 );
+    //             }
+    //             const data = await DiscountPrice.findById(discountId);
+    //             return sendResponse(
+    //                 res,
+    //                 HTTP_STATUS.OK,
+    //                 'Book successfully removed from the discount',
+    //                 data
+    //             );
+    //         }
+
+    //         const result = await DiscountPrice.findByIdAndDelete(discountById);
+    //         return sendResponse(
+    //             res,
+    //             HTTP_STATUS.OK,
+    //             'Successfully deleted the discount',
+    //             result
+    //         );
+    //     } catch (error) {
+    //         console.log(error);
+    //         databaseLogger(error.message);
+    //         return sendResponse(
+    //             res,
+    //             HTTP_STATUS.INTERNAL_SERVER_ERROR,
+    //             'Internal server error'
+    //         );
+    //     }
+    // }
     async deleteDiscount(req, res) {
         try {
-            const validation = validationResult(req).array();
-
-            if (validation.length) {
-                return sendValidationError(res, validation);
-            }
             const { discountId } = req.params;
-            const { bookId } = req.body;
-            if (bookId?.length) {
-                const hasDuplicateBookIds =
-                    bookId?.length !== new Set(bookId).size;
-                if (hasDuplicateBookIds) {
-                    return sendResponse(
-                        res,
-                        HTTP_STATUS.UNPROCESSABLE_ENTITY,
-                        'Can not accept duplicate book id'
-                    );
-                }
-            }
-            const bookIdsToCheck = bookId?.map(
-                (bookId) => new mongoose.Types.ObjectId(bookId)
-            );
-            const bookAvailable = await bookModel.find({
-                _id: { $in: bookIdsToCheck },
-            });
-
-            if (bookId?.length && bookAvailable?.length != bookId?.length) {
+            const result = await DiscountPrice.findByIdAndDelete(discountId);
+            if (!result) {
                 return sendResponse(
                     res,
-                    HTTP_STATUS.UNPROCESSABLE_ENTITY,
-                    'Some of the book maybe not available'
+                    HTTP_STATUS.BAD_REQUEST,
+                    'Something went wrong'
                 );
             }
-
-            const discountById = await DiscountPrice.findById(discountId);
-
-            if (!discountById) {
-                return sendResponse(
-                    res,
-                    HTTP_STATUS.UNPROCESSABLE_ENTITY,
-                    'No discount associated by this id'
-                );
-            }
-            if (bookId?.length) {
-                let bookIdArray = [];
-                discountById.bookIds.forEach((bookId) => {
-                    bookIdArray.push(String(bookId));
-                });
-                for (const ele of bookId) {
-                    if (!bookIdArray.includes(ele)) {
-                        return sendResponse(
-                            res,
-                            HTTP_STATUS.UNPROCESSABLE_ENTITY,
-                            'Some book id maybe not available in the discount'
-                        );
-                    }
-                }
-                const result = await DiscountPrice.updateOne(
-                    { _id: discountId },
-                    { $pull: { bookIds: { $in: bookIdsToCheck } } },
-                    { new: true }
-                );
-                if (!result.modifiedCount) {
-                    return sendResponse(
-                        res,
-                        HTTP_STATUS.OK,
-                        'Something went wrong'
-                    );
-                }
-                const data = await DiscountPrice.findById(discountId);
-                return sendResponse(
-                    res,
-                    HTTP_STATUS.OK,
-                    'Book successfully removed from the discount',
-                    data
-                );
-            }
-
-            const result = await DiscountPrice.findByIdAndDelete(discountById);
             return sendResponse(
                 res,
                 HTTP_STATUS.OK,
-                'Successfully deleted the discount',
-                result
+                'Deleted Successfully',
+                []
             );
         } catch (error) {
             console.log(error);

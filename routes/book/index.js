@@ -10,6 +10,7 @@ const getAllBooksValidation = require('../../middlewares/getAllBooksValidation')
 router
     .get('/all', [getAllBooksValidation], BookController.getAllBooks)
     .get('/details/:bookId', BookController.getBookById)
+    .get('/author/all', BookController.getAllAuthors)
     .post(
         '/create',
         [tokenAuthorization, isAdmin, validator.createBook],

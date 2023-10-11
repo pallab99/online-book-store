@@ -23,6 +23,7 @@ class BookController {
                 filterOrder,
                 filterValue,
                 category,
+                author,
             } = req.query;
 
             const allowedProperties = [
@@ -35,7 +36,7 @@ class BookController {
                 'filterOrder',
                 'filterValue',
                 'category',
-                'category',
+                'author',
             ];
 
             for (const key in req.query) {
@@ -49,7 +50,7 @@ class BookController {
             }
 
             let baseQuery = bookModel.find().select('-reviews');
-            if (!search && !sortBy && !filter && !category) {
+            if (!search && !sortBy && !filter && !category && !author) {
                 const skip = (page - 1) * limit;
 
                 const data = await bookModel
@@ -107,6 +108,10 @@ class BookController {
                 baseQuery = baseQuery.or([
                     { category: { $in: categoryArray } },
                 ]);
+            }
+            if (author && author?.length) {
+                const authorArray = author.split(',');
+                baseQuery = baseQuery.or([{ author: { $in: authorArray } }]);
             }
 
             const skip = (page - 1) * limit;
@@ -421,6 +426,27 @@ class BookController {
                 res,
                 HTTP_STATUS.OK,
                 'Deleted book successfully',
+                result
+            );
+        } catch (error) {
+            databaseLogger(error.message);
+            return sendResponse(res, 500, 'Internal server error');
+        }
+    }
+    async getAllAuthors(req, res) {
+        try {
+            const result = await bookModel.distinct('author');
+            if (!result) {
+                return sendResponse(
+                    res,
+                    HTTP_STATUS.BAD_REQUEST,
+                    'Something went wrong'
+                );
+            }
+            return sendResponse(
+                res,
+                HTTP_STATUS.OK,
+                'Successfully get all author',
                 result
             );
         } catch (error) {

@@ -323,6 +323,32 @@ class AuthController {
             );
         }
     }
+
+    async logOut(req, res) {
+        try {
+            const accessToken = res.cookie('accessToken');
+            const refreshToken = res.cookie('refreshToken');
+            // If access token is not present in the cookies then we don't need to delete it from db as well
+            if (!accessToken || !refreshToken) {
+                return sendResponse(
+                    res,
+                    HTTP_STATUS.BAD_REQUEST,
+                    'Something went wrong',
+                    []
+                );
+            }
+            res.clearCookie('accessToken');
+            res.clearCookie('refreshToken');
+            return sendResponse(res, HTTP_STATUS.OK, 'Log Out Successful', []);
+        } catch (error) {
+            databaseLogger(error.message);
+            return sendResponse(
+                res,
+                HTTP_STATUS.INTERNAL_SERVER_ERROR,
+                'Internal server error'
+            );
+        }
+    }
 }
 
 module.exports = new AuthController();

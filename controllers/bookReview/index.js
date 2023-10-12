@@ -45,7 +45,10 @@ class BookReviewController {
             }
             const result = await bookReviewModel
                 .findOne({ book: bookId })
-                .populate('book', 'title author publishedAt price description')
+                .populate(
+                    'book',
+                    'title author publishedAt price description rating'
+                )
                 .populate('reviews.user', 'name email -_id');
 
             if (!result) {

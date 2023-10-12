@@ -290,25 +290,25 @@ class DiscountPriceController {
                 (newStartDate - currentDate) / (1000 * 60 * 60 * 24)
             );
 
-            if (daysUntilStartDate < -1) {
+            // if (daysUntilStartDate < -1) {
+            //     return sendResponse(
+            //         res,
+            //         HTTP_STATUS.UNPROCESSABLE_ENTITY,
+            //         'Start date cannot be less than today.'
+            //     );
+            // } else {
+            const daysDifference = Math.floor(
+                (newEndDate - newStartDate) / (1000 * 60 * 60 * 24)
+            );
+
+            if (daysDifference >= 5) {
                 return sendResponse(
                     res,
                     HTTP_STATUS.UNPROCESSABLE_ENTITY,
-                    'Start date cannot be less than today.'
+                    'EndDate can not exceed 5 days from startDate'
                 );
-            } else {
-                const daysDifference = Math.floor(
-                    (newEndDate - newStartDate) / (1000 * 60 * 60 * 24)
-                );
-
-                if (daysDifference >= 5) {
-                    return sendResponse(
-                        res,
-                        HTTP_STATUS.UNPROCESSABLE_ENTITY,
-                        'EndDate can not exceed 5 days from startDate'
-                    );
-                }
             }
+            // }
 
             const discountById = await DiscountPrice.findById(discountId);
             if (!discountById) {
@@ -330,11 +330,9 @@ class DiscountPriceController {
                     let uppercase = ele.toUpperCase();
                     uppercaseCountry.push(uppercase);
                 }
-                console.log(uppercaseCountry);
+                discountById.counties.splice(0, discountById.counties.length);
                 uppercaseCountry.forEach((ele) => {
-                    if (!discountById.counties.includes(ele)) {
-                        discountById.counties.push(ele);
-                    }
+                    discountById.counties.push(ele);
                 });
             }
             if (discountPercentage) {

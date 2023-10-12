@@ -16,7 +16,7 @@ router
     .get(
         '/details/:discountId',
         [tokenAuthorization, isAdmin],
-        DiscountPriceController.getAllDiscount
+        DiscountPriceController.getDisCountById
     )
     .post(
         '/create',

@@ -39,9 +39,12 @@ class DiscountPriceController {
 
     async getDisCountById(req, res) {
         try {
+            console.log('fellll');
             const { discountId } = req.params;
-
-            const result = DiscountPrice.findById(discountId);
+            console.log(discountId);
+            const result =
+                await DiscountPrice.findById(discountId).populate('bookIds');
+            console.log(result);
             if (result) {
                 return sendResponse(
                     res,

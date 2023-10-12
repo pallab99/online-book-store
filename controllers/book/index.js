@@ -50,40 +50,9 @@ class BookController {
             }
 
             let baseQuery = bookModel.find().select('-reviews');
-            if (!search && !sortBy && !filter && !category && !author) {
-                const skip = (page - 1) * limit;
-
-                const data = await bookModel
-                    .find({})
-                    .skip(skip)
-                    .limit(limit)
-                    .select('-reviews');
-                let totalCount = await bookModel.countDocuments();
-                if (!page && !limit) {
-                    page = 1;
-                    limit = 30;
-                    totalCount = totalCount;
-                } else {
-                    totalCount = await bookModel.countDocuments();
-                }
-                let totalPages = Math.ceil(totalCount / limit);
-                const result = {
-                    currentPage: page,
-                    totalPages: totalPages,
-                    totalData: totalCount,
-                    products: data,
-                };
-                return sendResponse(
-                    res,
-                    HTTP_STATUS.OK,
-                    'Successfully get the books',
-                    result
-                );
-            }
             if (search && search?.length) {
                 baseQuery = baseQuery.or([
                     { title: { $regex: search, $options: 'i' } },
-                    // { description: { $regex: search, $options: 'i' } },
                 ]);
             }
             if (sortBy && sortBy?.length) {
@@ -114,13 +83,14 @@ class BookController {
                 baseQuery = baseQuery.or([{ author: { $in: authorArray } }]);
             }
 
+            let countQuery = baseQuery.clone();
+            const totalCount = await countQuery.countDocuments();
+            const totalPages = Math.ceil(totalCount / limit);
+
             const skip = (page - 1) * limit;
             const data = await baseQuery.skip(skip).limit(limit);
 
             if (data.length > 0) {
-                const totalCount = await bookModel.countDocuments();
-                const totalPages = Math.ceil(totalCount / limit);
-
                 const result = {
                     currentPage: page,
                     totalPages: totalPages,
@@ -138,6 +108,7 @@ class BookController {
             }
         } catch (error) {
             databaseLogger(error.message);
+            console.log(error.message);
             return sendResponse(
                 res,
                 HTTP_STATUS.INTERNAL_SERVER_ERROR,

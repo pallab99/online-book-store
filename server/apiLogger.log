@@ -28589,3 +28589,2413 @@ FieldPath cannot be constructed with empty string  ( Time -> October 11, 2023 12
 
 /api/books/all?offset=1&limit=5&author=J.D.%20Salinger  ( Time -> October 12, 2023 10:28 AM)
 
+/api/books/all?offset=1&limit=5&author=J.D.%20Salinger  ( Time -> October 12, 2023 10:33 AM)
+
+Query was already executed: Book.countDocuments({ '$or': [ { author: [Object] } ] })  ( Time -> October 12, 2023 10:33 AM)
+
+/api/books/all?offset=1&limit=5&author=J.D.%20Salinger  ( Time -> October 12, 2023 10:33 AM)
+
+Query was already executed: Book.countDocuments({ '$or': [ { author: [Object] } ] })  ( Time -> October 12, 2023 10:33 AM)
+
+/api/books/all?offset=1&limit=5&author=J.D.%20Salinger  ( Time -> October 12, 2023 10:34 AM)
+
+Query was already executed: Book.countDocuments({ '$or': [ { author: [Object] } ] })  ( Time -> October 12, 2023 10:34 AM)
+
+/api/books/all?offset=1&limit=5&author=J.D.%20Salinger  ( Time -> October 12, 2023 10:36 AM)
+
+/api/books/all?offset=1&limit=5  ( Time -> October 12, 2023 10:36 AM)
+
+/api/books/all?offset=1&limit=5&category=Fantasy,Classics  ( Time -> October 12, 2023 10:36 AM)
+
+/api/books/all?offset=1&limit=9  ( Time -> October 12, 2023 10:36 AM)
+
+/api/books/all?offset=1&limit=9&author=Bibhutibhushan%20Bandyopadhyay  ( Time -> October 12, 2023 10:36 AM)
+
+/api/books/all?offset=1&limit=9&author=Bibhutibhushan%20Bandyopadhyay,Rabindranath%20Tagore  ( Time -> October 12, 2023 10:36 AM)
+
+/api/books/all?offset=1&limit=9&author=Rabindranath%20Tagore  ( Time -> October 12, 2023 10:37 AM)
+
+/api/books/all?offset=1&limit=9  ( Time -> October 12, 2023 10:37 AM)
+
+/api/books/all?offset=1&limit=9  ( Time -> October 12, 2023 10:42 AM)
+
+/api/books/all?offset=1&limit=9  ( Time -> October 12, 2023 10:42 AM)
+
+/api/books/all?offset=2&limit=9  ( Time -> October 12, 2023 10:42 AM)
+
+/api/books/all?offset=1&limit=9  ( Time -> October 12, 2023 10:43 AM)
+
+/api/books/all?offset=2&limit=9  ( Time -> October 12, 2023 10:43 AM)
+
+/api/books/all?offset=1&limit=9  ( Time -> October 12, 2023 10:43 AM)
+
+/api/books/all?offset=2&limit=9  ( Time -> October 12, 2023 10:43 AM)
+
+/api/books/all?offset=1&limit=9  ( Time -> October 12, 2023 10:43 AM)
+
+/api/books/all?offset=2&limit=9  ( Time -> October 12, 2023 10:44 AM)
+
+/api/books/all?offset=1&limit=9  ( Time -> October 12, 2023 10:44 AM)
+
+/api/books/all?offset=1&limit=9&author=Rabindranath%20Tagore  ( Time -> October 12, 2023 10:45 AM)
+
+/api/books/all?offset=1&limit=9  ( Time -> October 12, 2023 10:45 AM)
+
+/api/books/all?offset=2&limit=9  ( Time -> October 12, 2023 10:53 AM)
+
+/api/books/all?offset=1&limit=9  ( Time -> October 12, 2023 10:54 AM)
+
+/api/books/all?offset=2&limit=9  ( Time -> October 12, 2023 10:54 AM)
+
+/api/books/all?offset=1&limit=9  ( Time -> October 12, 2023 10:56 AM)
+
+/api/books/all?offset=2&limit=9  ( Time -> October 12, 2023 10:56 AM)
+
+/api/books/all?offset=1&limit=9  ( Time -> October 12, 2023 10:56 AM)
+
+/api/books/all?offset=2&limit=9  ( Time -> October 12, 2023 10:56 AM)
+
+/api/books/all?offset=1&limit=9  ( Time -> October 12, 2023 10:56 AM)
+
+/api/review/details/65018c91b5b9996c54eb0fdd  ( Time -> October 12, 2023 10:58 AM)
+
+/api/books/details/65018c91b5b9996c54eb0fdd  ( Time -> October 12, 2023 10:58 AM)
+
+/api/review/details/user/65018c91b5b9996c54eb0fdd  ( Time -> October 12, 2023 10:58 AM)
+
+/api/cart/create  ( Time -> October 12, 2023 10:58 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 10:59 AM)
+
+/api/cart/create  ( Time -> October 12, 2023 10:59 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 10:59 AM)
+
+/api/cart/create  ( Time -> October 12, 2023 11:00 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:00 AM)
+
+/api/cart/create  ( Time -> October 12, 2023 11:01 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:01 AM)
+
+/api/cart/create  ( Time -> October 12, 2023 11:01 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:01 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:01 AM)
+
+/api/cart/update  ( Time -> October 12, 2023 11:01 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:01 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:01 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:02 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:02 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:03 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:03 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:03 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:03 AM)
+
+/api/cart/create  ( Time -> October 12, 2023 11:03 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:03 AM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 12, 2023 11:03 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:04 AM)
+
+/api/cart/update  ( Time -> October 12, 2023 11:04 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:04 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:04 AM)
+
+/api/cart/update  ( Time -> October 12, 2023 11:04 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:04 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:04 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:05 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:05 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:05 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:05 AM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 12, 2023 11:05 AM)
+
+/api/review/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 11:05 AM)
+
+/api/books/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 11:05 AM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 11:05 AM)
+
+/api/cart/create  ( Time -> October 12, 2023 11:05 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:05 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:05 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:06 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:06 AM)
+
+/api/cart/update  ( Time -> October 12, 2023 11:06 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:06 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:07 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:08 AM)
+
+/api/books/all?offset=1&limit=9  ( Time -> October 12, 2023 11:08 AM)
+
+/api/review/details/65018c91b5b9996c54eb0fdd  ( Time -> October 12, 2023 11:08 AM)
+
+/api/books/details/65018c91b5b9996c54eb0fdd  ( Time -> October 12, 2023 11:08 AM)
+
+/api/review/details/user/65018c91b5b9996c54eb0fdd  ( Time -> October 12, 2023 11:08 AM)
+
+/api/cart/create  ( Time -> October 12, 2023 11:08 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:08 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:08 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:10 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:10 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:10 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:10 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:11 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:11 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:11 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:11 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:11 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:11 AM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 12, 2023 11:11 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:11 AM)
+
+/api/cart/create  ( Time -> October 12, 2023 11:11 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:12 AM)
+
+/api/cart/update  ( Time -> October 12, 2023 11:12 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:12 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:12 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:12 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:12 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:13 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:13 AM)
+
+/api/cart/create  ( Time -> October 12, 2023 11:13 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:13 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:15 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:15 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:16 AM)
+
+/api/transaction/details  ( Time -> October 12, 2023 11:16 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:16 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:16 AM)
+
+/api/cart/create  ( Time -> October 12, 2023 11:17 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:17 AM)
+
+/api/cart/update  ( Time -> October 12, 2023 11:17 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:17 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:17 AM)
+
+/api/cart/update  ( Time -> October 12, 2023 11:17 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:17 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:17 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:18 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:18 AM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 12, 2023 11:19 AM)
+
+/api/books/all?offset=1&limit=9  ( Time -> October 12, 2023 11:19 AM)
+
+/api/books/all?offset=2&limit=9  ( Time -> October 12, 2023 11:19 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:19 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:19 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:19 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:20 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:20 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:22 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:22 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:25 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:25 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:25 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:25 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:26 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:27 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:27 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:27 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:28 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:28 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:28 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:28 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:28 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:28 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:28 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:29 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:30 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:30 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:30 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:31 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:31 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:31 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:31 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:31 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:32 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:32 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:33 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:33 AM)
+
+/api/auth/refreshToken  ( Time -> October 12, 2023 11:33 AM)
+
+/api/auth/refreshToken  ( Time -> October 12, 2023 11:33 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:33 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:33 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:33 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:34 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:35 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:35 AM)
+
+/api/review/update/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:35 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:35 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:35 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:35 AM)
+
+/api/review/update/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:35 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:35 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:35 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:35 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:36 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:36 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:36 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:36 AM)
+
+/api/review/delete/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:36 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:36 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:36 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:36 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:36 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:36 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:36 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:37 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:37 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:37 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:37 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:37 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:37 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:37 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:37 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:37 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:37 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:38 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:38 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:38 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:38 AM)
+
+/api/review/create/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:38 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:38 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:38 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:38 AM)
+
+/api/review/delete/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:38 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:38 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:38 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:38 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:38 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:38 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:38 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:41 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:41 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:41 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:41 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:41 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:41 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:41 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:41 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:41 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:41 AM)
+
+/api/review/create/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:41 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:41 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:41 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:41 AM)
+
+/api/review/delete/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:41 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:41 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:41 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:41 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:43 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:43 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:43 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:43 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:43 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:43 AM)
+
+/api/review/create/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:43 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:43 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:43 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:43 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:43 AM)
+
+/api/review/delete/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:43 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:43 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:43 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:43 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:43 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:43 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:43 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:44 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:44 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:45 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:45 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:45 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:45 AM)
+
+/api/review/create/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:46 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:46 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:46 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:46 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:46 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:46 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:46 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:46 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:46 AM)
+
+/api/review/delete/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:46 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:46 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:46 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:47 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:47 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:47 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:47 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:47 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:47 AM)
+
+/api/review/create/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:47 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:47 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:47 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:47 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:47 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:47 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:47 AM)
+
+/api/review/delete/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:47 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:47 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:47 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:48 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:48 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:48 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:48 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:49 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:49 AM)
+
+/api/review/create/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:49 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:49 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:49 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:49 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:49 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:49 AM)
+
+/api/review/update/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:49 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:49 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:49 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:49 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:49 AM)
+
+/api/review/update/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:49 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:49 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:49 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:49 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:49 AM)
+
+/api/review/delete/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:50 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:50 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:50 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:50 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:50 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:50 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:51 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:51 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:51 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:51 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:51 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:51 AM)
+
+/api/review/create/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:51 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:51 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:51 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:51 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:51 AM)
+
+/api/review/delete/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:51 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:51 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:51 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:52 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:52 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:52 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:52 AM)
+
+/api/review/create/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:52 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:52 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:52 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:52 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:52 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:53 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:53 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:53 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:53 AM)
+
+/api/review/delete/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:53 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:53 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:53 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:54 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:54 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:54 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:54 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:54 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:54 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:55 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:55 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:55 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:55 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:55 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:55 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:55 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:55 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:55 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:55 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:56 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:56 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:56 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:56 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:56 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:56 AM)
+
+/api/review/create/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:56 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:56 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:56 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:56 AM)
+
+/api/review/delete/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:57 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:57 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:57 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:58 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:58 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:58 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:58 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:58 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:58 AM)
+
+/api/review/create/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:58 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:58 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:58 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:58 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:58 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:58 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:58 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:58 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:59 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:59 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:59 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:59 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:59 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:59 AM)
+
+/api/review/delete/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:59 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:59 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:59 AM)
+
+/api/review/create/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:59 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:59 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:59 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:59 AM)
+
+/api/review/create/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:59 AM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 11:59 AM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:59 AM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:59 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:59 AM)
+
+/api/review/create/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 11:59 AM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:00 PM)
+
+/api/review/update/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:00 PM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:00 PM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:00 PM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:00 PM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 12:00 PM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:00 PM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:00 PM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:00 PM)
+
+/api/review/delete/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:00 PM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:00 PM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:00 PM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 12:00 PM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:00 PM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:00 PM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:00 PM)
+
+/api/review/create/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:01 PM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:01 PM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:01 PM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:01 PM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 12:01 PM)
+
+/api/transaction/details  ( Time -> October 12, 2023 12:01 PM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:01 PM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:01 PM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:01 PM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 12:01 PM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 12:02 PM)
+
+/api/transaction/details  ( Time -> October 12, 2023 12:02 PM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:02 PM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:02 PM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:02 PM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 12:02 PM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 12:02 PM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:02 PM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:02 PM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:02 PM)
+
+/api/review/delete/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:03 PM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:03 PM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:03 PM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 12:03 PM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:03 PM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:03 PM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:03 PM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:05 PM)
+
+/api/review/create/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:05 PM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:05 PM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:05 PM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:05 PM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:05 PM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:05 PM)
+
+/api/review/update/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:06 PM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:06 PM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:06 PM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:06 PM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 12:06 PM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:06 PM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:06 PM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:06 PM)
+
+/api/review/delete/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:06 PM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:06 PM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:06 PM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:06 PM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:07 PM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:07 PM)
+
+/api/review/create/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:10 PM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:10 PM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:10 PM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:10 PM)
+
+/api/review/delete/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:10 PM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:10 PM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:10 PM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:10 PM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:10 PM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 12:10 PM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 12, 2023 12:14 PM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 12:14 PM)
+
+/api/cart/update  ( Time -> October 12, 2023 12:14 PM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 12:14 PM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 12:14 PM)
+
+/api/books/all?offset=1&limit=9  ( Time -> October 12, 2023 12:14 PM)
+
+/api/auth/login  ( Time -> October 12, 2023 12:15 PM)
+
+/api/books/all  ( Time -> October 12, 2023 12:15 PM)
+
+/api/review/details/65018c91b5b9996c54eb0fdd  ( Time -> October 12, 2023 12:19 PM)
+
+/api/books/details/65018c91b5b9996c54eb0fdd  ( Time -> October 12, 2023 12:19 PM)
+
+/api/books/all  ( Time -> October 12, 2023 12:20 PM)
+
+/api/books/all  ( Time -> October 12, 2023 12:23 PM)
+
+/api/review/details/65018c91b5b9996c54eb0fdd  ( Time -> October 12, 2023 12:23 PM)
+
+/api/books/details/65018c91b5b9996c54eb0fdd  ( Time -> October 12, 2023 12:23 PM)
+
+/api/books/all  ( Time -> October 12, 2023 12:23 PM)
+
+/api/books/details/65018c91b5b9996c54eb0fdd  ( Time -> October 12, 2023 12:25 PM)
+
+/api/books/all  ( Time -> October 12, 2023 12:26 PM)
+
+/api/user/all  ( Time -> October 12, 2023 1:10 PM)
+
+/api/user/all  ( Time -> October 12, 2023 1:13 PM)
+
+/api/transaction/all  ( Time -> October 12, 2023 1:13 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 1:13 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 1:14 PM)
+
+/api/auth/refreshToken  ( Time -> October 12, 2023 1:15 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 1:15 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 1:16 PM)
+
+/api/books/all  ( Time -> October 12, 2023 1:16 PM)
+
+/api/discount-price/details/6524018ca0f1979cdfa2d959  ( Time -> October 12, 2023 1:16 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 1:16 PM)
+
+/api/user/all  ( Time -> October 12, 2023 1:19 PM)
+
+/api/transaction/all  ( Time -> October 12, 2023 1:19 PM)
+
+/api/transaction/all  ( Time -> October 12, 2023 1:20 PM)
+
+/api/auth/login  ( Time -> October 12, 2023 1:21 PM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 1:21 PM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 12, 2023 1:21 PM)
+
+/api/review/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:21 PM)
+
+/api/books/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:21 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:21 PM)
+
+/api/review/create/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:21 PM)
+
+/api/books/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:21 PM)
+
+/api/review/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:21 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:21 PM)
+
+/api/review/create/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:24 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:24 PM)
+
+/api/review/update/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:24 PM)
+
+/api/books/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:24 PM)
+
+/api/review/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:24 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:24 PM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 1:24 PM)
+
+/api/review/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:24 PM)
+
+/api/books/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:24 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:24 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:25 PM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 1:26 PM)
+
+/api/review/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:26 PM)
+
+/api/books/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:26 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:26 PM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 1:26 PM)
+
+/api/review/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:26 PM)
+
+/api/books/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:26 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:26 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:26 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:29 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:30 PM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 1:30 PM)
+
+/api/review/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:30 PM)
+
+/api/books/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:30 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:30 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:30 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:30 PM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 1:30 PM)
+
+/api/review/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:30 PM)
+
+/api/books/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:30 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:30 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:30 PM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 1:31 PM)
+
+/api/review/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:31 PM)
+
+/api/books/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:31 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:31 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:31 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:31 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:32 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:32 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:32 PM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 1:32 PM)
+
+/api/review/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:32 PM)
+
+/api/books/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:32 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:32 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:32 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:35 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:35 PM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 1:35 PM)
+
+/api/review/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:35 PM)
+
+/api/books/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:35 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:35 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:35 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:37 PM)
+
+/api/review/update/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:37 PM)
+
+/api/books/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:37 PM)
+
+/api/review/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:37 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:37 PM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 1:37 PM)
+
+/api/books/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:37 PM)
+
+/api/review/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:37 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:37 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:37 PM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 1:37 PM)
+
+/api/review/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:37 PM)
+
+/api/books/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:37 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:37 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:37 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:38 PM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 1:39 PM)
+
+/api/review/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:39 PM)
+
+/api/books/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:39 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:39 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:39 PM)
+
+/api/review/update/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:39 PM)
+
+/api/books/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:39 PM)
+
+/api/review/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:39 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:39 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:39 PM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 1:39 PM)
+
+/api/review/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:39 PM)
+
+/api/books/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:39 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:39 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:39 PM)
+
+/api/review/update/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:39 PM)
+
+/api/books/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:39 PM)
+
+/api/review/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:39 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:39 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:40 PM)
+
+/api/review/update/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:40 PM)
+
+/api/books/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:40 PM)
+
+/api/review/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:40 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:40 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:40 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:40 PM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 1:40 PM)
+
+/api/review/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:40 PM)
+
+/api/books/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:40 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:40 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:40 PM)
+
+/api/review/update/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:40 PM)
+
+/api/books/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:40 PM)
+
+/api/review/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:40 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:40 PM)
+
+/api/review/delete/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:41 PM)
+
+/api/books/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:41 PM)
+
+/api/review/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:41 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:41 PM)
+
+/api/review/update/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:41 PM)
+
+/api/auth/login  ( Time -> October 12, 2023 1:41 PM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 1:41 PM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 12, 2023 1:41 PM)
+
+/api/review/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:41 PM)
+
+/api/books/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:41 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:41 PM)
+
+/api/review/create/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:42 PM)
+
+/api/books/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:42 PM)
+
+/api/review/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:42 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:42 PM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 1:42 PM)
+
+/api/review/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:42 PM)
+
+/api/books/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:42 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:42 PM)
+
+/api/review/delete/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:42 PM)
+
+/api/books/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:42 PM)
+
+/api/review/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:42 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:42 PM)
+
+/api/review/create/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:42 PM)
+
+/api/books/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:42 PM)
+
+/api/review/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:42 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:42 PM)
+
+/api/review/delete/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:44 PM)
+
+/api/books/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:44 PM)
+
+/api/review/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:44 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:44 PM)
+
+/api/review/create/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:44 PM)
+
+/api/books/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:44 PM)
+
+/api/review/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:44 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:44 PM)
+
+/api/review/delete/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:45 PM)
+
+/api/books/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:45 PM)
+
+/api/review/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:45 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:45 PM)
+
+/api/review/create/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:45 PM)
+
+/api/books/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:45 PM)
+
+/api/review/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:45 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:45 PM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 1:45 PM)
+
+/api/review/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:45 PM)
+
+/api/books/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:45 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:45 PM)
+
+/api/books/details/65099a500d78c1e1d55b26a7  ( Time -> October 12, 2023 1:46 PM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 1:46 PM)
+
+/api/auth/login  ( Time -> October 12, 2023 1:46 PM)
+
+/api/books/all  ( Time -> October 12, 2023 1:46 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 1:47 PM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 1:47 PM)
+
+/api/auth/login  ( Time -> October 12, 2023 1:48 PM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 1:48 PM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 12, 2023 1:48 PM)
+
+/api/review/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:48 PM)
+
+/api/books/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:48 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:48 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:48 PM)
+
+/api/books/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:51 PM)
+
+/api/books/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:51 PM)
+
+/api/books/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:51 PM)
+
+/api/books/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:51 PM)
+
+/api/books/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:52 PM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 1:52 PM)
+
+/api/review/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:52 PM)
+
+/api/books/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:52 PM)
+
+/api/review/details/user/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:52 PM)
+
+/api/books/details/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 1:52 PM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 12, 2023 1:52 PM)
+
+/api/books/all?offset=1&limit=9  ( Time -> October 12, 2023 1:52 PM)
+
+/api/books/all?offset=2&limit=9  ( Time -> October 12, 2023 1:52 PM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 1:52 PM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 1:52 PM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 1:52 PM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 1:53 PM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 1:53 PM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 1:54 PM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 1:55 PM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 1:55 PM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 1:55 PM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 1:56 PM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 1:56 PM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 1:56 PM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 1:56 PM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 1:56 PM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 1:56 PM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 1:56 PM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 1:56 PM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 1:57 PM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 1:57 PM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 1:57 PM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 1:57 PM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 1:58 PM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 1:58 PM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 1:58 PM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 1:58 PM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 1:58 PM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 1:58 PM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 1:58 PM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 1:59 PM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 1:59 PM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 1:59 PM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 1:59 PM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 2:00 PM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 2:00 PM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 2:00 PM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 2:01 PM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 2:01 PM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 2:01 PM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 2:02 PM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 2:02 PM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 2:02 PM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 2:02 PM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 2:02 PM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 2:02 PM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 2:02 PM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 2:03 PM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 2:03 PM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 2:03 PM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 2:03 PM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 12, 2023 2:03 PM)
+
+/api/review/details/65018c91b5b9996c54eb0fe1  ( Time -> October 12, 2023 2:03 PM)
+
+/api/books/details/65018c91b5b9996c54eb0fe1  ( Time -> October 12, 2023 2:03 PM)
+
+/api/review/details/user/65018c91b5b9996c54eb0fe1  ( Time -> October 12, 2023 2:03 PM)
+
+/api/books/details/65018c91b5b9996c54eb0fe1  ( Time -> October 12, 2023 2:04 PM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 2:04 PM)
+
+/api/review/details/65018c91b5b9996c54eb0fe1  ( Time -> October 12, 2023 2:04 PM)
+
+/api/books/details/65018c91b5b9996c54eb0fe1  ( Time -> October 12, 2023 2:04 PM)
+
+/api/review/details/user/65018c91b5b9996c54eb0fe1  ( Time -> October 12, 2023 2:04 PM)
+
+/api/books/details/65018c91b5b9996c54eb0fe1  ( Time -> October 12, 2023 2:04 PM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 12, 2023 2:04 PM)
+
+/api/books/all?offset=1&limit=9  ( Time -> October 12, 2023 2:04 PM)
+
+/api/books/all?offset=2&limit=9  ( Time -> October 12, 2023 2:04 PM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 2:04 PM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 2:04 PM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 2:04 PM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 2:09 PM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 2:09 PM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 2:09 PM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 2:09 PM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 2:09 PM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 2:09 PM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 2:09 PM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 2:09 PM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 2:10 PM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 2:10 PM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 2:10 PM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 2:10 PM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 2:10 PM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 2:10 PM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 2:10 PM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 2:10 PM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 2:11 PM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 2:11 PM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 2:11 PM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 2:11 PM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 2:11 PM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 2:11 PM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 2:11 PM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 2:11 PM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 2:11 PM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 2:11 PM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 12, 2023 2:11 PM)
+
+/api/books/all?offset=1&limit=9  ( Time -> October 12, 2023 2:11 PM)
+
+/api/books/all?offset=2&limit=9  ( Time -> October 12, 2023 2:11 PM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 2:11 PM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 2:11 PM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 2:11 PM)
+
+/api/books/all?offset=1&limit=9  ( Time -> October 12, 2023 2:11 PM)
+
+/api/review/details/65099a500d78c1e1d55b26a7  ( Time -> October 12, 2023 2:11 PM)
+
+/api/books/details/65099a500d78c1e1d55b26a7  ( Time -> October 12, 2023 2:11 PM)
+
+/api/review/details/user/65099a500d78c1e1d55b26a7  ( Time -> October 12, 2023 2:11 PM)
+
+/api/books/all?offset=1&limit=9  ( Time -> October 12, 2023 2:11 PM)
+
+/api/books/details/65018c91b5b9996c54eb0fe0  ( Time -> October 12, 2023 2:11 PM)
+
+/api/review/details/65018c91b5b9996c54eb0fe0  ( Time -> October 12, 2023 2:11 PM)
+
+/api/review/details/user/65018c91b5b9996c54eb0fe0  ( Time -> October 12, 2023 2:11 PM)
+
+/api/books/all?offset=1&limit=9  ( Time -> October 12, 2023 2:12 PM)
+
+/api/books/all?offset=2&limit=9  ( Time -> October 12, 2023 2:12 PM)
+
+/api/review/details/651a75e023e128df9b7a9908  ( Time -> October 12, 2023 2:12 PM)
+
+/api/books/details/651a75e023e128df9b7a9908  ( Time -> October 12, 2023 2:12 PM)
+
+/api/review/details/user/651a75e023e128df9b7a9908  ( Time -> October 12, 2023 2:12 PM)
+
+/api/books/all?offset=1&limit=9  ( Time -> October 12, 2023 2:12 PM)
+
+/api/books/all?offset=2&limit=9  ( Time -> October 12, 2023 2:12 PM)
+
+/api/review/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 2:12 PM)
+
+/api/books/details/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 2:12 PM)
+
+/api/review/details/user/6526387727e10bcf2d9f1cb7  ( Time -> October 12, 2023 2:12 PM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 12, 2023 2:12 PM)
+
+/api/books/all?offset=1&limit=9  ( Time -> October 12, 2023 2:15 PM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 12, 2023 2:16 PM)
+
+/api/books/all?offset=1&limit=9  ( Time -> October 12, 2023 2:16 PM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 12, 2023 2:21 PM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 2:35 PM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 2:37 PM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 2:38 PM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 2:39 PM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 2:41 PM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 2:41 PM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 2:42 PM)
+
+/api/cart/cartByUser  ( Time -> October 12, 2023 2:42 PM)
+
+/api/auth/login  ( Time -> October 12, 2023 2:42 PM)
+
+/api/books/all  ( Time -> October 12, 2023 2:42 PM)
+
+/api/books/details/65018c91b5b9996c54eb0fdd  ( Time -> October 12, 2023 2:42 PM)
+
+/api/user/all  ( Time -> October 12, 2023 2:43 PM)
+
+/api/books/create  ( Time -> October 12, 2023 2:45 PM)
+
+/api/books/all  ( Time -> October 12, 2023 2:46 PM)
+
+/api/books/all?offset=1&limit=9  ( Time -> October 12, 2023 2:46 PM)
+
+/api/books/all?offset=2&limit=9  ( Time -> October 12, 2023 2:46 PM)
+
+/api/books/all  ( Time -> October 12, 2023 2:46 PM)
+
+/api/books/delete/6502fa36b45b576cb8547ad2  ( Time -> October 12, 2023 2:46 PM)
+
+/api/books/all  ( Time -> October 12, 2023 2:46 PM)
+
+/api/books/delete/65040b278c37fa725adcc3ef  ( Time -> October 12, 2023 2:46 PM)
+
+/api/books/all  ( Time -> October 12, 2023 2:46 PM)
+
+/api/books/all?offset=1&limit=9  ( Time -> October 12, 2023 2:46 PM)
+
+/api/books/details/651a75e023e128df9b7a9908  ( Time -> October 12, 2023 2:47 PM)
+
+/api/books/update/651a75e023e128df9b7a9908  ( Time -> October 12, 2023 2:47 PM)
+
+/api/books/all  ( Time -> October 12, 2023 2:47 PM)
+
+/api/books/details/651a9d3c23e128df9b7a9a34  ( Time -> October 12, 2023 2:48 PM)
+
+/api/books/update/651a9d3c23e128df9b7a9a34  ( Time -> October 12, 2023 2:49 PM)
+
+/api/books/all  ( Time -> October 12, 2023 2:49 PM)
+
+/api/user/all  ( Time -> October 12, 2023 2:53 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 2:54 PM)
+
+/api/transaction/all  ( Time -> October 12, 2023 2:54 PM)
+
+/api/books/all  ( Time -> October 12, 2023 2:54 PM)
+
+/api/review/details/65099a500d78c1e1d55b26a7  ( Time -> October 12, 2023 2:54 PM)
+
+/api/books/details/65099a500d78c1e1d55b26a7  ( Time -> October 12, 2023 2:54 PM)
+
+/api/books/all  ( Time -> October 12, 2023 2:54 PM)
+
+/api/books/details/65018c91b5b9996c54eb0fe1  ( Time -> October 12, 2023 2:54 PM)
+
+/api/user/all  ( Time -> October 12, 2023 2:55 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 3:01 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:02 PM)
+
+/api/discount-price/details/6524018ca0f1979cdfa2d959  ( Time -> October 12, 2023 3:02 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:10 PM)
+
+/api/discount-price/details/6524018ca0f1979cdfa2d959  ( Time -> October 12, 2023 3:10 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 3:10 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:10 PM)
+
+/api/discount-price/details/65263ab127e10bcf2d9f1cf8  ( Time -> October 12, 2023 3:10 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:14 PM)
+
+/api/discount-price/details/65263ab127e10bcf2d9f1cf8  ( Time -> October 12, 2023 3:14 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:14 PM)
+
+/api/discount-price/details/65263ab127e10bcf2d9f1cf8  ( Time -> October 12, 2023 3:14 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 3:14 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:14 PM)
+
+/api/discount-price/details/65263ab127e10bcf2d9f1cf8  ( Time -> October 12, 2023 3:14 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 3:14 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:14 PM)
+
+/api/discount-price/details/6524018ca0f1979cdfa2d959  ( Time -> October 12, 2023 3:14 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:15 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 3:15 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:15 PM)
+
+/api/discount-price/details/6524018ca0f1979cdfa2d959  ( Time -> October 12, 2023 3:15 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 3:15 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:15 PM)
+
+/api/discount-price/details/6524018ca0f1979cdfa2d959  ( Time -> October 12, 2023 3:15 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 3:15 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:15 PM)
+
+/api/discount-price/details/6524018ca0f1979cdfa2d959  ( Time -> October 12, 2023 3:15 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 3:15 PM)
+
+/api/auth/login  ( Time -> October 12, 2023 3:16 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:16 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 3:16 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:16 PM)
+
+/api/discount-price/details/6524018ca0f1979cdfa2d959  ( Time -> October 12, 2023 3:16 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:20 PM)
+
+/api/discount-price/details/6524018ca0f1979cdfa2d959  ( Time -> October 12, 2023 3:20 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 3:20 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:20 PM)
+
+/api/discount-price/details/6524018ca0f1979cdfa2d959  ( Time -> October 12, 2023 3:20 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:21 PM)
+
+/api/discount-price/details/6524018ca0f1979cdfa2d959  ( Time -> October 12, 2023 3:21 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:21 PM)
+
+/api/discount-price/details/6524018ca0f1979cdfa2d959  ( Time -> October 12, 2023 3:21 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:23 PM)
+
+/api/discount-price/details/6524018ca0f1979cdfa2d959  ( Time -> October 12, 2023 3:23 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:24 PM)
+
+/api/discount-price/details/6524018ca0f1979cdfa2d959  ( Time -> October 12, 2023 3:24 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 3:24 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:24 PM)
+
+/api/discount-price/details/65263ab127e10bcf2d9f1cf8  ( Time -> October 12, 2023 3:24 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 3:26 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:26 PM)
+
+/api/discount-price/details/6524018ca0f1979cdfa2d959  ( Time -> October 12, 2023 3:26 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:27 PM)
+
+/api/discount-price/details/6524018ca0f1979cdfa2d959  ( Time -> October 12, 2023 3:27 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 3:27 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:27 PM)
+
+/api/discount-price/details/6524018ca0f1979cdfa2d959  ( Time -> October 12, 2023 3:27 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 3:28 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:28 PM)
+
+/api/discount-price/details/65263ab127e10bcf2d9f1cf8  ( Time -> October 12, 2023 3:28 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:28 PM)
+
+/api/discount-price/details/65263ab127e10bcf2d9f1cf8  ( Time -> October 12, 2023 3:28 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:28 PM)
+
+/api/discount-price/details/65263ab127e10bcf2d9f1cf8  ( Time -> October 12, 2023 3:28 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 3:28 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:28 PM)
+
+/api/discount-price/details/65263ab127e10bcf2d9f1cf8  ( Time -> October 12, 2023 3:28 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:30 PM)
+
+/api/discount-price/details/65263ab127e10bcf2d9f1cf8  ( Time -> October 12, 2023 3:30 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 3:30 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:30 PM)
+
+/api/discount-price/details/6524018ca0f1979cdfa2d959  ( Time -> October 12, 2023 3:30 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:30 PM)
+
+/api/discount-price/details/6524018ca0f1979cdfa2d959  ( Time -> October 12, 2023 3:30 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:30 PM)
+
+/api/discount-price/details/6524018ca0f1979cdfa2d959  ( Time -> October 12, 2023 3:30 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:31 PM)
+
+/api/discount-price/details/6524018ca0f1979cdfa2d959  ( Time -> October 12, 2023 3:31 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:31 PM)
+
+/api/discount-price/details/6524018ca0f1979cdfa2d959  ( Time -> October 12, 2023 3:31 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:31 PM)
+
+/api/discount-price/details/6524018ca0f1979cdfa2d959  ( Time -> October 12, 2023 3:31 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 3:31 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:31 PM)
+
+/api/discount-price/details/6524018ca0f1979cdfa2d959  ( Time -> October 12, 2023 3:31 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:32 PM)
+
+/api/discount-price/details/6524018ca0f1979cdfa2d959  ( Time -> October 12, 2023 3:32 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:32 PM)
+
+/api/discount-price/details/6524018ca0f1979cdfa2d959  ( Time -> October 12, 2023 3:32 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 3:32 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:33 PM)
+
+/api/discount-price/details/6524018ca0f1979cdfa2d959  ( Time -> October 12, 2023 3:33 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:33 PM)
+
+/api/discount-price/details/6524018ca0f1979cdfa2d959  ( Time -> October 12, 2023 3:33 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:33 PM)
+
+/api/discount-price/details/6524018ca0f1979cdfa2d959  ( Time -> October 12, 2023 3:33 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 3:33 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:33 PM)
+
+/api/discount-price/details/65263ab127e10bcf2d9f1cf8  ( Time -> October 12, 2023 3:33 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:33 PM)
+
+/api/discount-price/details/65263ab127e10bcf2d9f1cf8  ( Time -> October 12, 2023 3:33 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:35 PM)
+
+/api/discount-price/details/65263ab127e10bcf2d9f1cf8  ( Time -> October 12, 2023 3:35 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:36 PM)
+
+/api/discount-price/details/65263ab127e10bcf2d9f1cf8  ( Time -> October 12, 2023 3:36 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:36 PM)
+
+/api/discount-price/details/65263ab127e10bcf2d9f1cf8  ( Time -> October 12, 2023 3:36 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:36 PM)
+
+/api/discount-price/details/65263ab127e10bcf2d9f1cf8  ( Time -> October 12, 2023 3:36 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:36 PM)
+
+/api/discount-price/details/65263ab127e10bcf2d9f1cf8  ( Time -> October 12, 2023 3:36 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 3:36 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:36 PM)
+
+/api/discount-price/details/65263ab127e10bcf2d9f1cf8  ( Time -> October 12, 2023 3:36 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:37 PM)
+
+/api/discount-price/details/65263ab127e10bcf2d9f1cf8  ( Time -> October 12, 2023 3:37 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:39 PM)
+
+/api/discount-price/details/65263ab127e10bcf2d9f1cf8  ( Time -> October 12, 2023 3:39 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:39 PM)
+
+/api/discount-price/details/65263ab127e10bcf2d9f1cf8  ( Time -> October 12, 2023 3:39 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 3:39 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:39 PM)
+
+/api/discount-price/details/65263ab127e10bcf2d9f1cf8  ( Time -> October 12, 2023 3:39 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:39 PM)
+
+/api/discount-price/details/65263ab127e10bcf2d9f1cf8  ( Time -> October 12, 2023 3:39 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 3:39 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:39 PM)
+
+/api/discount-price/details/6524018ca0f1979cdfa2d959  ( Time -> October 12, 2023 3:39 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 3:39 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:39 PM)
+
+/api/discount-price/details/6526297c27e10bcf2d9f1bf6  ( Time -> October 12, 2023 3:39 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:44 PM)
+
+/api/discount-price/details/6526297c27e10bcf2d9f1bf6  ( Time -> October 12, 2023 3:44 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:44 PM)
+
+/api/discount-price/details/6526297c27e10bcf2d9f1bf6  ( Time -> October 12, 2023 3:44 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 3:44 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 3:44 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:44 PM)
+
+/api/discount-price/details/6524018ca0f1979cdfa2d959  ( Time -> October 12, 2023 3:44 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:44 PM)
+
+/api/discount-price/details/6524018ca0f1979cdfa2d959  ( Time -> October 12, 2023 3:44 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 3:45 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:45 PM)
+
+/api/discount-price/details/65263ab127e10bcf2d9f1cf8  ( Time -> October 12, 2023 3:45 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:46 PM)
+
+/api/discount-price/details/65263ab127e10bcf2d9f1cf8  ( Time -> October 12, 2023 3:46 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 3:46 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:46 PM)
+
+/api/discount-price/details/65263ab127e10bcf2d9f1cf8  ( Time -> October 12, 2023 3:46 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:46 PM)
+
+/api/discount-price/details/65263ab127e10bcf2d9f1cf8  ( Time -> October 12, 2023 3:46 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:48 PM)
+
+/api/discount-price/details/65263ab127e10bcf2d9f1cf8  ( Time -> October 12, 2023 3:48 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:48 PM)
+
+/api/discount-price/details/65263ab127e10bcf2d9f1cf8  ( Time -> October 12, 2023 3:48 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 3:48 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:48 PM)
+
+/api/discount-price/details/65263ab127e10bcf2d9f1cf8  ( Time -> October 12, 2023 3:48 PM)
+
+/api/auth/login  ( Time -> October 12, 2023 3:49 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:49 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 3:49 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:49 PM)
+
+/api/discount-price/details/65263ab127e10bcf2d9f1cf8  ( Time -> October 12, 2023 3:49 PM)
+
+/api/auth/login  ( Time -> October 12, 2023 3:53 PM)
+
+/api/discount-price/details/6524018ca0f1979cdfa2d959  ( Time -> October 12, 2023 3:53 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:54 PM)
+
+/api/discount-price/details/65263ab127e10bcf2d9f1cf8  ( Time -> October 12, 2023 3:54 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 3:54 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:54 PM)
+
+/api/discount-price/details/65263ab127e10bcf2d9f1cf8  ( Time -> October 12, 2023 3:54 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:56 PM)
+
+/api/discount-price/details/65263ab127e10bcf2d9f1cf8  ( Time -> October 12, 2023 3:56 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:56 PM)
+
+/api/discount-price/details/65263ab127e10bcf2d9f1cf8  ( Time -> October 12, 2023 3:56 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:57 PM)
+
+/api/discount-price/details/65263ab127e10bcf2d9f1cf8  ( Time -> October 12, 2023 3:57 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:58 PM)
+
+/api/discount-price/details/65263ab127e10bcf2d9f1cf8  ( Time -> October 12, 2023 3:58 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:58 PM)
+
+/api/discount-price/details/65263ab127e10bcf2d9f1cf8  ( Time -> October 12, 2023 3:58 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:58 PM)
+
+/api/discount-price/details/65263ab127e10bcf2d9f1cf8  ( Time -> October 12, 2023 3:58 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:58 PM)
+
+/api/discount-price/details/65263ab127e10bcf2d9f1cf8  ( Time -> October 12, 2023 3:58 PM)
+
+/api/books/all  ( Time -> October 12, 2023 3:59 PM)
+
+/api/discount-price/details/65263ab127e10bcf2d9f1cf8  ( Time -> October 12, 2023 3:59 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:00 PM)
+
+/api/discount-price/details/65263ab127e10bcf2d9f1cf8  ( Time -> October 12, 2023 4:00 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:02 PM)
+
+/api/discount-price/details/65263ab127e10bcf2d9f1cf8  ( Time -> October 12, 2023 4:02 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:03 PM)
+
+/api/discount-price/details/65263ab127e10bcf2d9f1cf8  ( Time -> October 12, 2023 4:03 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:03 PM)
+
+/api/discount-price/details/65263ab127e10bcf2d9f1cf8  ( Time -> October 12, 2023 4:03 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:03 PM)
+
+/api/discount-price/details/65263ab127e10bcf2d9f1cf8  ( Time -> October 12, 2023 4:03 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:05 PM)
+
+Converting circular structure to JSON
+    --> starting at object with constructor 'NativeConnection'
+    |     property 'base' -> object with constructor 'Mongoose'
+    |     property 'connections' -> object with constructor 'Array'
+    --- index 0 closes the circle  ( Time -> October 12, 2023 4:05 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:05 PM)
+
+Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle  ( Time -> October 12, 2023 4:05 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:05 PM)
+
+Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle  ( Time -> October 12, 2023 4:05 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:07 PM)
+
+Converting circular structure to JSON
+    --> starting at object with constructor 'NativeConnection'
+    |     property 'base' -> object with constructor 'Mongoose'
+    |     property 'connections' -> object with constructor 'Array'
+    --- index 0 closes the circle  ( Time -> October 12, 2023 4:07 PM)
+
+Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle  ( Time -> October 12, 2023 4:07 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:12 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:12 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:13 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:14 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:15 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:16 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:16 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:16 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:16 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:17 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:17 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:17 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:17 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 4:17 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:17 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:18 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:19 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:19 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 4:19 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:19 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:21 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:21 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:21 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:23 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 4:25 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:25 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:25 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:26 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:26 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:26 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:26 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:27 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:27 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:28 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:28 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:28 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:29 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:30 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 4:30 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:30 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:31 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:32 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:32 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:32 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:32 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:37 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:38 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:39 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:39 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:40 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:41 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:41 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:41 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:41 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 4:42 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:42 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:42 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:43 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:43 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:43 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 4:43 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:43 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:43 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 4:43 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:43 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:44 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:44 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:45 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 4:45 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 4:45 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:45 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 4:45 PM)
+
+/api/auth/login  ( Time -> October 12, 2023 4:46 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:46 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 4:46 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:46 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:48 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 4:49 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:49 PM)
+
+/api/discount-price/update/65263ab127e10bcf2d9f1cf8  ( Time -> October 12, 2023 4:49 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:50 PM)
+
+/api/discount-price/update/65263ab127e10bcf2d9f1cf8  ( Time -> October 12, 2023 4:50 PM)
+
+/api/discount-price/update/65263ab127e10bcf2d9f1cf8  ( Time -> October 12, 2023 4:52 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 4:52 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:52 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:52 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 4:52 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:52 PM)
+
+/api/auth/login  ( Time -> October 12, 2023 4:53 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:53 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 4:53 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:53 PM)
+
+/api/discount-price/update/65263ab127e10bcf2d9f1cf8  ( Time -> October 12, 2023 4:53 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 4:53 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:53 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 4:53 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:53 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 4:53 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:53 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 4:53 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 4:53 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:53 PM)
+
+/api/discount-price/update/6524018ca0f1979cdfa2d959  ( Time -> October 12, 2023 4:54 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 4:54 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:54 PM)
+
+/api/discount-price/update/6524018ca0f1979cdfa2d959  ( Time -> October 12, 2023 4:54 PM)
+
+E11000 duplicate key error collection: 64d5a4f477b8b54f2633d3f6_mid-term-project.discountprices index: bookIds_1 dup key: { bookIds: ObjectId('6526387727e10bcf2d9f1cb7') }  ( Time -> October 12, 2023 4:54 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 4:55 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 4:55 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 4:55 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:55 PM)
+
+/api/auth/login  ( Time -> October 12, 2023 4:55 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:55 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 4:55 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:55 PM)
+
+/api/discount-price/update/65263ab127e10bcf2d9f1cf8  ( Time -> October 12, 2023 4:55 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 4:55 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 4:55 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:55 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 4:55 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:55 PM)
+
+/api/discount-price/create  ( Time -> October 12, 2023 4:56 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 4:56 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:56 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 4:56 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:56 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:57 PM)
+
+/api/discount-price/all  ( Time -> October 12, 2023 4:57 PM)
+
+/api/books/all  ( Time -> October 12, 2023 4:57 PM)
+

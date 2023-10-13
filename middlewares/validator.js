@@ -358,9 +358,9 @@ const validator = {
             .bail()
             .isLength({ max: 20 })
             .withMessage('Area cannot be greater than 20')
-            .bail()
-            .custom(containsSpecialCharacters)
-            .withMessage('Invalid value provided'),
+            .bail(),
+        // .custom(containsSpecialCharacters)
+        // .withMessage('Invalid value provided'),
         body('address.street')
             .exists()
             .not()

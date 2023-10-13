@@ -31213,3 +31213,49 @@ E11000 duplicate key error collection: 64d5a4f477b8b54f2633d3f6_mid-term-project
 
 /api/auth/sign-up  ( Time -> October 13, 2023 8:13 AM)
 
+/api/books/all  ( Time -> October 13, 2023 8:14 AM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 13, 2023 8:17 AM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 13, 2023 8:18 AM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 13, 2023 8:18 AM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 13, 2023 8:18 AM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 13, 2023 8:18 AM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 13, 2023 8:19 AM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 13, 2023 8:19 AM)
+
+/api/books/all  ( Time -> October 13, 2023 8:19 AM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 13, 2023 8:19 AM)
+
+/api/books/all  ( Time -> October 13, 2023 8:19 AM)
+
+/api/auth/login  ( Time -> October 13, 2023 8:19 AM)
+
+/api/auth/login  ( Time -> October 13, 2023 8:20 AM)
+
+/api/cart/cartByUser  ( Time -> October 13, 2023 8:20 AM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 13, 2023 8:20 AM)
+
+/api/auth/sign-up  ( Time -> October 13, 2023 8:22 AM)
+
+/api/auth/login  ( Time -> October 13, 2023 8:22 AM)
+
+/api/cart/cartByUser  ( Time -> October 13, 2023 8:22 AM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 13, 2023 8:22 AM)
+
+/api/books/all?offset=1&limit=9  ( Time -> October 13, 2023 8:22 AM)
+
+/api/books/all?offset=2&limit=9  ( Time -> October 13, 2023 8:22 AM)
+
+/api/cart/cartByUser  ( Time -> October 13, 2023 8:26 AM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 13, 2023 8:26 AM)
+

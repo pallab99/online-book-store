@@ -25,7 +25,7 @@ const authSchema = new Schema(
         isVerified: {
             type: Boolean,
             required: false,
-            default: false,
+            default: true,
         },
         rank: {
             type: Number,

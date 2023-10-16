@@ -31801,3 +31801,9 @@ Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the cli
 
 Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client  ( Time -> October 16, 2023 2:28 PM)
 
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client  ( Time -> October 16, 2023 2:32 PM)
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client  ( Time -> October 16, 2023 2:45 PM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 16, 2023 2:47 PM)
+

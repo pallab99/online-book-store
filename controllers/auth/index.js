@@ -416,23 +416,15 @@ class AuthController {
             const { resetToken, userId } = req.params;
             const auth = await authModel.findById(userId);
             const wrongURL = 'http://localhost:5173/something-went-wrong';
-            if (!auth) {
-                res.redirect(wrongURL);
-            }
-
             if (
+                !auth ||
                 !auth.resetPasswordToken ||
-                auth.resetPasswordToken !== resetToken
+                auth.resetPasswordToken !== resetToken ||
+                !auth.resetPassword ||
+                auth.resetPasswordExpired < Date.now()
             ) {
                 res.redirect(wrongURL);
-            }
-
-            if (!auth.resetPassword) {
-                res.redirect(wrongURL);
-            }
-
-            if (auth.resetPasswordExpired < Date.now()) {
-                res.redirect(wrongURL);
+                return;
             }
 
             res.redirect(
@@ -462,7 +454,6 @@ class AuthController {
                     []
                 );
             }
-            console.log('468');
             if (password !== confirmPassword) {
                 return sendResponse(
                     res,
@@ -471,7 +462,6 @@ class AuthController {
                     []
                 );
             }
-            console.log('476');
 
             if (await bcrypt.compare(password, auth.password)) {
                 return sendResponse(
@@ -481,14 +471,12 @@ class AuthController {
                     []
                 );
             }
-            console.log('491');
             const hashedPassword = await hashPasswordUsingBcrypt(password);
             auth.password = hashedPassword;
             (auth.resetPasswordToken = null),
                 (auth.resetPasswordExpired = null);
             auth.resetPassword = null;
             await auth.save();
-            console.log('hhhhhh', auth);
             return sendResponse(
                 res,
                 HTTP_STATUS.OK,

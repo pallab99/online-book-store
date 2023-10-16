@@ -31259,3 +31259,545 @@ E11000 duplicate key error collection: 64d5a4f477b8b54f2633d3f6_mid-term-project
 
 /api/books/all?offset=1&limit=6  ( Time -> October 13, 2023 8:26 AM)
 
+/api/books/all  ( Time -> October 13, 2023 9:38 AM)
+
+/api/user/all  ( Time -> October 13, 2023 9:38 AM)
+
+/api/discount-price/all  ( Time -> October 13, 2023 9:38 AM)
+
+/api/user/all  ( Time -> October 13, 2023 9:38 AM)
+
+/api/books/all  ( Time -> October 13, 2023 9:39 AM)
+
+/api/auth/login  ( Time -> October 13, 2023 9:39 AM)
+
+/api/cart/cartByUser  ( Time -> October 13, 2023 9:39 AM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 13, 2023 9:39 AM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 13, 2023 9:44 AM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 13, 2023 9:45 AM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 13, 2023 9:46 AM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 13, 2023 9:46 AM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 13, 2023 9:47 AM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 13, 2023 9:47 AM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 13, 2023 9:48 AM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 13, 2023 9:49 AM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 13, 2023 9:51 AM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 13, 2023 9:51 AM)
+
+/api/auth/login  ( Time -> October 13, 2023 9:52 AM)
+
+/api/books/all  ( Time -> October 13, 2023 9:52 AM)
+
+/api/auth/login  ( Time -> October 13, 2023 9:52 AM)
+
+/api/cart/cartByUser  ( Time -> October 13, 2023 9:52 AM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 13, 2023 9:52 AM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 13, 2023 9:52 AM)
+
+/api/auth/login  ( Time -> October 13, 2023 9:59 AM)
+
+/api/books/all  ( Time -> October 13, 2023 9:59 AM)
+
+/api/auth/login  ( Time -> October 13, 2023 10:07 AM)
+
+/api/cart/cartByUser  ( Time -> October 13, 2023 10:07 AM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 13, 2023 10:07 AM)
+
+/api/cart/cartByUser  ( Time -> October 13, 2023 10:08 AM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 13, 2023 10:08 AM)
+
+/api/books/all?offset=1&limit=9  ( Time -> October 13, 2023 10:08 AM)
+
+/api/books/all?offset=1&limit=9&sortBy=price&sortOrder=asc  ( Time -> October 13, 2023 10:08 AM)
+
+/api/books/all?offset=1&limit=9&sortBy=price&sortOrder=desc  ( Time -> October 13, 2023 10:08 AM)
+
+/api/books/all?offset=2&limit=9&sortBy=price&sortOrder=desc  ( Time -> October 13, 2023 10:12 AM)
+
+/api/review/details/651a75e023e128df9b7a9908  ( Time -> October 13, 2023 10:12 AM)
+
+/api/books/details/651a75e023e128df9b7a9908  ( Time -> October 13, 2023 10:12 AM)
+
+/api/review/details/user/651a75e023e128df9b7a9908  ( Time -> October 13, 2023 10:12 AM)
+
+/api/books/all?offset=1&limit=9  ( Time -> October 13, 2023 10:12 AM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 13, 2023 10:12 AM)
+
+/api/books/all?offset=1&limit=9  ( Time -> October 13, 2023 10:12 AM)
+
+/api/books/all?offset=2&limit=9  ( Time -> October 13, 2023 10:12 AM)
+
+/api/review/details/6527b2462f9ca3ff4074541b  ( Time -> October 13, 2023 10:12 AM)
+
+/api/books/details/6527b2462f9ca3ff4074541b  ( Time -> October 13, 2023 10:12 AM)
+
+/api/review/details/user/6527b2462f9ca3ff4074541b  ( Time -> October 13, 2023 10:12 AM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 13, 2023 10:13 AM)
+
+/api/auth/login  ( Time -> October 13, 2023 10:22 AM)
+
+/api/books/all  ( Time -> October 13, 2023 10:22 AM)
+
+/api/discount-price/all  ( Time -> October 13, 2023 10:22 AM)
+
+/api/books/all  ( Time -> October 13, 2023 10:22 AM)
+
+/api/discount-price/all  ( Time -> October 13, 2023 10:22 AM)
+
+/api/books/all  ( Time -> October 13, 2023 10:22 AM)
+
+/api/discount-price/all  ( Time -> October 13, 2023 10:23 AM)
+
+/api/books/all  ( Time -> October 13, 2023 10:23 AM)
+
+/api/discount-price/all  ( Time -> October 13, 2023 10:23 AM)
+
+/api/books/all  ( Time -> October 13, 2023 10:23 AM)
+
+/api/discount-price/all  ( Time -> October 13, 2023 10:23 AM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 13, 2023 10:23 AM)
+
+/api/books/all?offset=1&limit=9  ( Time -> October 13, 2023 10:23 AM)
+
+/api/books/all?offset=2&limit=9  ( Time -> October 13, 2023 10:23 AM)
+
+/api/review/details/6527b2462f9ca3ff4074541b  ( Time -> October 13, 2023 10:23 AM)
+
+/api/books/details/6527b2462f9ca3ff4074541b  ( Time -> October 13, 2023 10:23 AM)
+
+/api/books/all?offset=1&limit=9  ( Time -> October 13, 2023 10:23 AM)
+
+/api/books/all?offset=2&limit=9  ( Time -> October 13, 2023 10:23 AM)
+
+/api/review/details/6527b2462f9ca3ff4074541b  ( Time -> October 13, 2023 10:23 AM)
+
+/api/books/details/6527b2462f9ca3ff4074541b  ( Time -> October 13, 2023 10:23 AM)
+
+/api/review/details/6527b2462f9ca3ff4074541b  ( Time -> October 13, 2023 10:24 AM)
+
+/api/books/details/6527b2462f9ca3ff4074541b  ( Time -> October 13, 2023 10:24 AM)
+
+/api/auth/login  ( Time -> October 13, 2023 10:25 AM)
+
+/api/cart/cartByUser  ( Time -> October 13, 2023 10:25 AM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 13, 2023 10:25 AM)
+
+/api/review/details/65090384bf3ce2bc92630721  ( Time -> October 13, 2023 10:25 AM)
+
+/api/books/details/65090384bf3ce2bc92630721  ( Time -> October 13, 2023 10:25 AM)
+
+/api/review/details/user/65090384bf3ce2bc92630721  ( Time -> October 13, 2023 10:25 AM)
+
+/api/review/details/65090384bf3ce2bc92630721  ( Time -> October 13, 2023 10:25 AM)
+
+/api/books/details/65090384bf3ce2bc92630721  ( Time -> October 13, 2023 10:25 AM)
+
+/api/review/details/65090384bf3ce2bc92630721  ( Time -> October 13, 2023 10:26 AM)
+
+/api/books/details/65090384bf3ce2bc92630721  ( Time -> October 13, 2023 10:26 AM)
+
+/api/review/details/65090384bf3ce2bc92630721  ( Time -> October 13, 2023 10:26 AM)
+
+/api/books/details/65090384bf3ce2bc92630721  ( Time -> October 13, 2023 10:26 AM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 13, 2023 10:28 AM)
+
+/api/books/all?offset=1&limit=9  ( Time -> October 13, 2023 10:28 AM)
+
+/api/books/all?offset=2&limit=9  ( Time -> October 13, 2023 10:28 AM)
+
+/api/review/details/6527b2462f9ca3ff4074541b  ( Time -> October 13, 2023 10:28 AM)
+
+/api/books/details/6527b2462f9ca3ff4074541b  ( Time -> October 13, 2023 10:28 AM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 13, 2023 10:30 AM)
+
+/api/books/all?offset=1&limit=9  ( Time -> October 13, 2023 10:32 AM)
+
+/api/books/all?offset=1&limit=9&sortBy=price&sortOrder=asc  ( Time -> October 13, 2023 10:32 AM)
+
+/api/books/all?offset=1&limit=9&sortBy=price&sortOrder=desc  ( Time -> October 13, 2023 10:32 AM)
+
+/api/books/all?offset=1&limit=9&sortBy=price&sortOrder=desc&author=Bibhutibhushan%20Bandyopadhyay  ( Time -> October 13, 2023 10:32 AM)
+
+/api/books/all?offset=1&limit=9&sortBy=price&sortOrder=desc  ( Time -> October 13, 2023 10:32 AM)
+
+/api/books/all?offset=2&limit=9&sortBy=price&sortOrder=desc  ( Time -> October 13, 2023 10:33 AM)
+
+/api/books/all?offset=1&limit=9&sortBy=price&sortOrder=desc  ( Time -> October 13, 2023 10:33 AM)
+
+/api/review/details/65018c91b5b9996c54eb0fe1  ( Time -> October 13, 2023 10:33 AM)
+
+/api/books/details/65018c91b5b9996c54eb0fe1  ( Time -> October 13, 2023 10:33 AM)
+
+/api/books/all?offset=1&limit=9  ( Time -> October 13, 2023 10:33 AM)
+
+/api/books/all?offset=2&limit=9  ( Time -> October 13, 2023 10:33 AM)
+
+/api/review/details/6527b2462f9ca3ff4074541b  ( Time -> October 13, 2023 10:33 AM)
+
+/api/books/details/6527b2462f9ca3ff4074541b  ( Time -> October 13, 2023 10:33 AM)
+
+/api/auth/login  ( Time -> October 13, 2023 10:33 AM)
+
+/api/cart/cartByUser  ( Time -> October 13, 2023 10:33 AM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 13, 2023 10:33 AM)
+
+/api/books/all?offset=1&limit=9  ( Time -> October 13, 2023 10:33 AM)
+
+/api/books/all?offset=2&limit=9  ( Time -> October 13, 2023 10:33 AM)
+
+/api/review/details/6527b2462f9ca3ff4074541b  ( Time -> October 13, 2023 10:33 AM)
+
+/api/books/details/6527b2462f9ca3ff4074541b  ( Time -> October 13, 2023 10:33 AM)
+
+/api/review/details/user/6527b2462f9ca3ff4074541b  ( Time -> October 13, 2023 10:33 AM)
+
+/api/cart/create  ( Time -> October 13, 2023 10:33 AM)
+
+/api/cart/cartByUser  ( Time -> October 13, 2023 10:33 AM)
+
+/api/cart/cartByUser  ( Time -> October 13, 2023 10:33 AM)
+
+/api/cart/create  ( Time -> October 13, 2023 10:34 AM)
+
+/api/cart/cartByUser  ( Time -> October 13, 2023 10:34 AM)
+
+/api/user/balance  ( Time -> October 13, 2023 10:34 AM)
+
+/api/transaction/create  ( Time -> October 13, 2023 10:34 AM)
+
+/api/cart/cartByUser  ( Time -> October 13, 2023 10:34 AM)
+
+/api/transaction/details  ( Time -> October 13, 2023 10:34 AM)
+
+/api/user/balance  ( Time -> October 13, 2023 10:34 AM)
+
+/api/user/add-balance  ( Time -> October 13, 2023 10:34 AM)
+
+/api/user/balance  ( Time -> October 13, 2023 10:35 AM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 13, 2023 10:35 AM)
+
+/api/books/all?offset=1&limit=9  ( Time -> October 13, 2023 10:35 AM)
+
+/api/books/all?offset=1&limit=9&search=great  ( Time -> October 13, 2023 10:35 AM)
+
+/api/books/all?offset=1&limit=9  ( Time -> October 13, 2023 10:35 AM)
+
+/api/auth/login  ( Time -> October 13, 2023 10:35 AM)
+
+/api/books/all  ( Time -> October 13, 2023 10:35 AM)
+
+/api/books/details/65018c91b5b9996c54eb0fe1  ( Time -> October 13, 2023 10:36 AM)
+
+/api/books/update/65018c91b5b9996c54eb0fe1  ( Time -> October 13, 2023 10:36 AM)
+
+/api/books/update/65018c91b5b9996c54eb0fe1  ( Time -> October 13, 2023 10:36 AM)
+
+/api/books/update/65018c91b5b9996c54eb0fe1  ( Time -> October 13, 2023 10:36 AM)
+
+/api/books/all  ( Time -> October 13, 2023 10:36 AM)
+
+/api/books/details/6527b2462f9ca3ff4074541b  ( Time -> October 13, 2023 10:36 AM)
+
+/api/books/update/6527b2462f9ca3ff4074541b  ( Time -> October 13, 2023 10:37 AM)
+
+/api/books/all  ( Time -> October 13, 2023 10:37 AM)
+
+/api/books/delete/651a75e023e128df9b7a9908  ( Time -> October 13, 2023 10:37 AM)
+
+/api/books/all  ( Time -> October 13, 2023 10:37 AM)
+
+/api/user/all  ( Time -> October 13, 2023 10:37 AM)
+
+/api/user/update/6503cea228159b4510e1fbf1  ( Time -> October 13, 2023 10:37 AM)
+
+/api/user/all  ( Time -> October 13, 2023 10:37 AM)
+
+/api/discount-price/all  ( Time -> October 13, 2023 10:37 AM)
+
+/api/books/all  ( Time -> October 13, 2023 10:37 AM)
+
+/api/discount-price/all  ( Time -> October 13, 2023 10:37 AM)
+
+/api/books/all  ( Time -> October 13, 2023 10:38 AM)
+
+/api/discount-price/update/6527d0d46eb00e7c712dd624  ( Time -> October 13, 2023 10:38 AM)
+
+/api/discount-price/all  ( Time -> October 13, 2023 10:38 AM)
+
+/api/transaction/all  ( Time -> October 13, 2023 10:38 AM)
+
+/api/auth/sign-up  ( Time -> October 13, 2023 10:39 AM)
+
+/api/auth/login  ( Time -> October 13, 2023 10:40 AM)
+
+/api/cart/cartByUser  ( Time -> October 13, 2023 10:40 AM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 13, 2023 10:40 AM)
+
+/api/cart/cartByUser  ( Time -> October 13, 2023 10:40 AM)
+
+/api/cart/cartByUser  ( Time -> October 13, 2023 10:40 AM)
+
+/api/auth/login  ( Time -> October 13, 2023 10:42 AM)
+
+/api/cart/cartByUser  ( Time -> October 13, 2023 10:42 AM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 13, 2023 10:42 AM)
+
+/api/auth/login  ( Time -> October 13, 2023 10:42 AM)
+
+/api/cart/cartByUser  ( Time -> October 13, 2023 10:42 AM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 13, 2023 10:42 AM)
+
+/api/books/all?offset=1&limit=9  ( Time -> October 13, 2023 10:43 AM)
+
+/api/books/all?offset=1&limit=9&search=ggkjdgk  ( Time -> October 13, 2023 10:43 AM)
+
+/api/books/all?offset=1&limit=9  ( Time -> October 13, 2023 10:43 AM)
+
+/api/books/all?offset=1&limit=9&search=great  ( Time -> October 13, 2023 10:43 AM)
+
+/api/books/all?offset=1&limit=9  ( Time -> October 13, 2023 10:43 AM)
+
+/api/books/all?offset=1&limit=9  ( Time -> October 13, 2023 10:43 AM)
+
+/api/books/all?offset=1&limit=9&category=Classic  ( Time -> October 13, 2023 10:43 AM)
+
+/api/books/all?offset=1&limit=9&category=Classic,Fantasy  ( Time -> October 13, 2023 10:43 AM)
+
+/api/books/all?offset=1&limit=9&category=Classic,Fantasy&author=J.D.%20Salinger  ( Time -> October 13, 2023 10:45 AM)
+
+/api/books/all?offset=1&limit=9&category=Classic,Fantasy&author=J.D.%20Salinger,Pallab  ( Time -> October 13, 2023 10:45 AM)
+
+/api/books/all?offset=1&limit=9&sortBy=rating&sortOrder=asc&category=Classic,Fantasy&author=J.D.%20Salinger,Pallab  ( Time -> October 13, 2023 10:45 AM)
+
+/api/books/all?offset=1&limit=9&sortBy=rating&sortOrder=desc&category=Classic,Fantasy&author=J.D.%20Salinger,Pallab  ( Time -> October 13, 2023 10:45 AM)
+
+/api/cart/cartByUser  ( Time -> October 13, 2023 10:46 AM)
+
+/api/books/all?offset=1&limit=9  ( Time -> October 13, 2023 10:46 AM)
+
+/api/books/all?offset=2&limit=9  ( Time -> October 13, 2023 10:46 AM)
+
+/api/review/details/6527b2462f9ca3ff4074541b  ( Time -> October 13, 2023 10:46 AM)
+
+/api/books/details/6527b2462f9ca3ff4074541b  ( Time -> October 13, 2023 10:46 AM)
+
+/api/review/details/user/6527b2462f9ca3ff4074541b  ( Time -> October 13, 2023 10:46 AM)
+
+/api/review/create/6527b2462f9ca3ff4074541b  ( Time -> October 13, 2023 10:47 AM)
+
+/api/books/details/6527b2462f9ca3ff4074541b  ( Time -> October 13, 2023 10:47 AM)
+
+/api/review/details/6527b2462f9ca3ff4074541b  ( Time -> October 13, 2023 10:47 AM)
+
+/api/review/details/user/6527b2462f9ca3ff4074541b  ( Time -> October 13, 2023 10:47 AM)
+
+/api/review/create/6527b2462f9ca3ff4074541b  ( Time -> October 13, 2023 10:47 AM)
+
+/api/review/details/user/6527b2462f9ca3ff4074541b  ( Time -> October 13, 2023 10:47 AM)
+
+/api/review/update/6527b2462f9ca3ff4074541b  ( Time -> October 13, 2023 10:47 AM)
+
+/api/books/details/6527b2462f9ca3ff4074541b  ( Time -> October 13, 2023 10:47 AM)
+
+/api/review/details/6527b2462f9ca3ff4074541b  ( Time -> October 13, 2023 10:47 AM)
+
+/api/review/details/user/6527b2462f9ca3ff4074541b  ( Time -> October 13, 2023 10:47 AM)
+
+/api/cart/create  ( Time -> October 13, 2023 10:48 AM)
+
+/api/cart/cartByUser  ( Time -> October 13, 2023 10:48 AM)
+
+/api/cart/cartByUser  ( Time -> October 13, 2023 10:48 AM)
+
+/api/review/details/6527b2462f9ca3ff4074541b  ( Time -> October 13, 2023 10:48 AM)
+
+/api/books/details/6527b2462f9ca3ff4074541b  ( Time -> October 13, 2023 10:48 AM)
+
+/api/review/details/user/6527b2462f9ca3ff4074541b  ( Time -> October 13, 2023 10:48 AM)
+
+/api/books/all?offset=1&limit=9  ( Time -> October 13, 2023 10:48 AM)
+
+/api/review/details/651a236ebf4a0fa0da1dfa50  ( Time -> October 13, 2023 10:48 AM)
+
+/api/books/details/651a236ebf4a0fa0da1dfa50  ( Time -> October 13, 2023 10:48 AM)
+
+/api/review/details/user/651a236ebf4a0fa0da1dfa50  ( Time -> October 13, 2023 10:48 AM)
+
+/api/cart/create  ( Time -> October 13, 2023 10:48 AM)
+
+/api/cart/cartByUser  ( Time -> October 13, 2023 10:48 AM)
+
+/api/cart/cartByUser  ( Time -> October 13, 2023 10:48 AM)
+
+/api/cart/create  ( Time -> October 13, 2023 10:48 AM)
+
+/api/cart/cartByUser  ( Time -> October 13, 2023 10:48 AM)
+
+/api/user/balance  ( Time -> October 13, 2023 10:49 AM)
+
+/api/transaction/create  ( Time -> October 13, 2023 10:49 AM)
+
+/api/user/balance  ( Time -> October 13, 2023 10:49 AM)
+
+/api/transaction/details  ( Time -> October 13, 2023 10:49 AM)
+
+/api/user/balance  ( Time -> October 13, 2023 11:25 AM)
+
+/api/cart/cartByUser  ( Time -> October 13, 2023 11:25 AM)
+
+/api/cart/update  ( Time -> October 13, 2023 11:26 AM)
+
+/api/cart/update  ( Time -> October 13, 2023 11:26 AM)
+
+/api/cart/cartByUser  ( Time -> October 13, 2023 11:26 AM)
+
+/api/cart/create  ( Time -> October 13, 2023 11:26 AM)
+
+/api/cart/cartByUser  ( Time -> October 13, 2023 11:26 AM)
+
+/api/cart/cartByUser  ( Time -> October 13, 2023 11:26 AM)
+
+/api/books/all?offset=1&limit=9  ( Time -> October 13, 2023 11:26 AM)
+
+/api/books/all?offset=1&limit=9&author=J.K.%20Rowling  ( Time -> October 13, 2023 11:26 AM)
+
+/api/books/all?offset=1&limit=9  ( Time -> October 13, 2023 11:26 AM)
+
+/api/books/all?offset=1&limit=9&sortBy=stock&sortOrder=asc  ( Time -> October 13, 2023 11:26 AM)
+
+/api/books/all?offset=1&limit=9&search=cat&sortBy=stock&sortOrder=asc  ( Time -> October 13, 2023 11:26 AM)
+
+/api/books/all?offset=1&limit=9&search=cla&sortBy=stock&sortOrder=asc  ( Time -> October 13, 2023 11:27 AM)
+
+/api/books/all?offset=1&limit=9&search=Classic&sortBy=stock&sortOrder=asc  ( Time -> October 13, 2023 11:27 AM)
+
+/api/books/all?offset=1&limit=9&sortBy=stock&sortOrder=asc  ( Time -> October 13, 2023 11:27 AM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 13, 2023 11:27 AM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 13, 2023 4:54 PM)
+
+/api/auth/login  ( Time -> October 13, 2023 4:56 PM)
+
+/api/books/all  ( Time -> October 13, 2023 4:56 PM)
+
+/api/discount-price/all  ( Time -> October 13, 2023 4:57 PM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 16, 2023 9:50 AM)
+
+/api/books/all  ( Time -> October 16, 2023 9:50 AM)
+
+/api/books/all  ( Time -> October 16, 2023 10:18 AM)
+
+user is not defined  ( Time -> October 16, 2023 10:19 AM)
+
+user is not defined  ( Time -> October 16, 2023 10:19 AM)
+
+user is not defined  ( Time -> October 16, 2023 10:20 AM)
+
+user is not defined  ( Time -> October 16, 2023 10:21 AM)
+
+user is not defined  ( Time -> October 16, 2023 10:21 AM)
+
+ReferenceError: user is not defined  ( Time -> October 16, 2023 10:22 AM)
+
+ReferenceError: user is not defined  ( Time -> October 16, 2023 10:23 AM)
+
+Error: ENOENT: no such file or directory, open 'D:\backend mid\online-book-store\controllers\views\forget-password.ejs'  ( Time -> October 16, 2023 10:23 AM)
+
+ReferenceError: D:\backend mid\online-book-store\views\forget-password.ejs:13
+    11|         </p>
+    12|         <a
+ >> 13|             href="<%= resetLink %>"
+    14|             style="
+    15|                 background-color: blue;
+    16|                 color: white;
+
+resetLink is not defined  ( Time -> October 16, 2023 10:24 AM)
+
+ReferenceError: recipient is not defined  ( Time -> October 16, 2023 10:25 AM)
+
+ReferenceError: D:\backend mid\online-book-store\views\forget-password.ejs:13
+    11|         </p>
+    12|         <a
+ >> 13|             href="http://localhost:5173/validate-reset-password/<%= resetToken %>/<%= userId %>"
+    14|             style="
+    15|                 background-color: blue;
+    16|                 color: white;
+
+resetToken is not defined  ( Time -> October 16, 2023 11:16 AM)
+
+ReferenceError: D:\backend mid\online-book-store\views\forget-password.ejs:13
+    11|         </p>
+    12|         <a
+ >> 13|             href="http://localhost:5173/validate-reset-password/<%= resetToken %>/<%= userId %>"
+    14|             style="
+    15|                 background-color: blue;
+    16|                 color: white;
+
+resetToken is not defined  ( Time -> October 16, 2023 11:18 AM)
+
+ReferenceError: D:\backend mid\online-book-store\views\forget-password.ejs:13
+    11|         </p>
+    12|         <a
+ >> 13|             href="http://localhost:5173/validate-reset-password/<%= resetToken %>/<%= userId %>"
+    14|             style="
+    15|                 background-color: blue;
+    16|                 color: white;
+
+userId is not defined  ( Time -> October 16, 2023 11:19 AM)
+
+ReferenceError: userId is not defined  ( Time -> October 16, 2023 11:19 AM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 16, 2023 11:35 AM)
+
+ReferenceError: resetPassword is not defined  ( Time -> October 16, 2023 11:57 AM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 16, 2023 1:19 PM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 16, 2023 1:57 PM)
+
+/api/auth/login  ( Time -> October 16, 2023 2:01 PM)
+
+/api/auth/login  ( Time -> October 16, 2023 2:01 PM)
+
+/api/cart/cartByUser  ( Time -> October 16, 2023 2:01 PM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 16, 2023 2:01 PM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 16, 2023 2:17 PM)
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client  ( Time -> October 16, 2023 2:25 PM)
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client  ( Time -> October 16, 2023 2:26 PM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 16, 2023 2:27 PM)
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client  ( Time -> October 16, 2023 2:28 PM)
+

@@ -17,7 +17,7 @@ app.use(cors({ origin: true, credentials: true }));
 app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cookieParser());
-
+app.set('view engine', 'ejs');
 app.use((err, req, res, next) => {
     if (err instanceof SyntaxError && err.status === 400 && 'body' in err) {
         return sendResponse(

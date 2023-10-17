@@ -31807,3 +31807,23 @@ Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the cli
 
 /api/books/all?offset=1&limit=6  ( Time -> October 16, 2023 2:47 PM)
 
+/api/auth/login  ( Time -> October 16, 2023 2:54 PM)
+
+/api/cart/cartByUser  ( Time -> October 16, 2023 2:54 PM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 16, 2023 2:54 PM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 16, 2023 3:22 PM)
+
+TypeError: Cannot read properties of null (reading '_id')  ( Time -> October 16, 2023 3:38 PM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 17, 2023 8:28 AM)
+
+/api/auth/login  ( Time -> October 17, 2023 8:28 AM)
+
+/api/cart/cartByUser  ( Time -> October 17, 2023 8:28 AM)
+
+/api/books/all?offset=1&limit=6  ( Time -> October 17, 2023 8:28 AM)
+
+/api/cart/cartByUser  ( Time -> October 17, 2023 9:07 AM)
+

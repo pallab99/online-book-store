@@ -364,6 +364,13 @@ class AuthController {
             const auth = await authModel
                 .findOne({ email: email })
                 .populate('user');
+            if (!auth) {
+                return sendResponse(
+                    res,
+                    HTTP_STATUS.BAD_REQUEST,
+                    'No user found'
+                );
+            }
             const resetToken = crypto.randomBytes(64).toString('hex');
             const resetURL = `http://localhost:8000/api/auth/validate-reset-password/${resetToken}/${auth._id.toString()}`;
             auth.resetPasswordToken = resetToken;
@@ -381,8 +388,6 @@ class AuthController {
                 {
                     name: auth.user.name,
                     resetURL,
-                    resetToken,
-                    userId: auth._id.toString(),
                 }
             );
 
@@ -444,7 +449,6 @@ class AuthController {
     async resetPassword(req, res) {
         try {
             let { password, confirmPassword, resetToken, userId } = req.body;
-            console.log(req.body);
             const auth = await authModel.findOne({ _id: userId });
             if (resetToken != auth.resetPasswordToken || !auth) {
                 return sendResponse(

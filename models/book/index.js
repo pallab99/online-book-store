@@ -47,6 +47,10 @@ const bookSchema = new Schema({
         unique: true,
         required: [true, 'ISBN number is required'],
     },
+    image: {
+        type: String,
+        required: false,
+    },
     reviews: {
         type: [
             {

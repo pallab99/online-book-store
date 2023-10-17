@@ -6,7 +6,8 @@ const { validationResult } = require('express-validator');
 const databaseLogger = require('../../util/dbLogger');
 const { sendValidationError } = require('../../util/validationErrorHelper');
 const DiscountPrice = require('../../models/discountPrice');
-
+const fs = require('fs');
+const path = require('path');
 class BookController {
     async getAllBooks(req, res) {
         try {
@@ -183,28 +184,30 @@ class BookController {
                 publishedAt,
                 isbn,
             } = req.body;
+            console.log('body', req);
+            // console.log('file', req.file);
+            // console.log('title', req.body.title);
+            // const allowedProperties = [
+            //     'title',
+            //     'description',
+            //     'author',
+            //     'price',
+            //     'rating',
+            //     'stock',
+            //     'category',
+            //     'publishedAt',
+            //     'isbn',
+            // ];
 
-            const allowedProperties = [
-                'title',
-                'description',
-                'author',
-                'price',
-                'rating',
-                'stock',
-                'category',
-                'publishedAt',
-                'isbn',
-            ];
-
-            for (const key in req.body) {
-                if (!allowedProperties.includes(key)) {
-                    return sendResponse(
-                        res,
-                        HTTP_STATUS.UNPROCESSABLE_ENTITY,
-                        'Invalid property provided for book create'
-                    );
-                }
-            }
+            // for (const key in req.body) {
+            //     if (!allowedProperties.includes(key)) {
+            //         return sendResponse(
+            //             res,
+            //             HTTP_STATUS.UNPROCESSABLE_ENTITY,
+            //             'Invalid property provided for book create'
+            //         );
+            //     }
+            // }
 
             const existingBook = await bookModel.findOne({
                 $or: [
@@ -245,6 +248,38 @@ class BookController {
                 isbn,
                 publishedAt,
             });
+            if (!req.file) {
+                return sendResponse(
+                    res,
+                    HTTP_STATUS.BAD_REQUEST,
+                    'Failed to upload file',
+                    []
+                );
+            }
+
+            console.log('multer');
+
+            const dir = path.join(
+                __dirname,
+                '..',
+                '..',
+                'public',
+                'images',
+                `${title}`
+            );
+            if (!fs.existsSync(dir)) {
+                fs.mkdirSync(dir, { recursive: true });
+            }
+            const newFilePath = path
+                .join('public', 'images', `${title}`, req.file.filename)
+                .replace(/\\/g, '/');
+
+            console.log('file path', newFilePath);
+            fs.renameSync(req.file.path, newFilePath);
+            const imagePath = newFilePath.split('public/')[1];
+            result.image = imagePath;
+            await result.save();
+
             if (result) {
                 return sendResponse(
                     res,
@@ -260,6 +295,7 @@ class BookController {
                 );
             }
         } catch (error) {
+            console.log(error);
             databaseLogger(error.message);
             return sendResponse(
                 res,

@@ -32281,3 +32281,19 @@ Book validation failed: title: Title is required, author: Author is required, pr
 
 /api/books/all  ( Time -> October 17, 2023 2:42 PM)
 
+/api/books/all  ( Time -> October 17, 2023 3:04 PM)
+
+/api/books/create  ( Time -> October 17, 2023 3:04 PM)
+
+ENOENT: no such file or directory, unlink 'public\images\1697533489305_Nondito_Noroke.jpg'  ( Time -> October 17, 2023 3:04 PM)
+
+/api/books/create  ( Time -> October 17, 2023 3:06 PM)
+
+/api/books/all  ( Time -> October 17, 2023 3:06 PM)
+
+/api/review/details/652e4e7f956aa0df8e7a7c6b  ( Time -> October 17, 2023 3:06 PM)
+
+/api/books/details/652e4e7f956aa0df8e7a7c6b  ( Time -> October 17, 2023 3:06 PM)
+
+/api/books/all  ( Time -> October 17, 2023 3:06 PM)
+

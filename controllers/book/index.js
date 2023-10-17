@@ -184,30 +184,6 @@ class BookController {
                 publishedAt,
                 isbn,
             } = req.body;
-            console.log('body', req);
-            // console.log('file', req.file);
-            // console.log('title', req.body.title);
-            // const allowedProperties = [
-            //     'title',
-            //     'description',
-            //     'author',
-            //     'price',
-            //     'rating',
-            //     'stock',
-            //     'category',
-            //     'publishedAt',
-            //     'isbn',
-            // ];
-
-            // for (const key in req.body) {
-            //     if (!allowedProperties.includes(key)) {
-            //         return sendResponse(
-            //             res,
-            //             HTTP_STATUS.UNPROCESSABLE_ENTITY,
-            //             'Invalid property provided for book create'
-            //         );
-            //     }
-            // }
 
             const existingBook = await bookModel.findOne({
                 $or: [
@@ -274,11 +250,11 @@ class BookController {
                 .join('public', 'images', `${title}`, req.file.filename)
                 .replace(/\\/g, '/');
 
-            console.log('file path', newFilePath);
             fs.renameSync(req.file.path, newFilePath);
             const imagePath = newFilePath.split('public/')[1];
             result.image = imagePath;
             await result.save();
+            // fs.unlinkSync(req.file.path);
 
             if (result) {
                 return sendResponse(

@@ -39,7 +39,7 @@ const validator = {
             .withMessage('Price must be a valid number between 0 and 10000.')
             .bail()
             .custom((value) => {
-                if (typeof value != 'number') {
+                if (typeof Number(value) != 'number') {
                     throw new Error('Price must be a number');
                 } else {
                     return true;
@@ -51,7 +51,7 @@ const validator = {
             .withMessage('Rating is required and must be between 1 and 5.')
             .bail()
             .custom((value) => {
-                if (typeof value != 'number') {
+                if (typeof Number(value) != 'number') {
                     throw new Error('Rating must be a number');
                 } else {
                     return true;
@@ -63,7 +63,7 @@ const validator = {
             .withMessage('Stock must be a valid number between 10 and 500.')
             .bail()
             .custom((value) => {
-                if (typeof value != 'number') {
+                if (typeof Number(value) != 'number') {
                     throw new Error('Stock must be a number');
                 } else {
                     return true;

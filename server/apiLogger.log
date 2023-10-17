@@ -32229,3 +32229,55 @@ Book validation failed: title: Title is required, author: Author is required, pr
 
 /api/books/all  ( Time -> October 17, 2023 2:13 PM)
 
+/api/books/create  ( Time -> October 17, 2023 2:27 PM)
+
+/api/books/all  ( Time -> October 17, 2023 2:27 PM)
+
+/api/review/details/652e457f9ba48de815cf9245  ( Time -> October 17, 2023 2:27 PM)
+
+/api/books/details/652e457f9ba48de815cf9245  ( Time -> October 17, 2023 2:27 PM)
+
+/api/books/all  ( Time -> October 17, 2023 2:29 PM)
+
+/api/auth/login  ( Time -> October 17, 2023 2:33 PM)
+
+/api/books/create  ( Time -> October 17, 2023 2:33 PM)
+
+/api/auth/refreshToken  ( Time -> October 17, 2023 2:38 PM)
+
+/api/books/create  ( Time -> October 17, 2023 2:38 PM)
+
+/api/books/create  ( Time -> October 17, 2023 2:38 PM)
+
+/api/books/create  ( Time -> October 17, 2023 2:39 PM)
+
+/api/books/create  ( Time -> October 17, 2023 2:41 PM)
+
+/api/books/create  ( Time -> October 17, 2023 2:41 PM)
+
+/api/books/all  ( Time -> October 17, 2023 2:41 PM)
+
+/api/review/details/652e48c0e128d1d2b6abcaf3  ( Time -> October 17, 2023 2:41 PM)
+
+/api/books/details/652e48c0e128d1d2b6abcaf3  ( Time -> October 17, 2023 2:41 PM)
+
+/api/books/all  ( Time -> October 17, 2023 2:41 PM)
+
+/api/review/details/652e48c0e128d1d2b6abcaf3  ( Time -> October 17, 2023 2:41 PM)
+
+/api/books/details/652e48c0e128d1d2b6abcaf3  ( Time -> October 17, 2023 2:41 PM)
+
+/api/books/all  ( Time -> October 17, 2023 2:42 PM)
+
+/api/review/details/6523acd6c2bbea03d5a4cb10  ( Time -> October 17, 2023 2:42 PM)
+
+/api/books/details/6523acd6c2bbea03d5a4cb10  ( Time -> October 17, 2023 2:42 PM)
+
+/api/books/all  ( Time -> October 17, 2023 2:42 PM)
+
+/api/review/details/652e48c0e128d1d2b6abcaf3  ( Time -> October 17, 2023 2:42 PM)
+
+/api/books/details/652e48c0e128d1d2b6abcaf3  ( Time -> October 17, 2023 2:42 PM)
+
+/api/books/all  ( Time -> October 17, 2023 2:42 PM)
+

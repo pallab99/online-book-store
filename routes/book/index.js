@@ -17,8 +17,8 @@ router
         [
             tokenAuthorization,
             isAdmin,
-            // validator.createBook,
             upload.single('file_to_upload'),
+            validator.createBook,
         ],
         BookController.createBook
     )

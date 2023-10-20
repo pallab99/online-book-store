@@ -32,6 +32,12 @@ app.use((err, req, res, next) => {
     next();
 });
 
+app.use((err, req, res, next) => {
+    if (err instanceof multer.MulterError) {
+        return sendResponse(res, HTTP_STATUS.UNPROCESSABLE_ENTITY, err.message);
+    }
+    next(err);
+});
 app.use('/api', require('./routes'));
 
 app.get('/', (req, res) => {

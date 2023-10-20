@@ -233,8 +233,6 @@ class BookController {
                 );
             }
 
-            console.log('multer');
-
             const dir = path.join(
                 __dirname,
                 '..',

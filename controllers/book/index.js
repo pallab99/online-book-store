@@ -6,14 +6,15 @@ const { validationResult } = require('express-validator');
 const databaseLogger = require('../../util/dbLogger');
 const { sendValidationError } = require('../../util/validationErrorHelper');
 const DiscountPrice = require('../../models/discountPrice');
-
+const fs = require('fs');
+const path = require('path');
 class BookController {
     async getAllBooks(req, res) {
         try {
             databaseLogger(req.originalUrl);
 
-            let page = parseInt(req.query.offset);
-            let limit = parseInt(req.query.limit);
+            let page = parseInt(req.query.offset) || 1;
+            let limit = parseInt(req.query.limit) || 30;
 
             let {
                 search,
@@ -23,6 +24,7 @@ class BookController {
                 filterOrder,
                 filterValue,
                 category,
+                author,
             } = req.query;
 
             const allowedProperties = [
@@ -35,7 +37,7 @@ class BookController {
                 'filterOrder',
                 'filterValue',
                 'category',
-                'category',
+                'author',
             ];
 
             for (const key in req.query) {
@@ -49,40 +51,9 @@ class BookController {
             }
 
             let baseQuery = bookModel.find().select('-reviews');
-            if (!search && !sortBy && !filter && !category) {
-                const skip = (page - 1) * limit;
-
-                const data = await bookModel
-                    .find({})
-                    .skip(skip)
-                    .limit(limit)
-                    .select('-reviews');
-                let totalCount = await bookModel.countDocuments();
-                if (!page && !limit) {
-                    page = 1;
-                    limit = 30;
-                    totalCount = totalCount;
-                } else {
-                    totalCount = await bookModel.countDocuments();
-                }
-                let totalPages = Math.ceil(totalCount / limit);
-                const result = {
-                    currentPage: page,
-                    totalPages: totalPages,
-                    totalData: totalCount,
-                    products: data,
-                };
-                return sendResponse(
-                    res,
-                    HTTP_STATUS.OK,
-                    'Successfully get the books',
-                    result
-                );
-            }
             if (search && search?.length) {
                 baseQuery = baseQuery.or([
                     { title: { $regex: search, $options: 'i' } },
-                    { description: { $regex: search, $options: 'i' } },
                 ]);
             }
             if (sortBy && sortBy?.length) {
@@ -108,14 +79,19 @@ class BookController {
                     { category: { $in: categoryArray } },
                 ]);
             }
+            if (author && author?.length) {
+                const authorArray = author.split(',');
+                baseQuery = baseQuery.or([{ author: { $in: authorArray } }]);
+            }
+
+            let countQuery = baseQuery.clone();
+            const totalCount = await countQuery.countDocuments();
+            const totalPages = Math.ceil(totalCount / limit);
 
             const skip = (page - 1) * limit;
             const data = await baseQuery.skip(skip).limit(limit);
 
             if (data.length > 0) {
-                const totalCount = data.length;
-                const totalPages = Math.ceil(totalCount / limit);
-
                 const result = {
                     currentPage: page,
                     totalPages: totalPages,
@@ -133,6 +109,7 @@ class BookController {
             }
         } catch (error) {
             databaseLogger(error.message);
+            console.log(error.message);
             return sendResponse(
                 res,
                 HTTP_STATUS.INTERNAL_SERVER_ERROR,
@@ -208,28 +185,6 @@ class BookController {
                 isbn,
             } = req.body;
 
-            const allowedProperties = [
-                'title',
-                'description',
-                'author',
-                'price',
-                'rating',
-                'stock',
-                'category',
-                'publishedAt',
-                'isbn',
-            ];
-
-            for (const key in req.body) {
-                if (!allowedProperties.includes(key)) {
-                    return sendResponse(
-                        res,
-                        HTTP_STATUS.UNPROCESSABLE_ENTITY,
-                        'Invalid property provided for book create'
-                    );
-                }
-            }
-
             const existingBook = await bookModel.findOne({
                 $or: [
                     { title: title },
@@ -269,6 +224,36 @@ class BookController {
                 isbn,
                 publishedAt,
             });
+            if (!req.file) {
+                return sendResponse(
+                    res,
+                    HTTP_STATUS.BAD_REQUEST,
+                    'Failed to upload file',
+                    []
+                );
+            }
+
+            const dir = path.join(
+                __dirname,
+                '..',
+                '..',
+                'public',
+                'images',
+                `${title}`
+            );
+            if (!fs.existsSync(dir)) {
+                fs.mkdirSync(dir, { recursive: true });
+            }
+            const newFilePath = path
+                .join('public', 'images', `${title}`, req.file.filename)
+                .replace(/\\/g, '/');
+
+            fs.renameSync(req.file.path, newFilePath);
+            const imagePath = newFilePath.split('public/')[1];
+            result.image = imagePath;
+            await result.save();
+            // fs.unlinkSync(req.file.path);
+
             if (result) {
                 return sendResponse(
                     res,
@@ -284,6 +269,7 @@ class BookController {
                 );
             }
         } catch (error) {
+            console.log(error);
             databaseLogger(error.message);
             return sendResponse(
                 res,
@@ -421,6 +407,27 @@ class BookController {
                 res,
                 HTTP_STATUS.OK,
                 'Deleted book successfully',
+                result
+            );
+        } catch (error) {
+            databaseLogger(error.message);
+            return sendResponse(res, 500, 'Internal server error');
+        }
+    }
+    async getAllAuthors(req, res) {
+        try {
+            const result = await bookModel.distinct('author');
+            if (!result) {
+                return sendResponse(
+                    res,
+                    HTTP_STATUS.BAD_REQUEST,
+                    'Something went wrong'
+                );
+            }
+            return sendResponse(
+                res,
+                HTTP_STATUS.OK,
+                'Successfully get all author',
                 result
             );
         } catch (error) {

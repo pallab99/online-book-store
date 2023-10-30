@@ -389,6 +389,7 @@ class CartController {
             }
             const { email } = req.user;
             const { book, quantity } = req.body;
+            console.log('body', req.body);
             const userExists = await userModel.findOne({ email });
             const bookExists = await bookModel.findById(book);
 

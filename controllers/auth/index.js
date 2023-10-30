@@ -14,6 +14,14 @@ const databaseLogger = require('../../util/dbLogger');
 const { sendValidationError } = require('../../util/validationErrorHelper');
 const generateVerificationCode = require('../../util/generateVerificationCode');
 const sendVerificationEmail = require('../../util/nodeMailer');
+const crypto = require('crypto');
+const path = require('path');
+const { promisify } = require('util');
+const ejs = require('ejs');
+const { transport } = require('../../configs/mail');
+const ejsRenderFile = promisify(ejs.renderFile);
+const bcrypt = require('bcrypt');
+
 class AuthController {
     async signUp(req, res) {
         try {
@@ -316,6 +324,172 @@ class AuthController {
             );
         } catch (error) {
             databaseLogger(error.message);
+            return sendResponse(
+                res,
+                HTTP_STATUS.INTERNAL_SERVER_ERROR,
+                'Internal server error'
+            );
+        }
+    }
+
+    async logOut(req, res) {
+        try {
+            const accessToken = res.cookie('accessToken');
+            const refreshToken = res.cookie('refreshToken');
+            // If access token is not present in the cookies then we don't need to delete it from db as well
+            if (!accessToken || !refreshToken) {
+                return sendResponse(
+                    res,
+                    HTTP_STATUS.BAD_REQUEST,
+                    'Something went wrong',
+                    []
+                );
+            }
+            res.clearCookie('accessToken');
+            res.clearCookie('refreshToken');
+            return sendResponse(res, HTTP_STATUS.OK, 'Log Out Successful', []);
+        } catch (error) {
+            databaseLogger(error.message);
+            return sendResponse(
+                res,
+                HTTP_STATUS.INTERNAL_SERVER_ERROR,
+                'Internal server error'
+            );
+        }
+    }
+
+    async sendEmailForPassWordReset(req, res) {
+        try {
+            const { email } = req.body;
+            const auth = await authModel
+                .findOne({ email: email })
+                .populate('user');
+            if (!auth) {
+                return sendResponse(
+                    res,
+                    HTTP_STATUS.BAD_REQUEST,
+                    'No user found'
+                );
+            }
+            const resetToken = crypto.randomBytes(64).toString('hex');
+            const resetURL = `http://localhost:8000/api/auth/validate-reset-password/${resetToken}/${auth._id.toString()}`;
+            auth.resetPasswordToken = resetToken;
+            auth.resetPassword = true;
+            auth.resetPasswordExpired = Date.now() + 60 * 60 * 1000;
+            auth.save();
+            const htmlBody = await ejsRenderFile(
+                path.join(
+                    __dirname,
+                    '..',
+                    '..',
+                    'views',
+                    'forget-password.ejs'
+                ),
+                {
+                    name: auth.user.name,
+                    resetURL,
+                }
+            );
+
+            const result = await transport.sendMail({
+                from: 'book-heaven@system.com',
+                to: `${auth.user.name} ${email}`,
+                subject: 'Forget Password',
+                html: htmlBody,
+            });
+            if (result.messageId) {
+                return sendResponse(
+                    res,
+                    HTTP_STATUS.OK,
+                    'Successfully request for reset password.Please check your email'
+                );
+            }
+            return sendResponse(res, HTTP_STATUS.OK, 'Something went wrong');
+        } catch (error) {
+            console.log(error);
+            databaseLogger(error);
+            return sendResponse(
+                res,
+                HTTP_STATUS.INTERNAL_SERVER_ERROR,
+                'Internal server error'
+            );
+        }
+    }
+
+    async validateResetPassword(req, res) {
+        try {
+            const { resetToken, userId } = req.params;
+            const auth = await authModel.findById(userId);
+            const wrongURL = 'http://localhost:5173/something-went-wrong';
+            if (
+                !auth ||
+                !auth.resetPasswordToken ||
+                auth.resetPasswordToken !== resetToken ||
+                !auth.resetPassword ||
+                auth.resetPasswordExpired < Date.now()
+            ) {
+                res.redirect(wrongURL);
+                return;
+            }
+
+            res.redirect(
+                `http://localhost:5173/reset-password/${resetToken}/${userId}`
+            );
+        } catch (error) {
+            console.log(error);
+            databaseLogger(error);
+            return sendResponse(
+                res,
+                HTTP_STATUS.INTERNAL_SERVER_ERROR,
+                'Internal server error'
+            );
+        }
+    }
+
+    async resetPassword(req, res) {
+        try {
+            let { password, confirmPassword, resetToken, userId } = req.body;
+            const auth = await authModel.findOne({ _id: userId });
+            if (resetToken != auth.resetPasswordToken || !auth) {
+                return sendResponse(
+                    res,
+                    HTTP_STATUS.BAD_REQUEST,
+                    'Something went wrong',
+                    []
+                );
+            }
+            if (password !== confirmPassword) {
+                return sendResponse(
+                    res,
+                    HTTP_STATUS.BAD_REQUEST,
+                    'Password and confirm password need to be same',
+                    []
+                );
+            }
+
+            if (await bcrypt.compare(password, auth.password)) {
+                return sendResponse(
+                    res,
+                    HTTP_STATUS.BAD_REQUEST,
+                    'Your new password and previous password can not be same',
+                    []
+                );
+            }
+            const hashedPassword = await hashPasswordUsingBcrypt(password);
+            auth.password = hashedPassword;
+            (auth.resetPasswordToken = null),
+                (auth.resetPasswordExpired = null);
+            auth.resetPassword = null;
+            await auth.save();
+            return sendResponse(
+                res,
+                HTTP_STATUS.OK,
+                'Reset password successfully',
+                []
+            );
+        } catch (error) {
+            console.log(error);
+            databaseLogger(error);
             return sendResponse(
                 res,
                 HTTP_STATUS.INTERNAL_SERVER_ERROR,

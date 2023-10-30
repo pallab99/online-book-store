@@ -7,12 +7,19 @@ const {
     isAdmin,
 } = require('../../middlewares/tokenValidator');
 const getAllBooksValidation = require('../../middlewares/getAllBooksValidation');
+const upload = require('../../configs/file');
 router
     .get('/all', [getAllBooksValidation], BookController.getAllBooks)
     .get('/details/:bookId', BookController.getBookById)
+    .get('/author/all', BookController.getAllAuthors)
     .post(
         '/create',
-        [tokenAuthorization, isAdmin, validator.createBook],
+        [
+            tokenAuthorization,
+            isAdmin,
+            upload.single('file_to_upload'),
+            validator.createBook,
+        ],
         BookController.createBook
     )
     .patch(

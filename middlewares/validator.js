@@ -36,10 +36,10 @@ const validator = {
         body('price')
             .exists()
             .isFloat({ min: 0, max: 10000 })
-            .withMessage('Price must be a valid number between 0 and 100.')
+            .withMessage('Price must be a valid number between 0 and 10000.')
             .bail()
             .custom((value) => {
-                if (typeof value != 'number') {
+                if (typeof Number(value) != 'number') {
                     throw new Error('Price must be a number');
                 } else {
                     return true;
@@ -51,7 +51,7 @@ const validator = {
             .withMessage('Rating is required and must be between 1 and 5.')
             .bail()
             .custom((value) => {
-                if (typeof value != 'number') {
+                if (typeof Number(value) != 'number') {
                     throw new Error('Rating must be a number');
                 } else {
                     return true;
@@ -63,7 +63,7 @@ const validator = {
             .withMessage('Stock must be a valid number between 10 and 500.')
             .bail()
             .custom((value) => {
-                if (typeof value != 'number') {
+                if (typeof Number(value) != 'number') {
                     throw new Error('Stock must be a number');
                 } else {
                     return true;
@@ -358,9 +358,9 @@ const validator = {
             .bail()
             .isLength({ max: 20 })
             .withMessage('Area cannot be greater than 20')
-            .bail()
-            .custom(containsSpecialCharacters)
-            .withMessage('Invalid value provided'),
+            .bail(),
+        // .custom(containsSpecialCharacters)
+        // .withMessage('Invalid value provided'),
         body('address.street')
             .exists()
             .not()
@@ -372,9 +372,9 @@ const validator = {
             .bail()
             .isLength({ max: 20 })
             .withMessage('Street cannot be greater than 20')
-            .bail()
-            .custom(containsSpecialCharacters)
-            .withMessage('Invalid value provided'),
+            .bail(),
+        // .custom(containsSpecialCharacters)
+        // .withMessage('Invalid value provided'),
     ],
 
     loginUser: [

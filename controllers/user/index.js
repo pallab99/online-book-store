@@ -79,7 +79,19 @@ class UserController {
     async viewAllUserData(req, res) {
         try {
             databaseLogger(req.originalUrl);
-            const users = await userModel.find({});
+            const authUser = await authModel.find({
+                isUserRestricted: { $exists: true, $eq: false },
+            });
+            const users = await userModel.find();
+            let resultArray = [];
+
+            for (let i = 0; i < authUser.length; i++) {
+                for (let j = 0; j < users.length; j++) {
+                    if (authUser[i].email === users[j].email) {
+                        resultArray.push(users[j]);
+                    }
+                }
+            }
             if (!users.length) {
                 return sendResponse(
                     res,
@@ -93,7 +105,7 @@ class UserController {
                 res,
                 HTTP_STATUS.OK,
                 'Successfully get all the data',
-                users
+                resultArray
             );
         } catch (error) {
             databaseLogger(error.message);
@@ -114,7 +126,17 @@ class UserController {
             }
 
             const { userId } = req.params;
-            const findUserFromAuth = await authModel.findById(userId);
+            const userFromUserModel = await userModel.findById(userId);
+            if (!userFromUserModel) {
+                return sendResponse(
+                    res,
+                    HTTP_STATUS.UNPROCESSABLE_ENTITY,
+                    'No user associated with this id'
+                );
+            }
+            const findUserFromAuth = await authModel.findOne({
+                email: userFromUserModel.email,
+            });
             if (!findUserFromAuth) {
                 return sendResponse(
                     res,
@@ -129,7 +151,9 @@ class UserController {
                     'You can not perform this action'
                 );
             }
-            const result = await authModel.findById(userId);
+            const result = await authModel.findOne({
+                email: userFromUserModel.email,
+            });
             if (!result) {
                 return sendResponse(
                     res,
@@ -170,9 +194,9 @@ class UserController {
                 return sendValidationError(res, validation);
             }
 
-            const { name, rank, isVerified } = req.body;
+            const { name, rank, isVerified, address } = req.body;
             const { userId } = req.params;
-            const allowedProperties = ['name', 'rank', 'isVerified'];
+            const allowedProperties = ['name', 'rank', 'isVerified', 'address'];
 
             for (const key in req.body) {
                 if (!allowedProperties.includes(key)) {
@@ -184,7 +208,7 @@ class UserController {
                 }
             }
 
-            const result = await authModel.findById(userId);
+            const result = await userModel.findById(userId);
             if (!result) {
                 return sendResponse(
                     res,
@@ -192,36 +216,63 @@ class UserController {
                     'No user associated with this id'
                 );
             }
-            const user = await userModel.findById(result.user);
+            console.log('hhhh', result);
+            // const user = await authModel.findOne({ email: result.email });
+            // console.log('gggg', user);
             if (name) {
-                user.name = name;
+                result.name = name;
             }
-            if (rank) {
-                result.rank = rank;
+            // if (rank) {
+            //     user.rank = rank;
+            // }
+            // if (isVerified === true || isVerified === false) {
+            //     user.isVerified = isVerified;
+            //     console.log(result);
+            // }
+            if (address) {
+                result.address = address;
             }
-            if (isVerified === true || isVerified === false) {
-                result.isVerified = isVerified;
-                console.log(result);
-            }
-            const updatedUser = await user.save();
-            const updatedResult = await result.save();
+            const updatedUser = await result.save();
+            // const updatedResult = await user.save();
 
-            if (updatedResult || updatedUser) {
-                const newResult = await authModel
-                    .findById(userId)
-                    .select('-password')
-                    .populate('user', '-email -phoneNumber');
+            if (updatedUser) {
                 return sendResponse(
                     res,
                     HTTP_STATUS.OK,
                     'Updated user successfully',
-                    newResult
+                    []
                 );
             }
             return sendResponse(
                 res,
                 HTTP_STATUS.BAD_REQUEST,
                 'Something went wrong.'
+            );
+        } catch (error) {
+            console.log(error);
+            databaseLogger(error.message);
+            return sendResponse(res, 500, 'Internal server error');
+        }
+    }
+    async getUserBalance(req, res) {
+        try {
+            databaseLogger(req.originalUrl);
+            const { email, rank } = req.user;
+            const { amount } = req.body;
+            const user = await userModel.findOne({ email });
+            console.log(user);
+            if (!user) {
+                return sendResponse(
+                    res,
+                    HTTP_STATUS.NOT_FOUND,
+                    'No user found'
+                );
+            }
+            return sendResponse(
+                res,
+                HTTP_STATUS.OK,
+                'Successfully get the data',
+                { balance: user.balance }
             );
         } catch (error) {
             console.log(error);

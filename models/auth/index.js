@@ -25,7 +25,7 @@ const authSchema = new Schema(
         isVerified: {
             type: Boolean,
             required: false,
-            default: false,
+            default: true,
         },
         rank: {
             type: Number,
@@ -44,6 +44,21 @@ const authSchema = new Schema(
             type: Boolean,
             default: false,
             required: false,
+        },
+        resetPassword: {
+            type: Boolean || null,
+            required: false,
+            default: false,
+        },
+        resetPasswordToken: {
+            type: String || null,
+            required: false,
+            default: null,
+        },
+        resetPasswordExpired: {
+            type: Date || null,
+            required: false,
+            default: null,
         },
     },
     { timestamps: true }

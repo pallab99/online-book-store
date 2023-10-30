@@ -13,6 +13,11 @@ router
         [tokenAuthorization, isAdmin],
         DiscountPriceController.getAllDiscount
     )
+    .get(
+        '/details/:discountId',
+        [tokenAuthorization, isAdmin],
+        DiscountPriceController.getDisCountById
+    )
     .post(
         '/create',
         [tokenAuthorization, isAdmin, validator.addDiscount],

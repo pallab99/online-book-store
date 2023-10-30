@@ -14,6 +14,11 @@ router
         [tokenAuthorization, isUser, validator.addBalance],
         UserController.addBalance
     )
+    .get(
+        '/balance',
+        [tokenAuthorization, isUser, validator.addBalance],
+        UserController.getUserBalance
+    )
     .get('/all', [tokenAuthorization, isAdmin], UserController.viewAllUserData)
     .patch(
         '/update/:userId',

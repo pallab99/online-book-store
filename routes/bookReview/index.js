@@ -10,6 +10,12 @@ const router = express.Router();
 
 router
     .get('/details/:bookId', BookReviewController.getReviewByBook)
+    .get(
+        '/details/user/:bookId',
+        [tokenAuthorization, isUser],
+        BookReviewController.getReviewByUser
+    )
+
     .post(
         '/create/:bookId',
         [tokenAuthorization, isUser, validator.addBookReview],

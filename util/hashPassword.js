@@ -11,11 +11,13 @@ const hashPasswordUsingBcrypt = async (plainPassword) => {
 };
 
 const comparePasswords = async (inputPassword, hashedPasswordFromDB) => {
+    console.log('compare func');
     try {
         const result = await bcrypt.compare(
             inputPassword,
             hashedPasswordFromDB
         );
+        console.log('result', result);
         return result;
     } catch (err) {
         console.error('Error comparing passwords:', err);
